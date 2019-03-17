@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import React from "react"
+import PropTypes from "prop-types"
+import { Link, graphql, StaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
 class BlogRoll extends React.Component {
@@ -14,7 +14,11 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article className="tile is-child box notification">
-              {post.frontmatter.image ? <Img fluid={post.frontmatter.image.childImageSharp.fluid}/> : <span/>}
+                {post.frontmatter.image ? (
+                  <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
+                ) : (
+                  <span />
+                )}
 
                 <p>
                   <Link
@@ -47,9 +51,9 @@ class BlogRoll extends React.Component {
 BlogRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
+      edges: PropTypes.array
+    })
+  })
 }
 
 export default () => (
