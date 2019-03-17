@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
+import Img from "gatsby-image"
 
 class BlogRoll extends React.Component {
   render() {
@@ -13,6 +14,8 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article className="tile is-child box notification">
+              {post.frontmatter.image ? <Img fluid={post.frontmatter.image.childImageSharp.fluid}/> : <span/>}
+
                 <p>
                   <Link
                     className="title has-text-primary is-size-4"
@@ -68,6 +71,13 @@ export default () => (
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 2048, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
               }
             }
           }
