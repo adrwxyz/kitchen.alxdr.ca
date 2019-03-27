@@ -3,40 +3,12 @@
   "description": "cook",
   "version": "1.1.3",
   "author": "Andrew Alexander (adrw)",
-  "dependencies": {
-    "@material-ui/core": "^3.9.2",
-    "@material-ui/icons": "^3.0.2",
-    "bulma": "^0.7.0",
-    "gatsby": "^2.1.34",
-    "gatsby-image": "^2.0.23",
-    "gatsby-plugin-netlify": "^2.0.6",
-    "gatsby-plugin-netlify-cms": "^3.0.15",
-    "gatsby-plugin-purgecss": "^3.1.0",
-    "gatsby-plugin-react-helmet": "^3.0.4",
-    "gatsby-plugin-sass": "^2.0.7",
-    "gatsby-plugin-sharp": "^2.0.15",
-    "gatsby-remark-copy-linked-files": "^2.0.7",
-    "gatsby-remark-images": "^3.0.1",
-    "gatsby-remark-relative-images": "^0.2.1",
-    "gatsby-source-filesystem": "^2.0.26",
-    "gatsby-transformer-remark": "^2.3.4",
-    "gatsby-transformer-sharp": "^2.1.9",
-    "lodash": "^4.17.5",
-    "lodash-webpack-plugin": "^0.11.4",
-    "netlify-cms": "^2.6.1",
-    "node-sass": "^4.11.0",
-    "parcel-bundler": "^1.9.4",
-    "prop-types": "^15.6.0",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0",
-    "uuid": "^3.2.1"
-  },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adrw/westegg.git"
+  },
   "scripts": {
     "clean": "rimraf .cache public",
     "start:app": "npm run develop",
@@ -51,12 +23,48 @@
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "bulma": "^0.7.4",
+    "gatsby": "^2.2.11",
+    "gatsby-image": "^2.0.34",
+    "gatsby-plugin-netlify": "^2.0.13",
+    "gatsby-plugin-netlify-cms": "^3.0.16",
+    "gatsby-plugin-purgecss": "^3.1.1",
+    "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sharp": "^2.0.31",
+    "gatsby-remark-copy-linked-files": "^2.0.11",
+    "gatsby-remark-images": "^3.0.10",
+    "gatsby-remark-relative-images": "^0.2.2",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-remark": "^2.3.8",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "lodash": "^4.17.11",
+    "lodash-webpack-plugin": "^0.11.5",
+    "netlify-cms": "^2.6.1",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.12.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0",
+    "uuid": "^3.2.2",
+    "webpack-sources": "^1.3.0"
+  },
   "devDependencies": {
+    "core-js": "^2.0.0",
     "http-proxy-middleware": "^0.19.1",
     "netlify-lambda": "^1.4.3",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.16.4",
     "rimraf": "^2.6.2"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "core-js"
+    ]
   },
   "prettier": {
     "arrowParens": "avoid",
