@@ -1,11 +1,11 @@
 ---
 templateKey: blog-post
-title: Spinach Tomato Chicken
+title: Spinach Tomato Chicken Caserole
 date: 2018-05-30T15:04:10.000Z
+path: /2018-05-30-spinach-tomato-chicken-caserole
+order: 1
 description: Delicious layers
 image: /img/chemex.jpg
-path: /2018-05-30-spinach-tomato-chicken
-order: 1
 tags:
   - chicken
 ---
