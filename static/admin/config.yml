@@ -71,7 +71,6 @@ collections:
       - { label: "Order", name: "order", widget: "number" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Main Image", name: "image", widget: "image", required: false }
-      - { label: "Ingredients", name: "tags", widget: "list", required: true }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - {
