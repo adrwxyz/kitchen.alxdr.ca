@@ -1,5 +1,5 @@
-# andrew.fm
+# cook.adrw.xyz
 
-[Tune in.](https://www.andrew.fm/)
+[What's cooking?](https://cook.adrw.xyz/)
 
-[![CircleCI](https://circleci.com/gh/adrw/andrew.fm.svg?style=svg)](https://circleci.com/gh/adrw/andrew.fm) [![Netlify Status](https://api.netlify.com/api/v1/badges/22667c9d-c088-4ae0-b75d-8a99e11d3167/deploy-status)](https://app.netlify.com/sites/andrewfm/deploys)
+[![CircleCI](https://circleci.com/gh/adrw/cook.adrw.xyz.svg?style=svg)](https://circleci.com/gh/adrw/cook.adrw.xyz) [![Netlify Status](https://api.netlify.com/api/v1/badges/a63ad086-fc71-4205-9b68-9eb0a29f129c/deploy-status)](https://app.netlify.com/sites/cookadrwxyz/deploys)
