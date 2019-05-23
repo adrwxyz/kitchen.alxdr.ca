@@ -4,7 +4,7 @@ title: Carmelized Carrots
 date: 2019-02-18T15:04:10.000Z
 description: Oil, salt, chilli flakes, maple syrup
 image: /img/chemex.jpg
-path: 2019-02-18-carmelized-carrots
+path: /2019-02-18-carmelized-carrots
 order: 1
 tags:
   - vegetables
