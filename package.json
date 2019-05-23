@@ -30,7 +30,7 @@
     "react-dom": "16.8.4",
     "styled-system": "4.2.2",
     "react-helmet": "5.2.1",
-    "theme-ui": "0.0.14"
+    "theme-ui": "0.0.15"
   },
   "prettier": {
     "arrowParens": "avoid",
