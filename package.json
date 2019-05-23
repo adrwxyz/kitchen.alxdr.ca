@@ -26,8 +26,8 @@
     "gatsby-transformer-sharp": "2.1.19",
     "netlify-cms": "2.9.1",
     "prettier": "1.17.1",
-    "react": "16.8.4",
-    "react-dom": "16.8.4",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
     "styled-system": "4.2.2",
     "react-helmet": "5.2.1",
     "theme-ui": "0.0.15"
