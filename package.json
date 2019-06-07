@@ -25,7 +25,7 @@
     "gatsby-transformer-remark": "2.3.12",
     "gatsby-transformer-sharp": "2.1.21",
     "netlify-cms": "2.9.1",
-    "prettier": "1.18.0",
+    "prettier": "1.18.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "styled-system": "5.0.5",
