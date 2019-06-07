@@ -5,7 +5,7 @@ date: 2019-01-23T15:04:10.000Z
 path: /2019-01-23-loaded-taco-salad
 order: 1
 description: 'Tacos, but a salad!'
-image: /img/0f80fd79-7548-466f-8c21-a724ab006a6b.jpeg
+image: /img/b83807ee-34b0-4087-93fb-743b9e4b2878.jpeg
 tags:
   - beef
   - Mexican
