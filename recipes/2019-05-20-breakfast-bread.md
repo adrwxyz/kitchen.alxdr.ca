@@ -34,4 +34,4 @@ tags:
   - spinach, feta, sundried tomatoes
   - Bacon, bell peppers, mushrooms
 
-![Making breakfast bread](0f52173f-bfe1-4536-82e1-5dc256788d96.jpeg)
+![Making breakfast bread](/img/0f52173f-bfe1-4536-82e1-5dc256788d96.jpeg)
