@@ -4,7 +4,7 @@ title: Breakfast Bread
 date: 2019-05-21T02:58:52.361Z
 path: /2019-05-20-breakfast-bread
 order: 1
-description: "This egg based breakfast bread is a palette for creativity. "
+description: 'This egg based breakfast bread is a palette for creativity. '
 image: /img/8479e674-d0ae-477f-9fc0-abf2db0b1ddf.jpeg
 tags:
   - Breakfast
@@ -33,3 +33,5 @@ tags:
 - Some of our favourite combinations are
   - spinach, feta, sundried tomatoes
   - Bacon, bell peppers, mushrooms
+
+![Making breakfast bread](0f52173f-bfe1-4536-82e1-5dc256788d96.jpeg)
