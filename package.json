@@ -7,7 +7,7 @@
     "lint": "prettier --write --config package.json \".{/notes/**/,/pages/**/,/posts/**/,/projects/**/,/src/**/,/}*.{md,mdx,css,sass,less,json,js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@emotion/styled": "10.0.11",
+    "@emotion/styled": "10.0.12",
     "gatsby": "2.8.6",
     "gatsby-image": "2.1.2",
     "gatsby-plugin-netlify": "2.0.17",
