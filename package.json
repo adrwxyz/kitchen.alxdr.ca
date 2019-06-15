@@ -7,30 +7,10 @@
     "lint": "prettier --write --config package.json \".{/notes/**/,/pages/**/,/posts/**/,/projects/**/,/src/**/,/}*.{md,mdx,css,sass,less,json,js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@emotion/styled": "10.0.12",
+    "@westegg/gatsby-theme-digital-garden": "0.0.4",
     "gatsby": "2.9.4",
-    "gatsby-image": "2.1.4",
-    "gatsby-plugin-netlify": "2.0.17",
-    "gatsby-plugin-netlify-cms": "4.0.2",
-    "gatsby-plugin-offline": "2.1.3",
-    "gatsby-plugin-react-helmet": "3.0.12",
-    "gatsby-plugin-redirects": "1.0.0",
-    "gatsby-plugin-sharp": "2.1.5",
-    "gatsby-remark-copy-linked-files": "2.0.13",
-    "gatsby-remark-images": "3.0.16",
-    "gatsby-remark-relative-images": "0.2.2",
-    "gatsby-source-filesystem": "2.0.39",
-    "gatsby-theme-digital-garden": "0.0.31",
-    "gatsby-theme-digital-garden-portfolio": "0.0.31",
-    "gatsby-transformer-remark": "2.4.0",
-    "gatsby-transformer-sharp": "2.1.21",
-    "netlify-cms": "2.9.2",
-    "prettier": "1.18.2",
     "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "styled-system": "5.0.6",
-    "react-helmet": "5.2.1",
-    "theme-ui": "0.1.5"
+    "react-dom": "16.8.6"
   },
   "prettier": {
     "arrowParens": "avoid",
