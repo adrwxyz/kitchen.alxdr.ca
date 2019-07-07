@@ -8,10 +8,13 @@ description: Hiba’s famous muhammara red pepper walnut paste!
 image: /img/8e657390-4b8f-4fc4-ba5f-bd1389d9cdf9.jpeg
 ---
 # Blend
-- ⅔ container red peppers
-- ⅓ container walnuts
-- ½ cup roasted red pepper (with the jar water - don’t get ones pickled in sunflower oil)
-- ¼ cup olive oil
-- Couple cloves of garlic
-- Roasted red pepper paste
-- Salt
+
+* ⅔ container red peppers
+* ⅓ container walnuts
+* ½ cup roasted red pepper (with the jar water - don’t get ones pickled in sunflower oil)
+* ¼ cup olive oil
+* Couple cloves of garlic
+* Roasted red pepper paste
+* Salt
+
+![Muhammara!](/img/8bb05ead-fbf8-42da-aa22-5bf54c1e8d70.jpeg)
