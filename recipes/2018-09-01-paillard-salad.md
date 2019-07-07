@@ -7,13 +7,23 @@ order: 1
 description: 'This favourite salad comes from Quebec City bakery, Paillard’s!'
 image: /img/af8de5b3-75c3-400a-9178-bee594b258f7.jpeg
 ---
+# Original Recipe
+- Blue cheese
+- Dried cranberries
+- Red grapes
+- Pistachios
+- Diced pears
+- Paillard lettuce
+- Sherry shallot vinaigrette
+
+# Modified Recipe
 - Iceberg lettuce
 - Grapes
 - Pears
 - Blue cheese
 - Nuts
 
-# Dressing
+## Dressing
 - Lemon juice
 - Olive oil
 - Maple syrup
