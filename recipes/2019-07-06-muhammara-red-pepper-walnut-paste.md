@@ -7,8 +7,6 @@ order: 1
 description: Hiba’s famous muhammara!
 image: /img/839e3122-6043-4444-a8c4-c20664380c70.jpeg
 ---
-![Blend it!](/img/8e657390-4b8f-4fc4-ba5f-bd1389d9cdf9.jpeg)
-
 # Blend
 
 * ⅔ container fresh red peppers
@@ -19,4 +17,4 @@ image: /img/839e3122-6043-4444-a8c4-c20664380c70.jpeg
 * 1-2 tbsp roasted red pepper paste
 * Salt
 
-![Muhammara!](/img/8bb05ead-fbf8-42da-aa22-5bf54c1e8d70.jpeg)
+![Blend it!](/img/8e657390-4b8f-4fc4-ba5f-bd1389d9cdf9.jpeg)
