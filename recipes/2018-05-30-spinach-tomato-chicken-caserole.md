@@ -5,7 +5,7 @@ date: 2018-05-30T15:04:10.000Z
 path: /2018-05-30-spinach-tomato-chicken-caserole
 order: 1
 description: Delicious layers
-image: /img/chemex.jpg
+image: /img/logos/ch.png
 tags:
   - chicken
 ---

@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Red Thai Curry
 date: 2019-02-16T15:04:10.000Z
 description: Our preparation dish for December 2018 in Thailand
-image: /img/chemex.jpg
+image: /img/logos/ch.png
 path: /2019-02-16-red-thai-curry
 order: 1
 tags:
