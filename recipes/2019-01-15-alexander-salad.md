@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Alexander Salad
 date: 2019-01-15T15:04:10.000Z
 description: The classic!
-image: /img/chemex.jpg
+image: /img/logos/ch.png
 path: /2019-01-15-alexander-salad
 order: 1
 tags:

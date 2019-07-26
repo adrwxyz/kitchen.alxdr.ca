@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Tomato Basil Soup
 date: 2019-01-11T15:04:10.000Z
 description:
-image: /img/chemex.jpg
+image: /img/logos/ch.png
 path: /2019-01-11-tomato-basil-soup
 order: 1
 tags:
