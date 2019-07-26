@@ -7,7 +7,7 @@
     "lint": "prettier --write --config package.json \".{/notes/**/,/pages/**/,/posts/**/,/projects/**/,/src/**/,/}*.{md,mdx,css,sass,less,json,js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@westegg/gatsby-theme-core": "0.0.12",
+    "@westegg/gatsby-theme-core": "0.0.13",
     "@westegg/gatsby-theme-digital-garden": "0.0.12",
     "gatsby": "2.13.41",
     "react": "16.8.6",
