@@ -17,3 +17,7 @@ image: /img/img_7290.jpg
 * Red pepper flakes
 
 ![Peach Cilantro Marinate](/img/img_7291.jpg)
+
+Shown on chicken with mango salsa and Mexican crema sauce.
+
+![Perfect with mango salsa and Mexican crema sauce](/img/img_7294.jpg)
