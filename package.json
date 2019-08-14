@@ -14,7 +14,7 @@
     "react-dom": "16.9.0"
   },
   "devDependencies": {
-    "@misk/prettier": "0.1.15"
+    "@misk/prettier": "0.1.16"
   },
   "prettier": "@misk/prettier"
 }
