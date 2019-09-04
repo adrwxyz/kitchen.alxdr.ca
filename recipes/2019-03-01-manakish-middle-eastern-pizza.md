@@ -19,8 +19,8 @@ image: /img/arab-pizza-img_6551.jpg
 
 ![](/img/arab-pizza-img_7100.jpg)
 
-![](/img/arab-pizza-img_6542.jpg)
-
 ![](/img/arab-pizza-img_6545.jpg)
+
+![](/img/arab-pizza-img_6542.jpg)
 
 ![](/img/arab-pizza-img_6549.jpg)
