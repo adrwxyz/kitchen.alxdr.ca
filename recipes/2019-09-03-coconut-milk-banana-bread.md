@@ -29,3 +29,5 @@ description: Extra moist and you'll never taste the secret ingredient!
 * Pour into the loaf pan. Bake for about 1 hour or until a toothpick inserted in the centre of the cake comes out clean.
 * Let cool on a wire rack before removing from the pan and slicing.
 
+## [Read More](https://www.ricardocuisine.com/en/recipes/6085-ultra-moist-banana-bread)
+
