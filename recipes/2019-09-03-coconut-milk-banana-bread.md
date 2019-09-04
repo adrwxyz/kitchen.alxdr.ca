@@ -30,5 +30,6 @@ image: /img/12309a9e-aa22-441a-8126-ddfaa4739058.jpeg
 * Pour into the loaf pan. Bake for about 1 hour or until a toothpick inserted in the centre of the cake comes out clean.
 * Let cool on a wire rack before removing from the pan and slicing.
 
-## [Read More](https://www.ricardocuisine.com/en/recipes/6085-ultra-moist-banana-bread)
+# [Read More](https://www.ricardocuisine.com/en/recipes/6085-ultra-moist-banana-bread)
 
+# P.S. This is being taste tested, can't confirm it's good yet but maybe it's yummy, I don't know! – Suz :)
