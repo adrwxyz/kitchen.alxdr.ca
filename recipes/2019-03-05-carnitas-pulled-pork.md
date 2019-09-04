@@ -44,7 +44,7 @@ image: /img/taco-img_2895.jpg
 
 ![](/img/taco-img_2891.jpg)
 
-# Recipe Notes
+# Recipe Notes (from [original recipe](https://www.recipetineats.com/pork-carnitas-mexican-slow-cooker-pulled-pork/))
 
 1. The Pork: Use pork with the skin removed but leaving some of the fat cap on. The fat adds juiciness to the carnitas - and excess fat can be skimmed off later.
 Different sizes: Recipe fine as is for 1.7 - 2.5kg / 3.5 - 5 lb pork. If larger / smaller, scale recipe using recipe scaler (hover/click on servings and slide) and the other ingredients will change. These are boneless pork weights (add 0.5kg/1lb for bone):
