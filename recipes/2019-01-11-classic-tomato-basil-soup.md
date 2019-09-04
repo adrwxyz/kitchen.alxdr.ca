@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Tomato Basil Soup
+title: Classic Tomato Basil Soup
 date: 2019-01-11T15:04:10.000Z
 description:
 image: /img/logos/ch.png
