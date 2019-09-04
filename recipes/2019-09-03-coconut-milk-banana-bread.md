@@ -22,7 +22,6 @@ image: /img/12309a9e-aa22-441a-8126-ddfaa4739058.jpeg
 
 # Steps
 
-
 * With the rack in the middle position, preheat the oven to 180 °C (350 °F). Butter a 23 x 13-cm (9 x 5-inch) loaf pan (a 1.5-litre (6-cup) capacity pan) and line with a strip of parchment paper, letting it hang over both sides.
 * In a bowl, combine flour, baking powder and baking soda. Set aside.
 * In another bowl, combine bananas, coconut milk and lime juice. Set aside.
@@ -33,3 +32,7 @@ image: /img/12309a9e-aa22-441a-8126-ddfaa4739058.jpeg
 # [Read More](https://www.ricardocuisine.com/en/recipes/6085-ultra-moist-banana-bread)
 
 # P.S. This is being taste tested, can't confirm it's good yet but maybe it's yummy, I don't know! – Suz :)
+
+
+
+![](/img/2ae0e16e-c609-434b-a298-24e357babf2d.jpeg)
