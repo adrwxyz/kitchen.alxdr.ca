@@ -4,9 +4,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "@westegg/gatsby-theme-core"
-    },
-    {
       resolve: "@westegg/gatsby-theme-digital-garden",
       options: {
         header: {
