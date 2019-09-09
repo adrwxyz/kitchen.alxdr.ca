@@ -11,7 +11,7 @@ image: /img/taco-img_2895.jpg
 
 * 2kg / 4lb pork shoulder (pork butt)
 * 2 1/2 tsp salt
-* 1 tsp blakc pepper
+* 1 tsp black pepper
 * 1 onion (chopped)
 * 1 jalapeno (deseeded, chopped)
 * 4 cloves garlic, minced
