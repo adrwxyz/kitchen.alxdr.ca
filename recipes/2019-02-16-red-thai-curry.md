@@ -20,6 +20,7 @@ tags:
 - Soy sauce
 - Frozen Asian vegetable mix
 - Neutral cooking oil (vegetable, corn...)
+- Red Thai Sauce (see below)
 
 ### Red Thai Sauce
 
@@ -33,7 +34,7 @@ tags:
 - Coriander
 - Paprika
 - Salt
-- Seasame seeds or oil (optional)
+- Sesame seeds or oil (optional)
 
 # Steps
 
@@ -45,7 +46,7 @@ tags:
 - Add half of Red Thai Sauce and continue to simmer
 - Once half cooked, add rest of Red Thai Sauce
 - Blend coconut milk to clean blender and make it creamier and add to pot
-- Add half spoon of Red Thai chilli to spice to liking
+- Add half spoon of Red Thai chili to spice to liking
 - Taste and make adjustments
 - Add frozen veggies Asian mix
 - Zest lime at the very end
