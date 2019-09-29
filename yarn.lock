@@ -2078,10 +2078,10 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@westegg/gatsby-theme-core@^0.0.37":
-  version "0.0.37"
-  resolved "https://registry.yarnpkg.com/@westegg/gatsby-theme-core/-/gatsby-theme-core-0.0.37.tgz#be57e2613e0c08bec911b5590b6cce64561be2e3"
-  integrity sha512-+HRmXFJMitO+OqlhTreZJ1KEyr++mIOQytFmuAbgQiYFCrcgZTLqN2nJGfeJevyVtVWConYePsemMyxlimAI5A==
+"@westegg/gatsby-theme-core@^0.0.41":
+  version "0.0.41"
+  resolved "https://registry.yarnpkg.com/@westegg/gatsby-theme-core/-/gatsby-theme-core-0.0.41.tgz#23b704f500f7f145d1d69ffce08e7b190db9a567"
+  integrity sha512-KBruu0m7JbDlDQ6YxkSG6T/KeRsTDVy3axRN2Vsbz3XIjoMw/ssgg6g5QeVV10xl7IfZ3F69RmoCfxRuCupzxg==
   dependencies:
     "@emotion/core" "10.0.17"
     "@emotion/styled" "10.0.17"
@@ -2089,7 +2089,6 @@
     "@mdx-js/react" "1.5.0"
     "@mdx-js/tag" "0.20.3"
     fs-extra "8.1.0"
-    gatsby "2.15.28"
     gatsby-image "2.2.23"
     gatsby-mdx "0.6.3"
     gatsby-plugin-emotion "4.1.9"
@@ -2111,8 +2110,6 @@
     gatsby-transformer-sharp "2.2.19"
     netlify-cms-app "2.9.7"
     prismjs "1.17.1"
-    react "16.9.0"
-    react-dom "16.9.0"
     react-helmet "6.0.0-beta"
     rehype-autolink-headings "^2.0.5"
     rehype-highlight "^3.0.0"
@@ -2121,14 +2118,13 @@
     styled-system "5.1.2"
     theme-ui "0.2.43"
 
-"@westegg/gatsby-theme-digital-garden@0.0.37":
-  version "0.0.37"
-  resolved "https://registry.yarnpkg.com/@westegg/gatsby-theme-digital-garden/-/gatsby-theme-digital-garden-0.0.37.tgz#70a2af4bfbb8bfe27f98f45ebe4e989443534c5e"
-  integrity sha512-p+8Vz4hQIwp2GzhM+CJFxC9UjNHrK3ODK3rYK0Z9VrrhNutYzAtuLk4msB5BLtk44rBzPhlc7kPuj3sWmp+GSQ==
+"@westegg/gatsby-theme-digital-garden@0.0.41":
+  version "0.0.41"
+  resolved "https://registry.yarnpkg.com/@westegg/gatsby-theme-digital-garden/-/gatsby-theme-digital-garden-0.0.41.tgz#ed7798ef62b6b2e763cdd8d691af1d8f5e412f27"
+  integrity sha512-xXrTn8iAz+kBt/wigEsl2qoil6lNLs8xoOqpQr0nyiKi7ebXKOshk3b6PjOTOJ3zD7W5WPTtLUrk6XL2kuSLQA==
   dependencies:
     "@emotion/core" "10.0.17"
-    "@westegg/gatsby-theme-core" "^0.0.37"
-    gatsby "2.15.28"
+    "@westegg/gatsby-theme-core" "^0.0.41"
     gatsby-theme-digital-garden "0.2.3"
     gatsby-theme-digital-garden-blog "0.2.3"
     gatsby-theme-digital-garden-portfolio "0.2.3"
