@@ -15,11 +15,11 @@ image: /img/2dd49697-8931-487c-a882-447b0740e6ea.jpeg
 * 1-2 tbsp olive oil
 * S&P
 * big clump of basil
-* 2 cups coconut milk
+* 2 cups liquid stock
 
 # Steps
 * Add all solid ingredients to roasting dish and drizzle with olive oil
 * Bake for 1h (set timer) at 375F
 * Blend
-* Add liquid ingredients (olive oil, coconut milk) and basil to the blender and blend
+* Add liquid ingredients (olive oil, liquid stock) and basil to the blender and blend
 * Heat in pot and serve with fresh baguette (optional)!
