@@ -19,6 +19,7 @@ image: /img/afe758d0-e8a6-468a-b6da-b801e77abe64.jpeg
 * 1/2 teaspoon corn starch
 
 # Steps
+
 Parallelize the steps with 2 pots by preparing the soup in one pot, and the zucchini and beef in the other.
 
 * Beef
@@ -38,3 +39,7 @@ Parallelize the steps with 2 pots by preparing the soup in one pot, and the zucc
   * Add blended yoghurt mixture, stir with flat wooden spoon constantly for the lesser of 20 minutes or steam rising again
 
 # Visual Journey
+
+
+
+![](/img/b56c0ecb-e40a-46a7-84ae-2291ff94b508.jpeg)
