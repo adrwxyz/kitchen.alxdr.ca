@@ -7,6 +7,8 @@ order: 1
 description: Time consuming and delicious traditional dish
 image: /img/afe758d0-e8a6-468a-b6da-b801e77abe64.jpeg
 ---
+![]()
+
 # Ingredients
 
 * 8 large zucchini
@@ -40,6 +42,6 @@ Parallelize the steps with 2 pots by preparing the soup in one pot, and the zucc
 
 # Visual Journey
 
-
-
 ![](/img/b56c0ecb-e40a-46a7-84ae-2291ff94b508.jpeg)
+
+![](/img/0fede0cf-2a5e-4276-9ff1-08ea1ad91300.jpeg)
