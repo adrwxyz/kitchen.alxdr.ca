@@ -45,3 +45,13 @@ Parallelize the steps with 2 pots by preparing the soup in one pot, and the zucc
 ![](/img/b56c0ecb-e40a-46a7-84ae-2291ff94b508.jpeg)
 
 ![](/img/0fede0cf-2a5e-4276-9ff1-08ea1ad91300.jpeg)
+
+![](/img/401763b3-65e7-4067-ac6e-3e6276f948fa.jpeg)
+
+![](/img/391cfc1b-f8eb-4556-a4bb-76f975a86a45.jpeg)
+
+![](/img/2100730f-5c5c-481d-9865-cb7249a16780.jpeg)
+
+![](/img/418edf34-f48a-4fde-9484-fa73ca4a754e.jpeg)
+
+![]()
