@@ -18,7 +18,7 @@ description: Time consuming and delicious traditional dish
 * 1/2 teaspoon corn starch
 
 # Steps
-Parallelize the steps with 2 pots by preparing the soup in one pot, and the zuchinni and beef in the other.
+Parallelize the steps with 2 pots by preparing the soup in one pot, and the zucchini and beef in the other.
 
 * Beef
   * Sautee onions in oil
@@ -26,9 +26,14 @@ Parallelize the steps with 2 pots by preparing the soup in one pot, and the zuch
 * Zucchini
   * Half and cut off stem and tip of zucchini
   * Core zucchini so that 5mm / 1/8 inch of flesh remains
-  * Put
+  * (optional) Fry zucchini in oil to partially cook
+  * Remove from pot to dry and cool
+  * Once cool enough to hold, stuff insides with ground beef
+  * Place upright in the finished soup to maintain maximum ground beef in each zucchini when served
 * Soup
   * Lightly blend 1 cup water, yoghurt, and corn starch
   * In large pot on high heat, add rice and 1 cup water
   * Once it starts to steam before boiling, turn down to medium heat
   * Add blended yoghurt mixture, stir with flat wooden spoon constantly for the lesser of 20 minutes or steam rising again
+
+# Visual Journey
