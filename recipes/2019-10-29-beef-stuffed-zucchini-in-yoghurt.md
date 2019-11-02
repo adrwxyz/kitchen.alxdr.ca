@@ -31,12 +31,13 @@ Parallelize the steps with 2 pots by preparing the soup in one pot, and the zucc
   * (optional) Fry zucchini in oil to partially cook
   * Remove from pot to dry and cool
   * Once cool enough to hold, stuff insides with ground beef
-  * Place upright in the finished soup to maintain maximum ground beef in each zucchini when served
 * Soup
   * Lightly blend 1 cup water, yoghurt, and corn starch
   * In large pot on high heat, add rice and 1 cup water
   * Once it starts to steam before boiling, turn down to medium heat
   * Add blended yoghurt mixture, stir with flat wooden spoon constantly for the lesser of 20 minutes or steam rising again
+* Combine
+  * Place upright in the finished soup to maintain maximum ground beef in each zucchini when served
 
 # Visual Journey
 
