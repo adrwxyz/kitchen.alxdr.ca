@@ -2195,10 +2195,10 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@westegg/gatsby-theme-core@^0.0.47":
-  version "0.0.47"
-  resolved "https://registry.yarnpkg.com/@westegg/gatsby-theme-core/-/gatsby-theme-core-0.0.47.tgz#eb4556532590ef29c8cd7a23b2bf4886496d3fb6"
-  integrity sha512-Nufa/RqawDdbjQfz0lLCuB8aJrE/J2Hzz8d/VOPgV2z/n1/lLRsYqzL/HqYiV9iZCmggStGNXgQlfblwRr/ZsQ==
+"@westegg/gatsby-theme-core@^0.0.48":
+  version "0.0.48"
+  resolved "https://registry.yarnpkg.com/@westegg/gatsby-theme-core/-/gatsby-theme-core-0.0.48.tgz#3feca9640a57145f08caa77ebe4f4ff911204ecd"
+  integrity sha512-6mj4qtaiKL9RfEbohpB83IYrKK5khfiwW2fsgemiwsHWPDCdiKAZQegLS15DJ/+gI3QPMU2QQzVO02atS+aaGQ==
   dependencies:
     "@emotion/core" "10.0.22"
     "@emotion/styled" "10.0.23"
@@ -2235,13 +2235,13 @@
     styled-system "5.1.2"
     theme-ui "0.2.46"
 
-"@westegg/gatsby-theme-digital-garden@0.0.47":
-  version "0.0.47"
-  resolved "https://registry.yarnpkg.com/@westegg/gatsby-theme-digital-garden/-/gatsby-theme-digital-garden-0.0.47.tgz#fb24e9792d079ecd0d2781dfaa9a0627d9c19dc6"
-  integrity sha512-KBDk6ueODbUgUgVeWG/3H7nBwpj4uMj3PkycURs/05guRFQ7Be5SbqSQu1AciMaILWm09+ZA04I9HPmEqH1zjQ==
+"@westegg/gatsby-theme-digital-garden@0.0.48":
+  version "0.0.48"
+  resolved "https://registry.yarnpkg.com/@westegg/gatsby-theme-digital-garden/-/gatsby-theme-digital-garden-0.0.48.tgz#52449ba0caed21edafcc44e5f9d61da23a47e66a"
+  integrity sha512-g04ufB/Le4UPycx5XH7hD5hXYD/OnInDgUIeW8mYBgl8ZfhPtS+5qTusHaTBdgli76dJswc1eltqPglcx7HzwQ==
   dependencies:
     "@emotion/core" "10.0.22"
-    "@westegg/gatsby-theme-core" "^0.0.47"
+    "@westegg/gatsby-theme-core" "^0.0.48"
     gatsby-theme-digital-garden "0.2.3"
     gatsby-theme-digital-garden-blog "0.2.3"
     gatsby-theme-digital-garden-portfolio "0.2.3"
