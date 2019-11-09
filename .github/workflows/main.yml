@@ -9,5 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - run: yarn install
-    - run: yarn build
+    - uses: enriikke/gatsby-gh-pages-action@2.1.1
+      with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: gh-pages
