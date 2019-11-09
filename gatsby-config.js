@@ -6,13 +6,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Alexander Receipes",
-    shortTitle: "Recipes",
-    description: "Cook More, Together",
+    title: "COOK",
+    shortTitle: "COOK",
+    description: "Cook More, Together with trusted recipes from the Alexanders",
     url: "https://cook.adrw.xyz", // No trailing slash allowed!
-    image: "/images/og-image.jpg", // Path to your image you placed in the 'static' folder
+    image: "/img/logos/ch-2.png", // Path to your image you placed in the 'static' folder
     author: "The Alexanders",
-    intro: "Classic recipes you’ll want to keep making.",
+    intro: "...more, together, with trusted recipes from the Alexanders",
     menuLinks: [
       {
         name: "About",
@@ -35,12 +35,12 @@ module.exports = {
     ]
   },
   plugins: [
+    "@marinda/gatsby-theme-recipes",
     {
-      resolve: "@marinda/gatsby-theme-recipes",
+      resolve: "@westegg/gatsby-theme-core",
       options: {
-        title: "Alexander Receipes",
-        shortTitle: "Recipes"
+        mdx: false
       }
     }
   ]
-};
+}
