@@ -35,7 +35,7 @@ module.exports = {
     ]
   },
   plugins: [
-    "@marinda/gatsby-theme-recipes",
+    "@westegg/gatsby-theme-recipes",
     {
       resolve: "@westegg/gatsby-theme-core",
       options: {
