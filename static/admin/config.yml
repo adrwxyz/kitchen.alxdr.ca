@@ -12,7 +12,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 
-logo_url: https://cook.adrw.xyz/img/logos/cook-b.svg
+logo_url: https://cook.alexanders.xyz/img/logos/cook-b.svg
 
 slug:
   encoding: "ascii"
