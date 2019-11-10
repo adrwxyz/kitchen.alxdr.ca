@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: adrw/cook
+  preview_context: my-provider/deployment
   branch: master
   squash_merges: true
   commit_messages:
