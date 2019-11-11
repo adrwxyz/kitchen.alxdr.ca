@@ -3,7 +3,7 @@ backend:
   repo: adrw/cook
   preview_context: my-provider/deployment
   site_domain: cookalexandersxyz.netlify.com
-#  site_domain: cook.alexanders.xyz
+  #  site_domain: cook.alexanders.xyz
   branch: master
   squash_merges: true
   commit_messages:
@@ -52,9 +52,9 @@ collections:
           required: false,
         }
 
-  - name: "recipes"
+  - name: "posts"
     label: "Recipes"
-    folder: "recipes"
+    folder: "posts"
     create: true
     slug: "{{path}}"
     fields:
@@ -74,36 +74,6 @@ collections:
         }
       - { label: "Order", name: "order", widget: "number" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Main Image", name: "image", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "list", required: false }
-      - {
-          label: "Redirects",
-          name: "redirects",
-          widget: "list",
-          required: false,
-        }
-
-  - name: "notes"
-    label: "Notes"
-    folder: "notes"
-    create: true
-    slug: "{{path}}"
-    fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "note",
-        }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - {
-          label: "Path",
-          name: "path",
-          widget: "text",
-          default: "{{year}}-{{month}}-{{day}}-{{slug}}",
-        }
       - { label: "Main Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
