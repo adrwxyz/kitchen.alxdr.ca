@@ -5,7 +5,7 @@ date: 2019-09-22T13:40:39.728Z
 slug: 2019-09-22-beef-in-three-movements
 order: 1
 description: A palette of ways to cook stewing beef
-image: ./img/bf12a44e-c7cc-40a0-84e2-e0ac17d984e3.jpeg
+image: ../static/img/bf12a44e-c7cc-40a0-84e2-e0ac17d984e3.jpeg
 ---
 
 # Beef I

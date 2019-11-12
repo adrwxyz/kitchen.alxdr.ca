@@ -5,7 +5,7 @@ date: 2019-05-21T02:58:52.361Z
 slug: 2019-05-20-breakfast-bread
 order: 1
 description: "This egg based breakfast bread is a palette for creativity. "
-image: ./img/8479e674-d0ae-477f-9fc0-abf2db0b1ddf.jpeg
+image: ../static/img/8479e674-d0ae-477f-9fc0-abf2db0b1ddf.jpeg
 tags:
   - Breakfast
 ---

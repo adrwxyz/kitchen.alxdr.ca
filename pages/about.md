@@ -3,6 +3,7 @@ title: About
 path: /about
 description: About
 ---
+
 import Link from "gatsby-link"
 
 ![COOK ADRW XYZ](/img/logos/cook-b.svg)

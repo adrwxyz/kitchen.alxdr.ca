@@ -5,7 +5,7 @@ date: 2019-09-04T01:53:25.094Z
 slug: 2019-09-03-coconut-milk-banana-bread
 order: 1
 description: Extra moist and you'll never taste the secret ingredient!
-image: ./img/12309a9e-aa22-441a-8126-ddfaa4739058.jpeg
+image: ../static/img/12309a9e-aa22-441a-8126-ddfaa4739058.jpeg
 ---
 
 # Ingredients
