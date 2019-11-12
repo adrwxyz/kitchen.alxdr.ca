@@ -5,7 +5,7 @@ date: 2019-01-23T15:04:10.000Z
 slug: 2019-01-23-loaded-taco-salad
 order: 1
 description: "Tacos, but a salad!"
-image: ./img/09269eba-2be0-473f-8fc5-291c7378e1fb.jpeg
+image: ../static/img/09269eba-2be0-473f-8fc5-291c7378e1fb.jpeg
 tags:
   - beef
   - Mexican

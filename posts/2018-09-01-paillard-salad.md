@@ -5,7 +5,9 @@ date: 2018-09-02T00:51:50.256Z
 slug: 2018-09-01-paillard-salad
 order: 1
 description: "This favourite salad comes from Quebec City bakery, Paillard’s!"
-image: ./img/af8de5b3-75c3-400a-9178-bee594b258f7.jpeg
+image: ../static/img/af8de5b3-75c3-400a-9178-bee594b258f7.jpeg
+tags:
+  - salad
 ---
 
 # Original Recipe

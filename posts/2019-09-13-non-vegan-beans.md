@@ -5,7 +5,7 @@ date: 2019-09-13T18:11:28.415Z
 slug: 2019-09-13-non-vegan-beans
 order: 1
 description: "These beans are yummy, but not vegan."
-image: ./img/logos/ch-2.png
+image: ../static/img/logos/ch-2.png
 ---
 
 # Ingredients

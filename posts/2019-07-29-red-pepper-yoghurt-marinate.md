@@ -5,7 +5,7 @@ date: 2019-07-29T15:03:58.158Z
 slug: 2019-07-29-red-pepper-yoghurt-marinate
 order: 1
 description: Savoury marinate perfect on chicken or beef
-image: ./img/img_7289.jpg
+image: ../static/img/img_7289.jpg
 ---
 
 # Ingredients

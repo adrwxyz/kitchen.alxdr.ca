@@ -5,7 +5,7 @@ date: 2019-07-07T01:06:06.109Z
 slug: 2019-07-06-muhammara-red-pepper-walnut-paste
 order: 1
 description: Hiba’s famous muhammara!
-image: ./img/839e3122-6043-4444-a8c4-c20664380c70.jpeg
+image: ../static/img/839e3122-6043-4444-a8c4-c20664380c70.jpeg
 ---
 
 # Blend

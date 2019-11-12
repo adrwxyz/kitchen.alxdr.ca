@@ -5,7 +5,7 @@ date: 2019-01-11T15:04:10.000Z
 slug: 2019-01-11-tomato-basil-soup
 order: 1
 description: This classic broth based tomato soup warms up any day
-image: ./img/tomato-soup-img_6778.jpg
+image: ../static/img/tomato-soup-img_6778.jpg
 tags:
   - soup
 ---

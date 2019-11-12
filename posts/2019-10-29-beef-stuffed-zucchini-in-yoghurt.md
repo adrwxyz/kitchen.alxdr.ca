@@ -5,7 +5,7 @@ date: 2019-10-29T23:19:47.683Z
 slug: 2019-10-29-beef-stuffed-zucchini-in-yoghurt
 order: 1
 description: Time consuming and delicious traditional dish
-image: ./img/afe758d0-e8a6-468a-b6da-b801e77abe64.jpeg
+image: ../static/img/afe758d0-e8a6-468a-b6da-b801e77abe64.jpeg
 ---
 
 # Ingredients

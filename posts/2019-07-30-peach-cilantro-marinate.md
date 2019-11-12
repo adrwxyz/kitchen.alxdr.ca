@@ -5,7 +5,7 @@ date: 2019-07-30T15:08:14.057Z
 slug: 2019-07-30-peach-cilantro-marinate
 order: 1
 description: "If you don't like Cilantro, you won't like this"
-image: ./img/img_7290.jpg
+image: ../static/img/img_7290.jpg
 ---
 
 # Ingredients

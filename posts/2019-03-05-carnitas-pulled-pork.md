@@ -5,7 +5,7 @@ date: 2019-03-05T15:34:57.841Z
 slug: 2019-03-05-carnitas-pulled-pork
 order: 1
 description: Pulled pork for tacos!
-image: ./img/taco-img_2895.jpg
+image: ../static/img/taco-img_2895.jpg
 ---
 
 # Ingredients

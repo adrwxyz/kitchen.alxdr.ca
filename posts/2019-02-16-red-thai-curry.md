@@ -5,7 +5,7 @@ date: 2019-02-16T15:04:10.000Z
 slug: 2019-02-16-red-thai-curry
 order: 1
 description: Our preparation dish for December 2018 in Thailand
-image: ./img/red-thai-curry-img_3419.jpg
+image: ../static/img/red-thai-curry-img_3419.jpg
 tags:
   - chicken
   - curry

@@ -5,7 +5,7 @@ date: 2019-08-04T01:59:00.000Z
 slug: 2019-08-03-roasted-red-pepper-tomato-soup
 order: 1
 description: Rich garden flavours
-image: ./img/2dd49697-8931-487c-a882-447b0740e6ea.jpeg
+image: ../static/img/2dd49697-8931-487c-a882-447b0740e6ea.jpeg
 ---
 
 # Ingredients
