@@ -2,8 +2,7 @@ backend:
   name: github
   repo: adrw/cook
   preview_context: my-provider/deployment
-  site_domain: cookalexandersxyz.netlify.com
-  #  site_domain: cook.alexanders.xyz
+  site_domain: cook.alexanders.xyz
   branch: master
   squash_merges: true
   commit_messages:
