@@ -1852,10 +1852,10 @@
     styled-system "5.1.2"
     theme-ui "0.2.46"
 
-"@westegg/gatsby-theme-recipes@1.2.19":
-  version "1.2.19"
-  resolved "https://registry.yarnpkg.com/@westegg/gatsby-theme-recipes/-/gatsby-theme-recipes-1.2.19.tgz#1320ce4e8186cb04a06b45c9c97a3df6b312143c"
-  integrity sha512-mC0vheJbdmeGJB6wprv3oTK8gYW6thhYqALGa38R9BbA/8gmrs0gexXQ1YrQEVpb49cqoOFifzxBKer5YZBqcA==
+"@westegg/gatsby-theme-recipes@1.2.20":
+  version "1.2.20"
+  resolved "https://registry.yarnpkg.com/@westegg/gatsby-theme-recipes/-/gatsby-theme-recipes-1.2.20.tgz#1cd1652dbf08c510d4efefd088e18b77cbc191f2"
+  integrity sha512-c4OxAvMZ/zvpg3LFYJ7zgj95q3udifKDWNzEsdbVW16WuRnkKk9/d8Jteyt6bh/QmYxLQpN3UtMNGiJEcdCD1w==
   dependencies:
     "@emotion/core" "^10.0.17"
     "@emotion/styled" "^10.0.17"
