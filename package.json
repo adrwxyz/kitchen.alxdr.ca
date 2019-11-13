@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "lint": "prettier --write --config package.json \".{/notes/**/,/pages/**/,/posts/**/,/projects/**/,/src/**/,/}*.{md,mdx,css,sass,less,json,js,jsx,ts,tsx}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "@westegg/gatsby-theme-recipes": "1.2.20",
+    "@westegg/gatsby-theme-core": "0.0.48",
+    "gatsby": "2.17.12",
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
+  },
+  "devDependencies": {
+    "@misk/prettier": "0.1.23",
+    "fs-extra": "8.1.0",
+    "glob": "7.1.6"
+  },
+  "prettier": "@misk/prettier"
+}
