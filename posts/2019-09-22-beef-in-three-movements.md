@@ -6,6 +6,9 @@ slug: 2019-09-22-beef-in-three-movements
 order: 1
 description: A palette of ways to cook stewing beef
 image: ../static/img/bf12a44e-c7cc-40a0-84e2-e0ac17d984e3.jpeg
+tags:
+- Beef
+- French
 ---
 
 # Beef I

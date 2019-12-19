@@ -6,6 +6,8 @@ slug: 2019-03-01-manakish-middle-eastern-pizza
 order: 1
 description: Topped with ground beef
 image: ../static/img/arab-pizza-img_6551.jpg
+tags:
+- Syrian
 ---
 
 # Dough Ingredients

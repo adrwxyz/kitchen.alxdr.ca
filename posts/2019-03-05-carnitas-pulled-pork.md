@@ -6,6 +6,9 @@ slug: 2019-03-05-carnitas-pulled-pork
 order: 1
 description: Pulled pork for tacos!
 image: ../static/img/taco-img_2895.jpg
+tags:
+- pulled pork
+- Mexican
 ---
 
 # Ingredients
