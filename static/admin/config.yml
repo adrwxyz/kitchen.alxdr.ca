@@ -37,7 +37,7 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - {
-          label: "Path",
+          label: "Path",a
           name: "path",
           widget: "text",
           default: "{{year}}-{{month}}-{{day}}-{{slug}}",
