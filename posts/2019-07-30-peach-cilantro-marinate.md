@@ -6,6 +6,8 @@ slug: 2019-07-30-peach-cilantro-marinate
 order: 1
 description: "If you don't like Cilantro, you won't like this"
 image: ../static/img/img_7290.jpg
+tags:
+- Chicken
 ---
 
 # Ingredients

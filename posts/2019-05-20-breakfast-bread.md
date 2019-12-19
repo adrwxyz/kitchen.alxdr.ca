@@ -8,6 +8,8 @@ description: "This egg based breakfast bread is a palette for creativity. "
 image: ../static/img/8479e674-d0ae-477f-9fc0-abf2db0b1ddf.jpeg
 tags:
   - Breakfast
+  - bread
+  - baking
 ---
 
 # Ingredients
