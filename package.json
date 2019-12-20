@@ -15,7 +15,7 @@
   "dependencies": {
     "@westegg/gatsby-theme-recipes": "1.2.20",
     "@westegg/gatsby-theme-core": "0.0.48",
-    "gatsby": "2.17.12",
+    "gatsby": "2.18.15",
     "react": "16.12.0",
     "react-dom": "16.12.0"
   },
