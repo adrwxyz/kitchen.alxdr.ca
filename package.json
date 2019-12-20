@@ -13,7 +13,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "@westegg/gatsby-theme-recipes": "1.2.20",
+    "@westegg/gatsby-theme-recipes": "1.2.21",
     "@westegg/gatsby-theme-core": "0.0.48",
     "gatsby": "2.18.15",
     "react": "16.12.0",
