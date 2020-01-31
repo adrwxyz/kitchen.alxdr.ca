@@ -45,6 +45,8 @@ Parallelize the steps with 2 pots by preparing the soup in one pot, and the zucc
 * Combine
   * Place upright stuffed zucchini in the finished soup 
 
+Note: you can use the zucchini cores by sautéing them in olive oil (add salt and pepper). This is perfect for garnishing your soup!
+
 # Visual Journey
 
 ![](/img/b56c0ecb-e40a-46a7-84ae-2291ff94b508.jpeg)
