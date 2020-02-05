@@ -2,23 +2,22 @@
 templateKey: project
 title: Manakish Middle Eastern Pizza
 date: 2019-03-02T04:05:51.018Z
-slug: 2019-03-01-manakish-middle-eastern-pizza
+path: 2019-03-01-manakish-middle-eastern-pizza
 order: 1
-description: Topped with ground beef
+description: Such a variety of toppings to choose from!
 image: ../static/img/arab-pizza-img_6551.jpg
 tags:
-- Syrian
+  - Syrian
 ---
-
 # Dough Ingredients
 
-- ...
+* ...
 
 # Toppings
 
 # Steps
 
-- 1
+* 1
 
 ![](/img/arab-pizza-img_7100.jpg)
 
