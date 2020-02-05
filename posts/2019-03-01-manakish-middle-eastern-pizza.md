@@ -4,16 +4,18 @@ title: Manakish Middle Eastern Pizza
 date: 2019-03-02T04:05:51.018Z
 path: 2019-03-01-manakish-middle-eastern-pizza
 order: 1
-description: Such a variety of toppings to choose from!
+description: Such a variety of toppings to choose from! Coming soon!
 image: ../static/img/arab-pizza-img_6551.jpg
 tags:
   - Syrian
 ---
 # Dough Ingredients
 
-* ...
+* to be updated..
 
 # Toppings
+
+
 
 # Steps
 
