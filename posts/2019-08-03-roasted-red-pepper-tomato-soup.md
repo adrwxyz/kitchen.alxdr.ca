@@ -11,7 +11,7 @@ tags:
 ---
 # Ingredients
 
-* 3 roast peppers
+* 3 roast red peppers 
 * 5 medium fresh tomatoes
 * 2-6 cloves of garlic (to your liking)
 * 2 tbsp extra virgin olive oil
@@ -36,7 +36,7 @@ This recipe is great for making ahead of time and keeps for up to 5-7 days in th
 
 Alternative cooking method: Blend roasted peppers, garlic, 1-2 cans of fire roasted tomatoes (this allows you to skip the roasting step), salt, pepper, basil. Add to soup pot with liquid stock and olive oil. 
 
-This recipe is dairy free but can also be made  with heavy cream (1/2 cup) if desired.
+This recipe is dairy free but can also be made with heavy cream (1/2 cup) if desired.
 
 Other garnish options: basil, parsley, oregano, thyme, sun dried tomatoes, slices of roasted pepper, feta, parmesan cheese, pesto, swirl of garlic olive oil.
 
