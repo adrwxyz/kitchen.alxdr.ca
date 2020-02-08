@@ -7,7 +7,7 @@ order: 1
 description: "These beans are yummy, but not vegan."
 image: ../static/img/logos/ch-2.png
 tags:
-- Mexican
+  - Mexican
 ---
 
 # Ingredients

@@ -71,9 +71,15 @@ collections:
           widget: "text",
           default: "{{year}}-{{month}}-{{day}}-{{slug}}",
         }
-      - { label: "Order", name: "order", widget: "number" }
+      - { label: "Order", name: "order", widget: "number", default: 1 }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Main Image", name: "image", widget: "image", required: false }
+      - {
+          label: "Main Image",
+          name: "image",
+          widget: "image",
+          default: ../static/img/logos/ch-2.png,
+          required: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - {
