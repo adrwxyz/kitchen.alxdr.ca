@@ -2,7 +2,7 @@
 templateKey: project
 title: Mexican Carnitas Pulled Pork
 date: 2019-03-05T15:34:57.841Z
-path: 2019-03-05-carnitas-pulled-pork
+slug: 2019-03-05-carnitas-pulled-pork
 order: 1
 description: Pulled pork for tacos!
 image: ../static/img/taco-img_2895.jpg
@@ -10,36 +10,37 @@ tags:
   - pulled pork
   - Mexican
 ---
+
 # Ingredients
 
-* 2kg / 4lb pork shoulder or pork butt
-* 2 1/2 tsp salt
-* 1 tsp black pepper
-* 1 onion or shallot 
-* 1 jalapeño, deseeded if less spicy desired
-* 4 cloves garlic
-* 3/4 cup orange juice or 1 orange, washed and halved
+- 2kg / 4lb pork shoulder or pork butt
+- 2 1/2 tsp salt
+- 1 tsp black pepper
+- 1 onion or shallot
+- 1 jalapeño, deseeded if less spicy desired
+- 4 cloves garlic
+- 3/4 cup orange juice or 1 orange, washed and halved
 
 ## Rub
 
-* 2 tbsp dried oregano
-* 1.5 tsp ground cumin
-* 1 tbsp olive oil
+- 2 tbsp dried oregano
+- 1.5 tsp ground cumin
+- 1 tbsp olive oil
 
 # Steps
 
-* Rinse and dry the pork shoulder, rub all over with salt and pepper.
-* Combine the Rub ingredients then rub all over the pork.
-* Place the pork in a slow cooker (fat cap up), top with the onion or shallot, jalapeño,  garlic (don't worry about spreading it) and finish it off with orange juice or top with two orange halves.
-* Slow Cook on low for 10 hours or on high for 6 hours. See notes for different pork size and cooking methods.
-* Pork should be tender enough to shred. Remove from slow cooker and let cool slightly. Then shred using two forks.
-* If you have a lot more than 2 cups of juice, then reduce it down to about 2 cups. The liquid will be salty, it is the seasoning for the pork. Set liquid aside - don't bother straining onion etc, it's super soft. Serve over pork
+- Rinse and dry the pork shoulder, rub all over with salt and pepper.
+- Combine the Rub ingredients then rub all over the pork.
+- Place the pork in a slow cooker (fat cap up), top with the onion or shallot, jalapeño, garlic (don't worry about spreading it) and finish it off with orange juice or top with two orange halves.
+- Slow Cook on low for 10 hours or on high for 6 hours. See notes for different pork size and cooking methods.
+- Pork should be tender enough to shred. Remove from slow cooker and let cool slightly. Then shred using two forks.
+- If you have a lot more than 2 cups of juice, then reduce it down to about 2 cups. The liquid will be salty, it is the seasoning for the pork. Set liquid aside - don't bother straining onion etc, it's super soft. Serve over pork
 
 # [Read More](https://www.recipetineats.com/pork-carnitas-mexican-slow-cooker-pulled-pork/)
 
 ![](/img/taco-img_2891.jpg)
 
-# Notes 
+# Notes
 
 ## Tips from Suzie
 

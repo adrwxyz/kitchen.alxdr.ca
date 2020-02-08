@@ -7,8 +7,8 @@ order: 1
 description: A palette of ways to cook stewing beef
 image: ../static/img/bf12a44e-c7cc-40a0-84e2-e0ac17d984e3.jpeg
 tags:
-- Beef
-- French
+  - Beef
+  - French
 ---
 
 # Beef I
