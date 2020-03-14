@@ -41,6 +41,14 @@ module.exports = {
       options: {
         mdx: false
       }
+    },
+    {
+      resolve: "gatsby-plugin-matomo",
+      options: {
+        siteId: "3",
+        matomoUrl: "https://matomo.adrw.xyz",
+        siteUrl: "https://cook.alexanders.xyz"
+      }
     }
   ]
 }
