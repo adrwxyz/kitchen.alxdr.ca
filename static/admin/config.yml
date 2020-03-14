@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: adrw/cook
+  repo: adrwxyz/cook
   preview_context: my-provider/deployment
   site_domain: cook.alexanders.xyz
   branch: master
