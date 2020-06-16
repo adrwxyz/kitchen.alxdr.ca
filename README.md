@@ -1,3 +1,5 @@
-# cook.alexanders.xyz
+# [Archived] cook.alexanders.xyz
 
-[What's cooking?](https://cook.alexanders.xyz/)
+cook.alexanders.xyz has now moved to [kitchen.alxdr.ca](https://kitchen.alxdr.ca)
+
+
