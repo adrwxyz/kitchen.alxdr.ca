@@ -13,7 +13,7 @@ tags:
 # Ingredients
 
 - Black beans
-- Pulled pork carnitas drippings, onion and garlic
+- Pulled pork carnitas drippings, onion, and garlic
 - Corn
 - Paprika
 - Salt
@@ -23,14 +23,14 @@ tags:
 
 # Steps
 
-- Soak black beans overnight (can make ahead for week and keep in fridge)
+- Soak black beans overnight (can make ahead for the week and keep in the fridge)
 - Boil until tender (to your preference)
-- Stain
+- Strain
 - In pan, add in order
-  - Beans
-  - Drippings, onion and garlic from carnitas
-  - Medium heat
-  - Add corn
-  - Add paprika, salt and more drippings as desired
-  - Add mix of chopped pineapple, jalapenos, lime juice
-  - Heat off
+    - Beans
+    - Drippings, onion, and garlic from carnitas
+    - Medium heat
+    - Add corn
+    - Add paprika, salt, and more drippings as desired
+    - Add mix of chopped pineapple, jalapenos, lime juice
+    - Turn off heat

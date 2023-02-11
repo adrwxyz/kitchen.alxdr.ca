@@ -14,13 +14,13 @@ tags:
 # Ingredients
 
 - 8 large zucchini
-- 1 lb lean ground beef
+- 1lb lean ground beef
 - 1 onion
-- Salt and pepper
+- Salt & Pepper
 - 1/2 cup rice
 - 2 cup water
 - 750g plain 3% yoghurt
-- 1/2 teaspoon corn starch
+- 1/2 tsp corn starch
 
 # Steps
 
@@ -32,12 +32,12 @@ Parallelize the steps with 2 pots by preparing the soup in one pot, and the zucc
   - Set aside and cool
 - Zucchini
   - If using large zucchini, cut off stem and tip of zucchini then cut in half
-  - Core zucchini so that 5mm / 1/8 inch of flesh remains
-  - Ensure that you leave the bottom in tact so your filling doesn't fall out!
-  - Fry zucchini in oil to partially cook(optional) then remove from pot to dry and cool
+  - Core zucchini so that 5mm / 1/8 inch of flesh remains as the outer circumference
+  - Ensure that you leave the bottom intact so your filling doesn't fall out!
+  - Fry zucchini in oil to partially cook (optional) then remove from pot to dry and cool
   - Once cool enough to hold, stuff insides with ground beef and onion mixture
 - Soup
-  - Lightly blend 1 cup water with yoghurt, and corn starch
+  - Lightly blend 1 cup water with yoghurt and corn starch
   - In large pot on high heat, add rice and 1 cup water
   - Once rice starts to steam before boiling, turn down to medium heat
   - Add blended yoghurt mixture
@@ -47,8 +47,6 @@ Parallelize the steps with 2 pots by preparing the soup in one pot, and the zucc
   - Place upright stuffed zucchini in the finished soup
 
 Note: you can use the zucchini cores by sautéing them in olive oil (add salt and pepper). This is perfect for garnishing your soup!
-
-# Visual Journey
 
 ![](/img/b56c0ecb-e40a-46a7-84ae-2291ff94b508.jpeg)
 

@@ -8,18 +8,19 @@ description: Spinach + nuts
 image: ../static/img/logos/ch.png
 tags:
   - salad
+  - syrian
 ---
 
 # Ingredients
 
 - Spinach
-- Pomegranate, garnish
+- Pomegranate (garnish)
 
 # Dressing
 
 - Cashew
 - Water
-- Pomegranate molasses
+- Pomegranate Molasses
 - Salt (only add if using unsalted cashews)
 
 # Steps

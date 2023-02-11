@@ -18,7 +18,7 @@ When you're in an ingredient pinch!
 - Tomato
 - Cucumber
 
-# Elevated Basic Salad
+# Elevated Salad
 
 This is the real deal salad recipe!
 

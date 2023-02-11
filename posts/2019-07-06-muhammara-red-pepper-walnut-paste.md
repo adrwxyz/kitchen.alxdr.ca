@@ -12,10 +12,10 @@ tags:
 
 # Blend
 
-- 1/3 container walnuts
-- 2/3 container roasted red pepper (with the jar water - don’t get ones pickled in sunflower oil)
-- 1/3 container olive oil
-- Couple cloves of garlic
+- 1/3 blend container walnuts
+- 2/3 container roasted red peppers (from the jar that uses water – not pickled in sunflower oil)
+- 1/3 blend container olive oil
+- Couple cloves garlic
 - 1 tbsp roasted red pepper paste
 - Salt
 

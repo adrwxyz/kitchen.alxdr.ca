@@ -8,7 +8,9 @@ description: Backlog of recipes to try/test/improve
 image: ../static/img/logos/ch-2.png
 ---
 
+Backlog of recipes to try/test/improve
+
 - Pomegranste, roasted red pepper chicken with garlic
 - Slow cooker beef/pork
-- https://thetoastedpinenut.com/loaded-taco-salad/
+- [Loaded Taco Salad](https://thetoastedpinenut.com/loaded-taco-salad/)
 - Goodfood recipes

@@ -16,7 +16,7 @@ tags:
 # Ingredients
 
 - 1L water (or more to cover ingredients)
-- 1 whole chicken carcass or 1 lb bone-in chicken thighs
+- 1 whole chicken carcass or 1lb bone-in chicken thighs
 - 1 carrot
 - 2 stalks of celery (optional)
 - 1 onion
@@ -35,8 +35,6 @@ tags:
 
 # Notes
 
-Use immediately or store in glass jars for up to 1 week.
-
-To store in jars, remove _all_ solids and then carefully strain hot liquid into jars. I do this in a clean kitchen sink in case of spills. Wipe outside clean, twist lid on and place in fridge to seal.
-
+Use immediately or store in glass jars for up to 1 week.  
+To store in jars, remove _all_ solids and then carefully strain hot liquid into jars. I do this in a clean kitchen sink in case of spills. Wipe outside clean, twist lid on and place in fridge to seal.  
 If using for a creamy vegetable soup, the vegetables blend well to create a creamy base without the use of dairy. Think cream potato soup, simple tomato soup, etc.
