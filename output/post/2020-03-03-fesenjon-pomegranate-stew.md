@@ -93,7 +93,7 @@ Serve on top of rice and garnish with fresh pomegranate
     
 
 Possible adaptions:  
-_adding garlic to sauttee, carrots, turmeric, saffron, pitted rehydrated prunes, etc._ sear meat before adding to main stew (especially if using chicken)
+_adding garlic to sauttee, carrots, turmeric, saffron, pitted rehydrated prunes, etc._ sear meat before adding to main stew (especially if using chicken)
 
 Sources: Peivand’s family recipe, My Persian Kitchen, [Feasting at Home](https://www.feastingathome.com/fesenjan-recipe/)
 

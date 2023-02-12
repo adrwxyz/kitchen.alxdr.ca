@@ -11,7 +11,7 @@ tags:
 
 ## Ingredients
 
-- 1 kilogram fine semolina
+- 1 kilogram fine semolina
 - 300 grams butter, softened
 - 1/2 cup vegetable oil
 - 1 cup all purpose flour

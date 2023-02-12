@@ -1,16 +1,18 @@
 ---
-title: "Shakshuka"
-date: "2020-05-15"
-categories: 
-  - "recipe"
-tags: 
-  - "eggs"
-  - "meal-plan"
-  - "turkish"
-coverImage: "img_8212-2-scaled.jpg"
+templateKey: project
+title: Shakshuka
+date: 2020-05-15T04:38:57.416Z
+slug: 2020-05-15-shakshuka
+image: "img_8212-2-scaled.jpg"
+order: 1
+description:
+tags:
+- eggs
+- meal-plan
+- turkish
 ---
 
-Ingredients
+# Ingredients
 
 - 1 medium onion, diced
 - 1 red bell pepper, seeded and diced
@@ -24,7 +26,7 @@ Ingredients
 - 1 small bunch fresh cilantro, chopped
 - 1 small bunch fresh parsley, chopped
 
-Steps
+# Steps
 
 - Heat olive oil in a large sauté pan on medium heat. Add the chopped bell pepper and onion and cook for 5 minutes or until the onion becomes translucent.
 - Add garlic and spices and cook an additional minute.

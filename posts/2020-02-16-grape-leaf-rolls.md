@@ -1,23 +1,25 @@
 ---
-title: "Grape Leaf Rolls"
-date: "2020-02-16"
-categories: 
-  - "recipe"
-tags: 
-  - "syrian"
-coverImage: "IMG_8087-scaled.jpg"
+templateKey: project
+title: Grape Leaf Rolls
+date: 2020-02-16T04:38:57.416Z
+slug: 2020-02-16-grape-leaf-rolls
+image: "IMG_8087-scaled.jpg"
+order: 1
+description:
+tags:
+- syrian
 ---
 
-## Steps
+# Steps
 
 - Prepare inside mixture
-    - Rice
-    - Parsley
-    - Diced tomatoes
-    - Butter (if non-fatty meat, else if like ground beef butter is not needed)
-    - Optional red pepper paste, siracha
-    - Lemons
-    - Salt
+  - Rice
+  - Parsley
+  - Diced tomatoes
+  - Butter (if non-fatty meat, else if like ground beef butter is not needed)
+  - Optional red pepper paste, siracha
+  - Lemons
+  - Salt
 - Put veal on bottom of crock pot
 - Roll grape leaves and layer on top
 - Top with sliced tomatoes or a stuffed tomatoes with same inside mixture

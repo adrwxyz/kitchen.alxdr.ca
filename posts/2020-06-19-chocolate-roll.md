@@ -12,7 +12,7 @@ coverImage: "20200620_203951-scaled.jpg"
 
 A multi-decade Paradi family favourite, especially around birthdays; Grandma's Chocolate Roll (with optional sour cherry pie filling)!
 
-There is no flour in this cake – the eggs do all the work. The roll may be iced and frozen for use later, or stored in the refrigerator for a few days before a party.
+There is no flour in this cake – the eggs do all the work. The roll may be iced and frozen for use later, or stored in the refrigerator for a few days before a party.
 
 ## Ingredients
 

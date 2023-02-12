@@ -1,12 +1,14 @@
 ---
-title: "Pizza in 4 Movements"
-date: "2020-05-17"
-categories: 
-  - "recipe"
-tags: 
-  - "italian"
-  - "meal-plan"
-coverImage: "img_8329-scaled.jpg"
+templateKey: project
+title: Pizza in 3 Movements
+date: 2020-05-17T04:38:57.416Z
+slug: 2020-05-17-pizza-in-3-movements
+image: "img_8329-scaled.jpg"
+order: 1
+description:
+tags:
+- italian
+- meal-plan
 ---
 
 Neopolitan pizza dough with 3 topping recipes including traditional Margherita, Syrian style beef Lahame Bhagine, red pepper onion Mmhamara.
@@ -15,9 +17,9 @@ A Hiba and Calin favourite for Friday nights.
 
 Following ingredients for 8 pizzas.
 
-## Pizza Dough
+# Pizza Dough
 
-### Ingredients
+## Ingredients
 
 - 1L Good Water
 - 5g Dry Instant Yeast
@@ -26,7 +28,7 @@ Following ingredients for 8 pizzas.
 - 50g Olive Oil
 - 1500kg All Purpose Flour
 
-### Steps
+## Steps
 
 - Mix warm, good water with yeast and honey, let it sit for 10 mins
 - Add 1kg of flour and mix
@@ -39,11 +41,11 @@ Following ingredients for 8 pizzas.
 
 Source: [https://www.youtube.com/watch?v=nXO2T9rXGEI](https://www.youtube.com/watch?v=nXO2T9rXGEI)
 
-## Topping
+# Topping
 
-### Ingredients
+## Ingredients
 
-### Steps
+## Steps
 
 (Margherita sauce not included)
 

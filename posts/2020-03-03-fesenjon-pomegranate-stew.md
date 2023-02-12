@@ -1,20 +1,20 @@
 ---
-title: "Fesenjon Pomegranate Stew"
-date: "2020-03-03"
-categories: 
-  - "recipe"
-tags: 
-  - "beef"
-  - "chicken"
-  - "meal-plan"
-  - "persian"
-  - "stew"
-coverImage: "IMG_8166-scaled.jpg"
+templateKey: project
+title: Fesenjon Pomegranate Stew
+date: 2020-03-03T04:38:57.416Z
+slug: 2020-03-03-fesenjon-pomegranate-stew
+image: "IMG_8166-scaled.jpg"
+order: 1
+description:
+tags:
+- beef
+- chicken
+- meal-plan
+- persian
+- stew
 ---
 
-Estimate serves 8-12 meals
-
-### Walnuts
+# Walnuts
 
 1\. Toast 1 pound (about 4-4.5 cups) walnuts using one of these methods:  
 a) spread in a single layer in large skillet and toast on medium high, stirring frequently until lightly toasted  
@@ -24,7 +24,7 @@ _meanwhile, you can start the sauté section if you’re feeling confident and c
 _work on sauté_  
 3\. Place in blender and blend until coarse mixture
 
-### Sautee
+# Sautee
 
 Finely chop 3 shallots
 
@@ -33,14 +33,14 @@ Finely chop 3 shallots
 - Heat 3 tbsp olive oil or 3 tbsp butter
 - Sauté 3 finely chopped shallots in olive oil/butter until lightly brown.
 - Add the following spices and toast 2 minute more
-    - 1/2 tsp cinnamon
-    - 1/2 tsp nutmeg
-    - 1/2 tsp ground black pepper
-    - 1/2 tsp salt
-    - 1 stick cinnamon
-    - 1 full cardamom pod or 1 piece cardamom
+  - 1/2 tsp cinnamon
+  - 1/2 tsp nutmeg
+  - 1/2 tsp ground black pepper
+  - 1/2 tsp salt
+  - 1 stick cinnamon
+  - 1 full cardamom pod or 1 piece cardamom
 
-### All Together
+# All Together
 
 **To the crockpot, add all the ingredients:**
 
@@ -59,7 +59,9 @@ Cook covered on high for 4h or until meat is tender
 Cook uncover and cook on low for 1h, stir every 15 minutes, if you desire a thicker consistency  
 Place cover back on and keep warm until ready to serve
 
-Serve on top of rice and garnish with fresh pomegranate
+Serve on top of rice and garnish with fresh pomegranate.
+
+Estimate serves 8-12 meals.
 
 - ![](images/IMG_8144-1024x768.jpg)
     
@@ -92,12 +94,14 @@ Serve on top of rice and garnish with fresh pomegranate
 - ![](images/IMG_8167-1024x768.jpg)
     
 
-Possible adaptions:  
-_adding garlic to sauttee, carrots, turmeric, saffron, pitted rehydrated prunes, etc._ sear meat before adding to main stew (especially if using chicken)
+# Possible adaptions
+
+- adding garlic to sauttee, carrots, turmeric, saffron, pitted rehydrated prunes, etc. 
+- sear meat before adding to main stew (especially if using chicken)
 
 Sources: Peivand’s family recipe, My Persian Kitchen, [Feasting at Home](https://www.feastingathome.com/fesenjan-recipe/)
 
-#### Rough Notes
+# Rough Notes
 
 5ish baking cups whole walnuts  
 7 small onions  

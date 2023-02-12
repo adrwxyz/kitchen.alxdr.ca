@@ -12,7 +12,7 @@ This creamy, flavour-packed sauce is so versatile; use it as a marinate for your
 
 ## Ingredients
 
-- 250g or 1/2 tub sour cream 
+- 250g or 1/2 tub sour cream 
 - 1 tbsp mayo
 - 1-2 juiced lemons\*
 - 1 jalapeño, finely diced
@@ -22,7 +22,7 @@ This creamy, flavour-packed sauce is so versatile; use it as a marinate for your
     - 3 tsp oregano
     - 1 tsp paprika
     - 1/2 tsp ground cumin
-    - Pinch of cayenne 
+    - Pinch of cayenne 
     - Salt and pepper, to taste
 
 \*depending on your personal taste

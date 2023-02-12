@@ -1,13 +1,16 @@
 ---
-title: "Light Brioche Hamburger Buns"
-date: "2020-03-30"
-categories: 
-  - "recipe"
-tags: 
-  - "baking"
+templateKey: project
+title: Light Brioche Hamburger Buns
+date: 2020-03-30T04:38:57.416Z
+slug: 2020-03-30-light-brioche-hamburger-buns
+image:
+order: 1
+description:
+tags:
+- baking
 ---
 
-## Ingredients
+# Ingredients
 
 - 1 cup warm water
 - 3 tbsp warm milk
@@ -20,7 +23,7 @@ tags:
 - 2 1/2 tbsp unsalted butter, softened
 - Sesame seeds (optional)
 
-## Steps
+# Steps
 
 - Whisk together the warm water, milk, yeast and sugar. Then, beat 1 egg.
 - In the bowl of a stand mixer, add the flours, salt and butter. Using the paddle attachment, mix the ingredients until the butter is the size of crumbs.
@@ -31,7 +34,7 @@ tags:
 - To make the egg wash, beat the remaining egg with a splash of water. When the buns are finished with the 2nd rise, gently brush each one with egg wash. At this point, you could add sesame seeds to the top of your rolls if desired.
 - Preheat your oven to 400 F. and place a skillet or metal baking dish on the oven floor. Before the dough goes in, add about 1/2 cup of water to the pan to create steam. This will help keep the bread nice and moist. Bake for about 15-20 minutes or until golden brown. Transfer to a wire rack to cool completely.
 
-## Notes
+# Notes
 
 1/2 recipe was good for 4 large buns.
 

@@ -7,17 +7,17 @@ categories:
 
 ## Ingredients
 
-- 1 whole chicken, giblets removed and patted dry 
+- 1 whole chicken, giblets removed and patted dry 
 - Butter mix:
 - 1/2 c tablespoons butter, melted
     - Drizzle olive oil
     - 1 head of garlic, peeled and grated
-    - 2 sprigs fresh or crushed dry thyme 
+    - 2 sprigs fresh or crushed dry thyme 
     - Zest of lemon
 - 6-8 potatoes, quartered
 - 3 tbsp olive oil
 - Salt & Pepper
-- 1 lemon, halved 
+- 1 lemon, halved 
 - 2 Sprigs fresh thyme (optional)
 
 ## Steps
@@ -28,7 +28,7 @@ categories:
 - Prepare the butter mix.
 - Add butter mix to chicken, being sure to stuff under the skin and brush the top. Insert remaining lemon halves inside chicken.
 - Place the chicken on top of the potatoes and thyme sprigs (optional) in the Dutch oven. Tie the legs of the chicken together and tuck the wings underneath. Leave the chicken uncovered the entire cooking process.
-- Roast chicken at 500° F for 20 minutes. 
+- Roast chicken at 500° F for 20 minutes. 
 - Without opening the oven, reduce the temperature to 350° F and continue roasting for 30-40 more minutes, or until a meat thermometer reads 165° F when inserted between the thigh and breast.
 - Remove the chicken from the oven. Allow to rest for at least 10 minutes before carving and serving.
 
