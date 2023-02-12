@@ -1,13 +1,16 @@
 ---
-title: "Vanilla Creme Brulee"
-date: "2020-05-19"
-categories: 
-  - "recipe"
-tags: 
-  - "desserts"
+templateKey: project
+title: Vanilla Creme Brulee
+date: 2020-05-19T04:38:57.416Z
+slug: 2020-05-19-vanilla-creme-brulee
+image:
+order: 1
+description:
+tags:
+- desserts
 ---
 
-## Ingredients
+# Ingredients
 
 - 500ml 35% cream
 - 6 large egg yolks
@@ -15,7 +18,7 @@ tags:
 - 1 1/2 tsp vanilla (paste)
 - More sugar for topping (1 tbsp each)
 
-## Steps
+# Steps
 
 - Add eggs and 1/4 cup sugar to a mixing bowl, whisk until smooth. Don't over whisk.
 - Add cream and 1/4 cup sugar and vanilla to a pot on the stove. Use any of the following to add extra flavor

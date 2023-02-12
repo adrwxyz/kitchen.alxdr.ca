@@ -1,14 +1,17 @@
 ---
-title: "Beef Wine Stew"
-date: "2020-05-31"
-categories: 
-  - "recipe"
-tags: 
-  - "beef"
-  - "meal-plan"
+templateKey: project
+title: Beef Wine Stew
+date: 2020-05-31T04:38:57.416Z
+slug: 2020-05-31-beef-wine-stew
+image:
+order: 1
+description:
+tags:
+- beef
+- meal-plan
 ---
 
-## Ingredients
+# Ingredients
 
 - 2.5 - 3 lb stew beef, cubed
 - 3 shallots
@@ -22,7 +25,7 @@ tags:
 - Bay leafs
 - Thyme
 
-## Steps
+# Steps
 
 If cooking in an oven add all ingredients to the pan, add the sauce simmering to the pan once it has come to a boil, and cook 2 hours at 325F, then optionally add carrots and potatoes and continue cooking for 1 hour, or until the meat is fork-tender, the broth is thickened, and the carrots and potatoes are tender.
 
@@ -39,7 +42,7 @@ Below steps are for a slow cooker.
 
 Source: [OnceUponAChef](https://www.onceuponachef.com/recipes/beef-stew-with-carrots-potatoes.html#tabbox)
 
-## Rough Notes
+# Rough Notes
 
 2.5-3lb beef cubes  
 Olive oil, lots to fry  
