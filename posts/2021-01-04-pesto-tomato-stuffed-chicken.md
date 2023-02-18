@@ -1,12 +1,14 @@
 ---
-title: "Pesto Tomato Stuffed Chicken"
-date: "2021-01-04"
-categories: 
-  - "recipe"
-tags: 
-  - "chicken"
-  - "meal-plan"
-coverImage: "IMG_9143-scaled.jpg"
+templateKey: project
+title: Pesto Tomato Stuffed Chicken
+date: 2021-01-04T04:38:57.416Z
+slug: 2021-01-04-pesto-tomato-stuffed-chicken
+image: IMG_9143-scaled.jpg
+order: 1
+description:
+tags:
+- chicken
+- meal-plan
 ---
 
 # Ingredients
@@ -36,6 +38,6 @@ coverImage: "IMG_9143-scaled.jpg"
 9. Place on baking tray and repeat until all pieces are completed
 10. Bake at 400 F for 1h or until internal temperature reaches 165 F.
 
-- ![Pesto Tomato Stuffed Chicken 1](images/IMG_9142-1024x768.jpg)
+![Pesto Tomato Stuffed Chicken 1](images/IMG_9142-1024x768.jpg)
     
-- ![Pesto Tomato Stuffed Chicken 3](images/IMG_9145-1024x768.jpg)
+![Pesto Tomato Stuffed Chicken 3](images/IMG_9145-1024x768.jpg)

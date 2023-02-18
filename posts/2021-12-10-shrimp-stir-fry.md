@@ -1,24 +1,27 @@
 ---
-title: "Shrimp Stir Fry"
-date: "2021-12-10"
-categories: 
-  - "recipe"
-tags: 
-  - "asian"
-  - "meal-plan"
-  - "shrimp"
+templateKey: project
+title: Shrimp Stir Fry
+date: 2021-12-10T04:38:57.416Z
+slug: 2021-12-10-shrimp-stir-fry
+image:
+order: 1
+description:
+tags:
+- asian
+- meal-plan
+- shrimp
 ---
 
-## Ingredients
+# Ingredients
 
 - Sauce
-    - ½ cup honey
-    - ¼ cup soy sauce
-    - 1 tsp fresh grated ginger
-    - 2 tbsp minced garlic (or ~6 cloves)
-    - ¼ tsp red pepper flakes (or sub 2 dried spicey red peppers)
-    - ½ tsp cornstarch (mixed with a bit of water first, then added to sauce)
-    - Sprig of Thai basil
+  - 1/2 cup honey
+  - 1/4 cup soy sauce
+  - 1 tsp fresh grated ginger
+  - 2 tbsp minced garlic (or ~6 cloves)
+  - 1/4 tsp red pepper flakes (or sub 2 dried spicey red peppers)
+  - 1/2 tsp cornstarch (mixed with a bit of water first, then added to sauce)
+  - Sprig of Thai basil
 - 1lb large shrimp, peeled, deveined
 - Broccoli
 - Butter
@@ -26,7 +29,7 @@ tags:
 - Salt
 - Pepper
 
-## Steps
+# Steps
 
 - On high heat, sauté broccoli with salt, pepper in batches. Set aside.
 - Add shallot with oil, set aside.

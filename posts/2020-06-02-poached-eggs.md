@@ -1,11 +1,14 @@
 ---
-title: "Poached Eggs"
-date: "2020-06-02"
-categories: 
-  - "recipe"
-tags: 
-  - "breakfast"
-  - "eggs"
+templateKey: project
+title: Poached Eggs
+date: 2020-06-02T04:38:57.416Z
+slug: 2020-06-02-poached-eggs
+image:
+order: 1
+description:
+tags:
+- breakfast
+- eggs
 ---
 
 - Boil water in a fry pan

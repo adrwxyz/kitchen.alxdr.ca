@@ -1,20 +1,22 @@
 ---
-title: "Chocolate Roll"
-date: "2020-06-19"
-categories: 
-  - "recipe"
-tags: 
-  - "baking"
-  - "cake"
-  - "desserts"
-coverImage: "20200620_203951-scaled.jpg"
+templateKey: project
+title: Chocolate Roll
+date: 2020-06-19T04:38:57.416Z
+slug: 2020-06-19-chocolate-roll
+image: 20200620_203951-scaled.jpg
+order: 1
+description:
+tags:
+- baking
+- cake
+- desserts
 ---
 
 A multi-decade Paradi family favourite, especially around birthdays; Grandma's Chocolate Roll (with optional sour cherry pie filling)!
 
 There is no flour in this cake – the eggs do all the work. The roll may be iced and frozen for use later, or stored in the refrigerator for a few days before a party.
 
-## Ingredients
+# Ingredients
 
 In (brackets) is the recipe multiplied by 1.5, which is a family shareable amount.
 
@@ -24,7 +26,7 @@ In (brackets) is the recipe multiplied by 1.5, which is a family shareable amoun
 - 5 beaten egg yolks (8)
 - Vanilla, rum, or brandy to taste
 
-## Steps
+# Steps
 
 - Prepare a shallow jelly roll pan – about 10" x 14" – by lining it with foil, then buttering it
 - Beat the egg whites until they stand in soft peaks, then add the sugar, 1tbsp at a time, beating constantly.

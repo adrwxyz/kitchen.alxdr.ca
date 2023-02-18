@@ -1,15 +1,17 @@
 ---
-title: "Rice Pudding"
-date: "2022-08-22"
-categories: 
-  - "recipe"
-tags: 
-  - "desserts"
-  - "syrian"
-coverImage: "IMG_2082-scaled.jpg"
+templateKey: project
+title: Rice Pudding
+date: 2020-05-31T04:38:57.416Z
+slug: 2020-05-31-beef-wine-stew
+image: IMG_2082-scaled.jpg
+order: 1
+description:
+tags:
+- desserts
+- syrian
 ---
 
-## Ingredients
+# Ingredients
 
 - Rice
 - Water
@@ -17,7 +19,7 @@ coverImage: "IMG_2082-scaled.jpg"
 - Orange Blossom Water
 - Sugar
 
-## Steps
+# Steps
 
 - Make a watery batch of rice, cook until soft
 - Blend until smooth

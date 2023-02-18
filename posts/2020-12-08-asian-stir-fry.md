@@ -1,23 +1,26 @@
 ---
-title: "Asian Stir Fry"
-date: "2020-12-08"
-categories: 
-  - "recipe"
-tags: 
-  - "asian"
-  - "beef"
-  - "chicken"
-  - "meal-plan"
+templateKey: project
+title: Asian Stir Fry
+date: 2020-12-08T04:38:57.416Z
+slug: 2020-12-08-asian-stir-fry
+image:
+order: 1
+description:
+tags:
+- asian
+- beef
+- chicken
+- meal-plan
 ---
 
-## Ingredients
+# Ingredients
 
 - 3-4 rough chopped or broken dried red chilies
 - 2 cloves rough chopped garlic
-- ¼ cup roasted peanuts
+- 1/4 cup roasted peanuts
 - 300-400g deshelled frozen shrimp
 
-### Sauce
+## Sauce
 
 - 1 tsp corn starch
 - 2 tsp chili garlic sayce
@@ -31,7 +34,7 @@ tags:
 - 2 cloves garlic, minced
 - Pinch of salt to taste
 
-## Steps
+# Steps
 
 - Heat dried red chilies in pot or wok on medium heat to unleash flavour
 - Add neutral vegetable oil (or coconut oil) to spice up the oil

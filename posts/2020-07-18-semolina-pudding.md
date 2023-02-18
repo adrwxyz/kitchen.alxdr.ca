@@ -1,24 +1,26 @@
 ---
-title: "Semolina Pudding"
-date: "2020-07-18"
-categories: 
-  - "recipe"
-tags: 
-  - "desserts"
-  - "syrian"
-coverImage: "img_8480-scaled.jpg"
+templateKey: project
+title: Semolina Pudding
+date: 2020-07-18T04:38:57.416Z
+slug: 2020-07-18-semolina-pudding
+image: img_8480-scaled.jpg
+order: 1
+description:
+tags:
+- desserts
+- syrian
 ---
 
-## Ingredients
+# Ingredients
 
 - 1 bag milk
-- ½ cup semolina flour
+- 1/2 cup semolina flour
 - Water
 - 50ml Orange blossom water
-- ½ cup sugar
+- 1/2 cup sugar
 - Crushed pistachios (optional)
 
-## Steps
+# Steps
 
 - Put a layer of water to cover the bottom of a pot
 - Empty the entire bag of milk

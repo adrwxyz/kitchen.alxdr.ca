@@ -1,16 +1,19 @@
 ---
-title: "Boiled Veal Stock"
-date: "2020-09-12"
-categories: 
-  - "recipe"
-tags: 
-  - "beef"
-  - "soup"
+templateKey: project
+title: Boiled Veal Stock
+date: 2020-09-12T04:38:57.416Z
+slug: 2020-09-12-boiled-veal-stock
+image:
+order: 1
+description:
+tags:
+- beef
+- soup
 ---
 
 A delicious way to make both boiled veal and a simply beef stock.
 
-## Steps
+# Steps
 
 - Wash veal in sink to get rid of bone shards
 - Add to big pot filled 60-80% with water (should be proportional to the amount of veal so that it isn't too diluted or concentrated)

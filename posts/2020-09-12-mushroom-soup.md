@@ -1,25 +1,28 @@
 ---
-title: "Mushroom Soup"
-date: "2020-09-12"
-categories: 
-  - "recipe"
-tags: 
-  - "soup"
+templateKey: project
+title: Mushroom Soup
+date: 2020-09-12T04:38:57.416Z
+slug: 2020-09-12-mushroom-soup
+image:
+order: 1
+description:
+tags:
+- soup
 ---
 
-## Ingredients
+# Ingredients
 
 - 500-600g of your favourite mushroom (we like brown Mini Bellas from Costco)
 - 1/2 cup Butter
 - Olive oil
 - 1 large garlic
-- Optional ½ shallot
+- Optional 1/2 shallot
 - Salt & pepper
 - 300-400ml 35% cream
 - 300-400ml Milk
 - 250-500ml Water (or your choice of broth)
 
-## Steps
+# Steps
 
 - Heat over medium-high heat ¼ cup butter and ¼ cup olive oil in a big pot
 - Slice and add mushrooms, sautéed until the mushrooms brown

@@ -1,14 +1,16 @@
 ---
-title: "Mandarin Avocado Salad"
-date: "2020-10-11"
-categories: 
-  - "recipe"
-tags: 
-  - "salad"
-coverImage: "IMG_8988-scaled.jpg"
+templateKey: project
+title: Mandarin Avocado Salad
+date: 2020-10-11T04:38:57.416Z
+slug: 2020-10-11-mandarin-avocado-salad
+image: IMG_8988-scaled.jpg
+order: 1
+description:
+tags:
+- salad
 ---
 
-## Ingredients
+# Ingredients
 
 - 600g Costco Super Kale Mix
 - 1 heart romaine lettuce

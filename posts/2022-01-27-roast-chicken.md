@@ -1,26 +1,32 @@
 ---
-title: "Roast Chicken"
-date: "2022-01-27"
-categories: 
-  - "recipe"
+templateKey: project
+title: Roast Chicken
+date: 2022-01-27T04:38:57.416Z
+slug: 2022-01-27-roast-chicken
+image:
+order: 1
+description:
+tags:
+- chicken
+- meal-plan
 ---
 
-## Ingredients
+# Ingredients
 
 - 1 whole chicken, giblets removed and patted dry 
-- Butter mix:
-- 1/2 c tablespoons butter, melted
-    - Drizzle olive oil
-    - 1 head of garlic, peeled and grated
-    - 2 sprigs fresh or crushed dry thyme 
-    - Zest of lemon
+- Butter mix
+  - 1/2 cup tablespoons butter, melted
+  - Drizzle olive oil
+  - 1 head of garlic, peeled and grated
+  - 2 sprigs fresh or crushed dry thyme 
+  - Zest of lemon
 - 6-8 potatoes, quartered
 - 3 tbsp olive oil
 - Salt & Pepper
 - 1 lemon, halved 
 - 2 Sprigs fresh thyme (optional)
 
-## Steps
+# Steps
 
 - Preheat oven to 500° F. Let the chicken sit on the counter and come to room temperature for about 30 minutes before roasting.
 - In a large bowl, toss together the potatoes, 3 tablespoons of olive oil, and salt and pepper, thyme, to taste.

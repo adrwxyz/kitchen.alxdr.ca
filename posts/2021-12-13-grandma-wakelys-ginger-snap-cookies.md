@@ -1,14 +1,16 @@
 ---
-title: "Grandma Wakely's Ginger Snap Cookies"
-date: "2021-12-13"
-categories: 
-  - "recipe"
-tags: 
-  - "baking"
-coverImage: "ginger-snap-2.jpeg"
+templateKey: project
+title: Grandma Wakely's Ginger Snap Cookies
+date: 2021-12-13T04:38:57.416Z
+slug: 2021-12-13-grandma-wakelys-ginger-snap-cookies
+image: ginger-snap-2.jpeg
+order: 1
+description:
+tags:
+- baking
 ---
 
-## Ingredients
+# Ingredients
 
 - 1/2 cup sugar
 - 1/3 cup butter
@@ -19,7 +21,7 @@ coverImage: "ginger-snap-2.jpeg"
 - 1 tsp baking soda
 - Optional: 1 tsp ground cloves
 
-## Steps
+# Steps
 
 - Cream together sugar and butter
 - Fold in corn syrup or molasses
@@ -29,6 +31,6 @@ coverImage: "ginger-snap-2.jpeg"
 - Bake at 375ºF (or 350ºF) for 10 mins
 - When the cookies crack a bit, then they are done
 
-- ![](images/ginger-snap-1-650x1024.jpeg)
+![](images/ginger-snap-1-650x1024.jpeg)
     
-- ![](images/ginger-snap-2-1024x439.jpeg)
+![](images/ginger-snap-2-1024x439.jpeg)

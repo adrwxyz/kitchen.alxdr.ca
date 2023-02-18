@@ -1,16 +1,19 @@
 ---
-title: "Fajita Sauce"
-date: "2022-01-21"
-categories: 
-  - "recipe"
-tags: 
-  - "chicken"
-  - "meal-plan"
+templateKey: project
+title: Fajita Sauce
+date: 2022-01-21T04:38:57.416Z
+slug: 2022-01-21-fajita-sauce
+image:
+order: 1
+description:
+tags:
+- chicken
+- meal-plan
 ---
 
 This creamy, flavour-packed sauce is so versatile; use it as a marinate for your chicken fajitas or as a sauce to top off the perfect fajita wrap.
 
-## Ingredients
+# Ingredients
 
 - 250g or 1/2 tub sour cream 
 - 1 tbsp mayo

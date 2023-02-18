@@ -1,13 +1,16 @@
 ---
-title: "Avocado Smoothie"
-date: "2020-09-11"
-categories: 
-  - "recipe"
-tags: 
-  - "drink"
+templateKey: project
+title: Avocado Smoothie
+date: 2020-09-11T04:38:57.416Z
+slug: 2020-09-11-avocado-smoothie
+image: 
+order: 1
+description:
+tags:
+- drink
 ---
 
-## Ingredients
+# Ingredients
 
 - 1 large avocado
 - 2-3 tbsp condensed milk (can)
