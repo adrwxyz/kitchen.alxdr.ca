@@ -6,13 +6,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: "COOK",
-    shortTitle: "COOK",
-    description: "Cook More, Together with trusted recipes from the Alexanders",
-    url: "https://cook.adrw.xyz", // No trailing slash allowed!
+    title: "Kitchen Alexander",
+    shortTitle: "KA",
+    description: "Recipes from the Alexander Kitchen",
+    url: "https://kitchen.alxdr.ca", // No trailing slash allowed!
     image: "/img/logos/ch-2.png", // Path to your image you placed in the 'static' folder
     author: "The Alexanders",
-    intro: "...more, together, with trusted recipes from the Alexanders",
+    intro: "Recipes from the Alexander Kitchen",
     menuLinks: [
       {
         name: "About",
@@ -21,34 +21,18 @@ module.exports = {
     ],
     footerLinks: [
       {
-        name: "(C) 2009-2019 ADRW Digital",
+        name: "(C) 2009-2023 ADRW Digital",
         href: "https://adrw.xyz"
       },
       {
-        name: "Andrew Paradi Alexander",
-        href: "https://andrew.fm"
-      },
-      {
-        name: "Built on Westegg",
-        href: "https://westegg.xyz"
+        name: "Andrew Alexander",
+        href: "https://adrw.xyz"
       }
     ]
   },
   plugins: [
-    "@westegg/gatsby-theme-recipes",
     {
-      resolve: "@westegg/gatsby-theme-core",
-      options: {
-        mdx: false
-      }
-    },
-    {
-      resolve: "gatsby-plugin-matomo",
-      options: {
-        siteId: "3",
-        matomoUrl: "https://matomo.adrw.xyz",
-        siteUrl: "https://cook.alexanders.xyz"
-      }
+      "@marinda/gatsby-theme-recipes"
     }
   ]
 }
