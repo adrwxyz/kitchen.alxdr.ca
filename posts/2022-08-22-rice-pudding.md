@@ -1,8 +1,8 @@
 ---
 templateKey: project
 title: Rice Pudding
-date: 2020-05-31T04:38:57.416Z
-slug: 2020-05-31-beef-wine-stew
+date: 2022-08-22T04:38:57.416Z
+slug: 2022-08-22-beef-wine-stew
 image: IMG_2082-scaled.jpg
 order: 1
 description:
