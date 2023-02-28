@@ -2,11 +2,13 @@
 templateKey: project
 title: Bistro Salad with Roasted Vegetables
 date: 2023-02-28T04:38:57.416Z
-slug: 2023-02-28-bistro-salad-roast-vegetables
+slug: 2023-02-28-french-bistro-salad-roast-vegetables
+image: bistro-salad-roasted-vegetables.jpg
 order: 1
 description:
 tags:
 - salad
+- french
 - meal-plan
 ---
 
