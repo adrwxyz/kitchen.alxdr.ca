@@ -2,8 +2,8 @@
 templateKey: project
 title: Steak Grain Bowl
 date: 2023-02-28T04:38:57.416Z
-slug: 2023-02-28-roast-vegetables-winter-salad
-image: roasted-vegetable-winter-salad.jpg
+slug: 2023-02-28-steak-grain-bowl
+image: steak-grain-bowl.jpeg
 order: 1
 description:
 tags:
