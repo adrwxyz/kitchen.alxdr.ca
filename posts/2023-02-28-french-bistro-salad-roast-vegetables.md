@@ -9,7 +9,6 @@ description:
 tags:
 - salad
 - french
-- meal-plan
 ---
 
 This salad was inspired by the classic French bistro salad, in which sturdy winter greens are laced with crisp lardons of bacon and a silky poached egg. We’ll never begrudge you a bit of bacon, but here vegetables are roasted to give the salad a leaner form of texture, flavor, and color.
@@ -27,7 +26,7 @@ Serves 4, plus leftover vegetables for lunch Servings.
 - Small pinch of smoked paprika
 - 4 large eggs
 - 1 1/2 pounds frisée and/or arugula, cut or torn into bite-size pieces, washed
-- 4 tablespoons Whole Grain Mustard Walnut Vinaigrette (click here for recipe)
+- 4 tbsp Whole Grain Mustard Walnut Vinaigrette (click here for recipe)
 - 1/2 cup toasted almonds, coarsely chopped
 - Flaky sea salt (for serving)
 

@@ -30,3 +30,7 @@ Simple pasta using freezer or often at-hand ingredients.
 - Add pasta and mix, add some pasta water if the sauce is still too thick. Add a little, mix, and reevaluate. Don't add all at once.
 - Serve with fresh grated parmesan to taste.
 
+# Notes
+- Use olive oil, not coconut or something else.
+- Don't put pasta in until shrimp is done so pasta is complete when the sauce is ready.
+- Freshly grated parmesan, no sawdust.

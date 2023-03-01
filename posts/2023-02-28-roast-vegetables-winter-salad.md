@@ -17,21 +17,21 @@ tags:
 - 10 Baby potatoes
 - 2 Carrot
 - 2 Parsnips
-- 1 tablespoon Olive oil
+- 1 tbsp Olive oil
 - 1 pinch Sea salt and black pepper
 
 # Salad
 - 4 Handfuls of Watercress/Rocket (arugula) salad mix
-- 1 tablespoon Olive oil
-- 2 tablespoon Balsamic vinegar
-- 2 tablespoon Fresh basil - finely chopped
-- 2 tablespoon Fresh coriander (cilantro) - finely chopped
-- 2 tablespoon Fresh parsley - finely chopped
+- 1 tbsp Olive oil
+- 2 tbsp Balsamic vinegar
+- 2 tbsp Fresh basil - finely chopped
+- 2 tbsp Fresh coriander (cilantro) - finely chopped
+- 2 tbsp Fresh parsley - finely chopped
 - 1 pinch Sea salt and black pepper
 - 30 g Light Feta - (or dairy-free equivalent)
 
 # Instructions
-- Chop all the vegetables so they are fairly chunky. Put them in a bowl with 1 tablespoon of olive oil and some salt and pepper and mix well.
+- Chop all the vegetables so they are fairly chunky. Put them in a bowl with 1 tbsp of olive oil and some salt and pepper and mix well.
 - Put onto a baking tray in a preheated oven at 200°C/400°F/Gas 6 for 35-40 minutes.
 - Make the salad dressing by mixing together the olive oil, balsamic, salt, pepper and herbs.
 - Remove the vegetables from the oven.
