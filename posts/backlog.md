@@ -14,3 +14,4 @@ Backlog of recipes to try/test/improve
 - Slow cooker beef/pork
 - [Loaded Taco Salad](https://thetoastedpinenut.com/loaded-taco-salad/)
 - Goodfood recipes
+- [The Mediterranean Dish](https://www.themediterraneandish.com/category/entree/)

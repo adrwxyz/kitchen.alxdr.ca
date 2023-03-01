@@ -13,6 +13,8 @@ tags:
 
 # V2
 
+Serves 4.
+
 Source: [Delish](https://www.delish.com/cooking/recipe-ideas/a27925656/mandarin-orange-salad-recipe/)
 
 ## Salad
