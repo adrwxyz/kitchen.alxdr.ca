@@ -3234,12 +3234,12 @@
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.10.tgz#f6d69866c0857664e70690d7a0bfedb72143adb5"
   integrity sha512-6cDuZeKSCSJ1KvfEQ25Y8OXUjqDJZ+HgUs6dhASWbAX8fxVraTfPsSeRe2bN+4QJDsgUaXaMWBYfRomCr04GGg==
 
-"@misk/prettier@0.1.26":
-  version "0.1.26"
-  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.1.26.tgz#e1c7a30cc8f1d6de71370aa6c3694935f1cf5e21"
-  integrity sha512-YTc523xAII4EVrCAqJ+FW0IF1SsmaxZcQj1RVDu7D+svqMs7AbtG/WxHTszXhjHbyU2tZv4IoGYd2Gj2O/yMZA==
+"@misk/prettier@0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.6.3.tgz#9796aba9ff46796509ec155f45f0c153ef823965"
+  integrity sha512-Q6wOMYtpr4bbgzsz3LIoLLx6hAK8aQw6qhNcYHFwWesLn+iNMwroStYAmnqvo+x4C1J3M86G2XrUQj9/myNQxg==
   dependencies:
-    prettier "1.19.1"
+    prettier "2.7.1"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -15326,10 +15326,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier@1.19.1:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
-  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+prettier@2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
+  integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
 prettier@^2.0.5:
   version "2.0.5"
