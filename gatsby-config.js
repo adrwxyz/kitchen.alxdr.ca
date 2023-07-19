@@ -29,10 +29,10 @@ module.exports = {
         href: "https://adrw.xyz"
       }
     ]
-  },
-  plugins: [
-    {
-      "@marinda/gatsby-theme-recipes"
-    }
-  ]
+  }
+//  plugins: [
+//    {
+//      "@marinda/gatsby-theme-recipes"
+//    }
+//  ]
 }

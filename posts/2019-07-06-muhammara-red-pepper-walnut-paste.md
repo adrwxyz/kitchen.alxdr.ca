@@ -15,8 +15,7 @@ tags:
 - 1/3 blend container walnuts
 - 2/3 container roasted red peppers (from the jar that uses water – not pickled in sunflower oil)
 - 1/3 blend container olive oil
-- Couple cloves garlic
-- 1 tbsp roasted red pepper paste
+- Couple cloves garlic (optional)
 - Salt
 
 ![Blend it!](/img/8e657390-4b8f-4fc4-ba5f-bd1389d9cdf9.jpeg)
