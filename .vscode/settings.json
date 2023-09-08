@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
@@ -21,6 +21,5 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "Blueprint",
   "workbench.startupEditor": "newUntitledFile"
 }

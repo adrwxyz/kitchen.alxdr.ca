@@ -13,16 +13,16 @@ tags:
 
 # Ingredients
 
-- 1.5 cups (225 g) unbleached all-purpose flour
-- 1 teaspoon (5 ml) baking powder
-- 1 teaspoon (5 ml) baking soda
-- 1 1/4 cups (310 ml) mashed ripe bananas (3-4 bananas)
-- 1/2 cup (125 ml) coconut milk (see note)
-- 1 tablespoon (15 ml) lime juice
-- 1/2 cup (115 g) unsalted butter, softened
-- 1 cup (210 g) sugar
+- 1.5 cups (225g) unbleached all-purpose flour
+- 1 tsp (5ml) baking powder
+- 1tsp (5ml) baking soda
+- 1 1/4 cups (310ml) mashed ripe bananas (3-4)
+- 1/2 cup (125ml) coconut milk (see note)
+- 1 tbsp (15ml) lime juice
+- 1/2 cup (115g) unsalted butter, softened
+- 1 cup (210g) sugar
 - 1 egg
-- 1 teaspoon (5 ml) vanilla extract
+- 1 tsp (5ml) vanilla extract
 
 # Steps
 
@@ -33,8 +33,10 @@ tags:
 - Pour into the loaf pan. Bake for about 1 hour or until a toothpick inserted in the centre of the cake comes out clean.
 - Let cool on a wire rack before removing from the pan and slicing.
 
-# [Read More](https://www.ricardocuisine.com/en/recipes/6085-ultra-moist-banana-bread)
+# Notes
 
-# P.S. This is being taste tested, can't confirm it's good yet but maybe it's yummy, I don't know! – Suz :)
+P.S. This is being taste tested, can't confirm it's good yet but maybe it's yummy, I don't know! – Suz :)
 
 ![](/img/2ae0e16e-c609-434b-a298-24e357babf2d.jpeg)
+
+Source: [RicardoCuisine](https://www.ricardocuisine.com/en/recipes/6085-ultra-moist-banana-bread)

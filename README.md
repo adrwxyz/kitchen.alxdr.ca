@@ -1,5 +1,7 @@
-# [Archived] cook.alexanders.xyz
+# kitchen.alxdr.ca
 
-cook.alexanders.xyz has now moved to [kitchen.alxdr.ca](https://kitchen.alxdr.ca)
+Recipes from the Alexander Kitchen. 
+
+[kitchen.alxdr.ca](https://kitchen.alxdr.ca)
 
 

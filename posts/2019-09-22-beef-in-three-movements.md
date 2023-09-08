@@ -13,11 +13,11 @@ tags:
 
 # Beef I
 
-- Sautée onions in olive oil
+- Sautee onions in olive oil
 - Increase temperature of pan
 - Add cubed stewing beef
 - Add soy sauce and basil at the end
-- Don’t crowd the pan so moisture doesn’t get trapped
+- Don't crowd the pan so moisture doesn't get trapped
 
 # Beef II
 
@@ -25,7 +25,7 @@ tags:
 - Heat pan
 - Add beef and olive oil
 - Add red pepper paste
-- Don’t salt until the end so beef doesn’t sweat
+- Don't salt until the end so beef doesn't sweat
 
 # Beef III
 

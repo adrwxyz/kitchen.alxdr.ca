@@ -1,14 +1,17 @@
 ---
 templateKey: project
-title: Red Pepper Yoghurt Marinate
+title: Red Pepper Yoghurt Marinade
 date: 2019-07-29T15:03:58.158Z
-slug: 2019-07-29-red-pepper-yoghurt-marinate
+slug: 2019-07-29-red-pepper-yoghurt-marinade
 order: 1
-description: Savoury marinate perfect on chicken or beef
+description: Savoury marinade perfect on chicken or beef
 image: ../static/img/img_7289.jpg
 tags:
   - Syrian
+  - beef
   - Chicken
+  - marinade
+  - meal-plan
 ---
 
 # Ingredients
