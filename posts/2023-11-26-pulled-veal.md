@@ -3,7 +3,6 @@ templateKey: project
 title: Pulled Veal
 date: 2023-11-27T04:38:57.416Z
 slug: 2023-11-27-pulled-veal
-image: steak-grain-bowl.jpeg
 order: 1
 description:
 tags:
