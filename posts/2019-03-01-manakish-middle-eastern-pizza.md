@@ -10,7 +10,7 @@ tags:
   - Syrian
 ---
 
-# Ingredients
+## Ingredients
 
 (double to make 3 half-try )
 
@@ -21,7 +21,7 @@ tags:
 - ¼ cup olive oil
 - 1 teaspoon salt
 
-# Instructions
+## Steps
 
 - Start by mixing the yeast in the 1 cup of warm water. Make sure it's not hot water or the yeast will not activate. Set aside for 3 minutes.
 - In a bowl, add 1 cup of the flour along with the sugar and the yeast and water mixture. Mix well with a spoon, cover with plastic wrap and set aside for 10 minutes.
@@ -49,3 +49,43 @@ Source: [HungryPaprikas](https://www.hungrypaprikas.com/manakish/)
 ![](/img/arab-pizza-img_6542.jpg)
 
 ![](/img/arab-pizza-img_6549.jpg)
+
+# Taghrid Recipe 1
+
+![](/img/taghrid-dough-recipe-1.jpeg)
+
+
+## Ingredients
+- 1/2 cup yogurt
+- 1/2 cup milk (or watery part of yogurt)
+- 1 egg
+- 3/4 cup neutral oil
+- 1/4 cup olive oil
+- 1 cup water
+- 5 cups flour (optional: make 20% whole wheat)
+- 1/2 teaspoons salt
+- 3 teaspoon sugar
+- 2 teaspoon yeast
+
+## Steps
+
+- Let it sit 10 min before baking
+- Bake at 400F
+
+# Taghrid Recipe 2
+
+![](/img/taghrid-dough-recipe-2.jpeg)
+
+
+## Ingredients
+
+- 1/2 cup yoghurt
+- 1/2 cup water
+- 1/2 cup milk
+- 1/4 cup oil
+- 1/4 teaspoon salt
+- 5 cups flour
+- 3 tbsp yeast
+
+
+## Steps
