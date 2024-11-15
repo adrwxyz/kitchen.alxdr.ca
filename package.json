@@ -22,7 +22,7 @@
   "devDependencies": {
     "fs-extra": "^9.0.1",
     "glob": "^7.1.4",
-    "prettier": "^2.1.2"
+    "prettier": "^3.0.0"
   },
   "prettier": {}
 }
