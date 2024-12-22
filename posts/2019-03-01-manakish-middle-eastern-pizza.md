@@ -1,6 +1,6 @@
 ---
 templateKey: project
-title: Manakish Middle Eastern Pizza
+title: Fatayar Manakish Middle Eastern Pizza
 date: 2019-03-02T04:05:51.018Z
 slug: 2019-03-01-manakish-middle-eastern-pizza
 order: 1
