@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "fs-extra": "^9.0.1",
-    "glob": "^7.1.4",
+    "glob": "^11.0.0",
     "prettier": "^2.1.2"
   },
   "prettier": {}
