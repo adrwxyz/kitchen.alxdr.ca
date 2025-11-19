@@ -1,0 +1,87 @@
+name: CI - Build Validation
+
+on:
+  pull_request:
+    branches: ["main", "master"]
+  push:
+    branches: ["main", "master"]
+
+jobs:
+  validate:
+    name: Validate Build
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      
+      - name: Install Node dependencies
+        run: npm ci
+      
+      - name: Build Tailwind CSS
+        run: npm run build
+      
+      - name: Verify CSS was generated
+        run: |
+          if [ ! -f "assets/css/main.css" ]; then
+            echo "Error: main.css was not generated"
+            exit 1
+          fi
+          echo "✅ CSS file generated successfully"
+      
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+      
+      - name: Verify Jekyll build
+        run: |
+          if [ ! -d "_site" ]; then
+            echo "Error: _site directory not found"
+            exit 1
+          fi
+          if [ ! -f "_site/index.html" ]; then
+            echo "Error: index.html not found in _site"
+            exit 1
+          fi
+          echo "✅ Jekyll site built successfully"
+      
+      - name: Check for broken links (basic)
+        run: |
+          # Check if critical files exist
+          test -f "_site/index.html" || exit 1
+          test -f "_site/assets/css/main.css" || exit 1
+          test -f "_site/assets/js/search.js" || exit 1
+          test -f "_site/assets/js/theme.js" || exit 1
+          echo "✅ Critical files present"
+      
+      - name: Build summary
+        if: always()
+        run: |
+          echo "## Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Node.js**: $(node --version)" >> $GITHUB_STEP_SUMMARY
+          echo "- **npm**: $(npm --version)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Ruby**: $(ruby --version | cut -d' ' -f2)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Jekyll**: $(bundle exec jekyll --version)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f "assets/css/main.css" ]; then
+            CSS_SIZE=$(du -h assets/css/main.css | cut -f1)
+            echo "- **CSS Size**: $CSS_SIZE" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -d "_site" ]; then
+            SITE_SIZE=$(du -sh _site | cut -f1)
+            echo "- **Site Size**: $SITE_SIZE" >> $GITHUB_STEP_SUMMARY
+          fi

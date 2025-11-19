@@ -1,0 +1,20 @@
+current directory: /Users/adrw/new-jekyll-recipe-starter/.hermit/ruby/gem/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/adrw/Library/Caches/hermit/pkg/ruby@3.3/bin/ruby extconf.rb --with-opt-dir\=/opt/homebrew/opt/openssl
+creating Makefile
+
+current directory: /Users/adrw/new-jekyll-recipe-starter/.hermit/ruby/gem/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251118-57943-las2os sitelibdir\=./.gem.20251118-57943-las2os clean
+
+current directory: /Users/adrw/new-jekyll-recipe-starter/.hermit/ruby/gem/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251118-57943-las2os sitelibdir\=./.gem.20251118-57943-las2os
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: -multiply_defined is obsolete
+
+current directory: /Users/adrw/new-jekyll-recipe-starter/.hermit/ruby/gem/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251118-57943-las2os sitelibdir\=./.gem.20251118-57943-las2os install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20251118-57943-las2os
+
+current directory: /Users/adrw/new-jekyll-recipe-starter/.hermit/ruby/gem/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251118-57943-las2os sitelibdir\=./.gem.20251118-57943-las2os clean

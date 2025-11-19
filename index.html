@@ -1,0 +1,79 @@
+---
+layout: default
+title: Home
+---
+
+<!-- Hero Section -->
+<section class="text-center mb-16 py-12">
+  <h1 class="text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">Welcome to {{ site.title }}</h1>
+  <p class="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+    {{ site.description }}
+  </p>
+</section>
+
+<!-- Featured Recipe -->
+{% assign featured = site.recipes | where: "featured", true | first %}
+{% if featured %}
+<section class="mb-16 bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+  <div class="grid md:grid-cols-2 gap-0">
+    <img src="{{ featured.image | relative_url }}" 
+         alt="{{ featured.title }}" 
+         class="w-full h-full object-cover min-h-[300px]"
+         loading="eager">
+    <div class="p-8 flex flex-col justify-center">
+      <span class="inline-block px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 rounded-full text-sm font-medium mb-4 w-fit">Featured Recipe</span>
+      <h2 class="text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">{{ featured.title }}</h2>
+      <p class="text-gray-600 dark:text-gray-400 mb-6">{{ featured.description }}</p>
+      <div class="flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-400 mb-6">
+        {% if featured.total_time %}
+        <div class="flex items-center gap-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span>{{ featured.total_time }} min</span>
+        </div>
+        {% endif %}
+        {% if featured.difficulty %}
+        <div class="flex items-center">
+          <span class="px-2 py-1 rounded text-xs font-medium {% if featured.difficulty == 'Easy' %}bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200{% elsif featured.difficulty == 'Medium' %}bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200{% else %}bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200{% endif %}">{{ featured.difficulty }}</span>
+        </div>
+        {% endif %}
+      </div>
+      <a href="{{ featured.url | relative_url }}" class="inline-block px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors w-fit">View Recipe</a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Recent Recipes -->
+<section class="mb-16">
+  <div class="flex items-center justify-between mb-8">
+    <h2 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Recent Recipes</h2>
+    <a href="{{ '/recipes/' | relative_url }}" class="px-6 py-2 border-2 border-primary-600 text-primary-600 dark:text-primary-400 dark:border-primary-400 hover:bg-primary-600 hover:text-white dark:hover:bg-primary-600 dark:hover:text-white rounded-lg font-medium transition-colors">View All</a>
+  </div>
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% assign recent_recipes = site.recipes | sort: 'date' | reverse | limit: 6 %}
+    {% for recipe in recent_recipes %}
+      {% include recipe-card.html recipe=recipe %}
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Categories -->
+<section class="mb-16">
+  <h2 class="text-3xl font-bold mb-8 text-gray-900 dark:text-gray-100">Browse by Category</h2>
+  
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    {% assign all_categories = site.recipes | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+    {% for category in all_categories %}
+      {% if category != "" %}
+      {% assign category_recipes = site.recipes | where_exp: "recipe", "recipe.categories contains category" %}
+      <a href="{{ '/categories/' | relative_url }}#{{ category | slugify }}" class="block bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow p-6 text-center">
+        <h3 class="text-xl font-bold mb-2 text-gray-900 dark:text-gray-100">{{ category }}</h3>
+        <p class="text-gray-600 dark:text-gray-400">{{ category_recipes.size }} recipe{% if category_recipes.size != 1 %}s{% endif %}</p>
+      </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

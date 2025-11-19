@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  {% seo %}
+  
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  
+  <!-- Preload critical assets -->
+  <link rel="preload" href="{{ '/assets/js/theme.js' | relative_url }}" as="script">
+  
+  <!-- Favicon (add your own) -->
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+  
+  {% feed_meta %}
+</head>
+<body class="preload min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+  <div class="flex flex-col min-h-screen">
+    {% include header.html %}
+    
+    <main class="flex-grow">
+      {{ content }}
+    </main>
+    
+    {% include footer.html %}
+  </div>
+  
+  <!-- Scripts -->
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  
+  {% if page.layout == 'recipe' %}
+  <script src="{{ '/assets/js/recipe.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
+  {% endif %}
+  
+  {% if site.theme_settings.enable_search %}
+  <script src="https://unpkg.com/lunr/lunr.js"></script>
+  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+  {% endif %}
+</body>
+</html>

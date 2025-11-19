@@ -1,0 +1,90 @@
+---
+layout: recipe
+title: Coleslaw
+description: ''
+image: /assets/images/recipes/coleslaw/hero.jpg
+date: "2020-05-25T04:38:57.416Z"
+categories:
+  - "Other"
+tags: []
+difficulty: Hard
+prep_time: ''
+cook_time: ''
+total_time: ''
+servings: ''
+ingredients:
+  - "1/4 head red cabbage, shredded"
+  - "1 medium carrot, shredded"
+  - "1 green onion, sliced"
+  - "1-2 limes"
+  - "1-2 tbsp maple syrup"
+  - "1 tbsp chipotle hot sauce"
+  - "Lots of salt & pepper"
+  - "2 big carrots"
+  - "4 leaves of cabbage"
+  - "2 oz fresh lime juice"
+  - "1 oz Maple Syrup"
+  - "1 oz Apple cider vinegar"
+instructions:
+  - "Thinly slice carrots and cabbage into sticks and add to a large mixing bowl"
+  - "Mix lime juice, maple syrup, and apple cider vinegar in a small bowl"
+  - "Add dressing to large bowl and mix with carrots and cabbage until all are coated"
+  - "Let sit overnight refrigerated"
+  - "Serve with your favourite Southern fried chicken sandwich or on top of a Vietnamese pork noodle bowl"
+gallery:
+  - image: /assets/images/recipes/coleslaw/img_8363-scaled.jpg
+    caption: "Step 1"
+---
+
+# Beta
+
+# Alpha
+
+---
+
+## Original Source
+
+**Original file:** `output/post/2020-05-25-coleslaw.md`
+
+```markdown
+---
+title: "Coleslaw"
+date: "2020-05-25"
+categories: 
+  - "recipe"
+tags: 
+  - "salad"
+coverImage: "img_8363-scaled.jpg"
+---
+
+## Beta
+
+### Ingredients
+
+- 1/4 head red cabbage, shredded
+- 1 medium carrot, shredded
+- 1 green onion, sliced
+- 1-2 limes
+- 1-2 tbsp maple syrup
+- 1 tbsp chipotle hot sauce
+- Lots of salt & pepper
+
+## Alpha
+
+### Ingredients
+
+- 2 big carrots
+- 4 leaves of cabbage
+- 2 oz fresh lime juice
+- 1 oz Maple Syrup
+- 1 oz Apple cider vinegar
+
+### Steps
+
+- Thinly slice carrots and cabbage into sticks and add to a large mixing bowl
+- Mix lime juice, maple syrup, and apple cider vinegar in a small bowl
+- Add dressing to large bowl and mix with carrots and cabbage until all are coated
+- Let sit overnight refrigerated
+- Serve with your favourite Southern fried chicken sandwich or on top of a Vietnamese pork noodle bowl
+
+```

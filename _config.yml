@@ -1,0 +1,65 @@
+# Site settings
+title: Kitchen Alexander
+description: Recipes from the Alexander's kitchen.
+url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site
+
+# Build settings
+markdown: kramdown
+permalink: /recipes/:title/
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "recipe"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - bin/
+  - .hermit/
+  - docs/
+  - README.md
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - DEPLOYMENT.md
+  - QUICK_START.md
+  - CLEANUP_SUMMARY.md
+  - CI_CD_SUMMARY.md
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - src/
+
+# Theme customization
+theme_settings:
+  primary_color: "#e63946"
+  secondary_color: "#457b9d"
+  enable_search: true
+  enable_dark_mode: true
+  show_recipe_ratings: true
+  show_nutrition_info: true
+  social: {}

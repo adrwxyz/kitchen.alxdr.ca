@@ -1,0 +1,1225 @@
+{
+  "_id" : "glob-parent",
+  "_rev" : "32-0f8ad17d42da12bd6c301362fa1b2e96",
+  "name" : "glob-parent",
+  "description" : "Extract the non-magic parent path from a glob string.",
+  "dist-tags" : {
+    "latest" : "6.0.2"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "glob-parent",
+      "description" : "Strips glob magic from a string to provide the parent path",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Elan Shanker"
+      },
+      "homepage" : "https://github.com/es128/glob-parent",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es128/glob-parent.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es128/glob-parent/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.3.5",
+        "mocha" : "^2.1.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "directory", "base" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls"
+      },
+      "_id" : "glob-parent@2.0.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-2.0.0.tgz",
+        "shasum" : "81383d72db054fcccf5336daa902f182f6edbb28",
+        "integrity" : "sha512-JDYOvfxio/t42HKdxkAYaCiBN7oYiuxykOxKxdaUW5Qn0zaYN3gRQWolrwdnf0shM9/EP0ebuuTmyoXNr1cC5w==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEQCIF7gxwiqjhC5gOVvwVoR20/DAWu77KAGttmo14IPacYQAiAmNv/CN69+DnzRpvjV9vlPZEFIxAX1+gld/B0TNwkr2g=="
+        } ]
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "gitHead" : "a956910c7ccb5eafd1b3fe900ceb6335cc5b6d3d",
+      "_shasum" : "81383d72db054fcccf5336daa902f182f6edbb28",
+      "_nodeVersion" : "3.0.0"
+    },
+    "4.0.0" : {
+      "name" : "glob-parent",
+      "description" : "Extract the non-magic parent path from a glob string.",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Gulp Team",
+        "email" : "team@gulpjs.com",
+        "url" : "https://gulpjs.com/"
+      },
+      "homepage" : "https://github.com/gulpjs/glob-parent#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gulpjs/glob-parent.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/gulpjs/glob-parent/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.10"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^4.0.1",
+        "path-dirname" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "coveralls" : "github:phated/node-coveralls#2.x",
+        "eslint" : "^2.13.1",
+        "eslint-config-gulp" : "^3.0.1",
+        "expect" : "^1.20.2",
+        "mocha" : "^3.5.3",
+        "nyc" : "^10.3.2"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "elan.shanker+npm@gmail.com",
+        "name" : "es128"
+      }, {
+        "email" : "blaine.bublitz@gmail.com",
+        "name" : "phated"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "test" : "nyc mocha --async-only",
+        "azure-pipelines" : "nyc mocha --async-only --reporter xunit -O output=test.xunit",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_id" : "glob-parent@4.0.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-4.0.0.tgz",
+        "shasum" : "5ba0cc2916ffdcfb86eb471560dbdc5739a358d8",
+        "integrity" : "sha512-0xDQj8byAab39JmsVBzMsgieBkY2n1OgUs6DZ/FFaP0Y36XwdDrFMlgK6yAWuafTkXktvyc6/S3D7jGo8R6EsQ==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEUCIQCiW7VKbHtKAIL81HY8Uj3tmYCwURJrUy6SaKRn9PJdSQIgPtys+9d09wcH9QjLzL93M6efKtjLVTCHK+uGaySdZW8="
+        } ]
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_hasShrinkwrap" : false,
+      "gitHead" : "762a6c27bed24773d8b9934e58a9ee836aa81ebc",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/glob-parent_4.0.0_1553730129908_0.12359635418449222"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "1.3.0" : {
+      "name" : "glob-parent",
+      "description" : "Strips glob magic from a string to provide the parent path",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Elan Shanker"
+      },
+      "homepage" : "https://github.com/es128/glob-parent",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es128/glob-parent.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es128/glob-parent/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.3.5",
+        "mocha" : "^2.1.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "directory", "base" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls"
+      },
+      "_id" : "glob-parent@1.3.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-1.3.0.tgz",
+        "shasum" : "971edd816ed5db58705b58079647a64d0aef7968",
+        "integrity" : "sha512-hTmuuCjsIMiB85432X8VgmlgWVn99Np49NOWsRyfPkvsFBmsHOoCkOoFGNrMgauLMDD06Mzw+uVTw+oWNCAzgQ==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEUCIALJkFi2EfrX1q7DIJKiK0FzmLwMyAtMO4Uv2befaIgPAiEAmjvdajesmHgcEAPtuL/+DVoWy/qTbLZQVec1sHH6ReY="
+        } ]
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "gitHead" : "4fc6444ff8f64c18d19467fc89c0fa342bc01c42",
+      "_shasum" : "971edd816ed5db58705b58079647a64d0aef7968",
+      "_nodeVersion" : "3.0.0"
+    },
+    "6.0.2" : {
+      "name" : "glob-parent",
+      "description" : "Extract the non-magic parent path from a glob string.",
+      "version" : "6.0.2",
+      "author" : {
+        "name" : "Gulp Team",
+        "email" : "team@gulpjs.com",
+        "url" : "https://gulpjs.com/"
+      },
+      "homepage" : "https://github.com/gulpjs/glob-parent#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gulpjs/glob-parent.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/gulpjs/glob-parent/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "eslint" : "^7.0.0",
+        "eslint-config-gulp" : "^5.0.0",
+        "expect" : "^26.0.1",
+        "mocha" : "^7.1.2",
+        "nyc" : "^15.0.1"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      }, {
+        "name" : "contra",
+        "email" : "yo@contra.io"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "test" : "nyc mocha --async-only"
+      },
+      "_id" : "glob-parent@6.0.2",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-6.0.2.tgz",
+        "shasum" : "6d237d99083950c79290f24c7642a3de9a28f9e3",
+        "integrity" : "sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEYCIQDVmN4H8BRJhnPIWNSJoAqKlmzhvMvtQZGlK4hYm97w4gIhAKkydC86Nbd7/huquxaaOv7B6PDCMlDBhpZ4ZFh6C10u"
+        } ]
+      },
+      "_npmVersion" : "7.24.1",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_hasShrinkwrap" : false,
+      "gitHead" : "26ce5ecec10c687cffb9891c108fb2d2800b9140",
+      "nyc" : {
+        "reporter" : [ "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/glob-parent_6.0.2_1632953664327_0.7899538086664579"
+      },
+      "prettier" : {
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "3.0.0" : {
+      "name" : "glob-parent",
+      "description" : "Strips glob magic from a string to provide the parent path",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Elan Shanker"
+      },
+      "homepage" : "https://github.com/es128/glob-parent",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es128/glob-parent.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es128/glob-parent/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.3.5",
+        "mocha" : "^2.1.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "directory", "base" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls"
+      },
+      "_id" : "glob-parent@3.0.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-3.0.0.tgz",
+        "shasum" : "c7bdeb5260732196c740de9274c08814056014bb",
+        "integrity" : "sha512-fpoA6LedobT+fXIQZYkGfw469/jWHRqzKZMGXLINwODbsKcGBwtLZ7SYpu2GfK09+nz9qpNzVPUrDIV+XVr+dQ==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEQCIBMWMi/3TIYw0ADCV9dQEtGeHDzuDgyqHgrJcV+v/LynAiBg6THCtjcHMVzNEkpgvGkc9L+AXZD48hUb1aVILlMf4Q=="
+        } ]
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.6.0",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "gitHead" : "fd9c64f7696717cb3d440ca9eef5060f64d61c57",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/glob-parent-3.0.0.tgz_1473189232576_0.26026900205761194"
+      },
+      "_shasum" : "c7bdeb5260732196c740de9274c08814056014bb",
+      "_nodeVersion" : "5.6.0"
+    },
+    "6.0.0" : {
+      "name" : "glob-parent",
+      "description" : "Extract the non-magic parent path from a glob string.",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Gulp Team",
+        "email" : "team@gulpjs.com",
+        "url" : "https://gulpjs.com/"
+      },
+      "homepage" : "https://github.com/gulpjs/glob-parent#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gulpjs/glob-parent.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/gulpjs/glob-parent/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^7.0.0",
+        "eslint-config-gulp" : "^5.0.0",
+        "expect" : "^26.0.1",
+        "mocha" : "^7.1.2",
+        "nyc" : "^15.0.1"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      }, {
+        "name" : "contra",
+        "email" : "yo@contra.io"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "test" : "nyc mocha --async-only"
+      },
+      "_id" : "glob-parent@6.0.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-6.0.0.tgz",
+        "shasum" : "f851b59b388e788f3a44d63fab50382b2859c33c",
+        "integrity" : "sha512-Hdd4287VEJcZXUwv1l8a+vXC1GjOQqXe+VS30w/ypihpcnu9M1n3xeYeJu5CBpeEQj2nAab2xxz28GuA3vp4Ww==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEYCIQDl95LO/tO54RxKz4Tqr8NPveJV6IM6oalrnvClXxXhHQIhAJ6i1V0QoLoZShBr5yie6xJlLIPV6IVieQlWyOd0+cmJ"
+        } ]
+      },
+      "_npmVersion" : "6.14.10",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_hasShrinkwrap" : false,
+      "gitHead" : "3ad9597edfff30f8deb9f35e9f2554a618bd8656",
+      "nyc" : {
+        "reporter" : [ "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/glob-parent_6.0.0_1620072914014_0.2149999211656708"
+      },
+      "prettier" : {
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "14.15.4"
+    },
+    "6.0.1" : {
+      "name" : "glob-parent",
+      "description" : "Extract the non-magic parent path from a glob string.",
+      "version" : "6.0.1",
+      "author" : {
+        "name" : "Gulp Team",
+        "email" : "team@gulpjs.com",
+        "url" : "https://gulpjs.com/"
+      },
+      "homepage" : "https://github.com/gulpjs/glob-parent#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gulpjs/glob-parent.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/gulpjs/glob-parent/issues"
+      },
+      "engines" : {
+        "node" : ">=10.13.0"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^7.0.0",
+        "eslint-config-gulp" : "^5.0.0",
+        "expect" : "^26.0.1",
+        "mocha" : "^7.1.2",
+        "nyc" : "^15.0.1"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      }, {
+        "name" : "contra",
+        "email" : "yo@contra.io"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "test" : "nyc mocha --async-only"
+      },
+      "_id" : "glob-parent@6.0.1",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-6.0.1.tgz",
+        "shasum" : "42054f685eb6a44e7a7d189a96efa40a54971aa7",
+        "integrity" : "sha512-kEVjS71mQazDBHKcsq4E9u/vUzaLcw1A8EtUeydawvIWQCJM0qQ08G1H7/XTjFUulla6XQiDOG6MXSaG0HDKog==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEUCIQCSTkQm6QuNGkvqGU0Y4L1/mG6m81f34H6hweyOXPF9GwIgINc7nxxjNlDPlIURe/c0srUrHDLb20Me1iACBgV/nAw="
+        } ]
+      },
+      "_npmVersion" : "6.14.10",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_hasShrinkwrap" : false,
+      "gitHead" : "e1a15e1ce59a7b6c319878c03d291831461263b1",
+      "nyc" : {
+        "reporter" : [ "lcov", "text-summary" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/glob-parent_6.0.1_1626760146813_0.7155364154382644"
+      },
+      "prettier" : {
+        "singleQuote" : true
+      },
+      "_nodeVersion" : "14.15.4"
+    },
+    "5.0.0" : {
+      "name" : "glob-parent",
+      "description" : "Extract the non-magic parent path from a glob string.",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Gulp Team",
+        "email" : "team@gulpjs.com",
+        "url" : "https://gulpjs.com/"
+      },
+      "homepage" : "https://github.com/gulpjs/glob-parent#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gulpjs/glob-parent.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/gulpjs/glob-parent/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "coveralls" : "github:phated/node-coveralls#2.x",
+        "eslint" : "^2.13.1",
+        "eslint-config-gulp" : "^3.0.1",
+        "expect" : "^1.20.2",
+        "mocha" : "^6.0.2",
+        "nyc" : "^13.3.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "yo@contra.io",
+        "name" : "contra"
+      }, {
+        "email" : "brian.woodward@gmail.com",
+        "name" : "doowb"
+      }, {
+        "email" : "elan.shanker+npm@gmail.com",
+        "name" : "es128"
+      }, {
+        "email" : "github@sellside.com",
+        "name" : "jonschlinkert"
+      }, {
+        "email" : "blaine.bublitz@gmail.com",
+        "name" : "phated"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "test" : "nyc mocha --async-only",
+        "azure-pipelines" : "nyc mocha --async-only --reporter xunit -O output=test.xunit",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_id" : "glob-parent@5.0.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-5.0.0.tgz",
+        "shasum" : "1dc99f0f39b006d3e92c2c284068382f0c20e954",
+        "integrity" : "sha512-Z2RwiujPRGluePM6j699ktJYxmPpJKCfpGA13jz2hmFZC7gKetzrWvg5KN3+OsIFmydGyZ1AVwERCq1w/ZZwRg==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEQCIGTneZY0b/VFrkyFgmcyn0Agcpy6Dwdr0BWvhBiv5o8BAiB1QwFpzWkdAEdFAAY4NAmcuYQApTSlb5UMnvS+LYLGGg=="
+        } ]
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_hasShrinkwrap" : false,
+      "gitHead" : "d4975484222bb811c02dc2dc268ea48e2fb7ae6d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/glob-parent_5.0.0_1553899123737_0.8913332550953639"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "5.1.0" : {
+      "name" : "glob-parent",
+      "description" : "Extract the non-magic parent path from a glob string.",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Gulp Team",
+        "email" : "team@gulpjs.com",
+        "url" : "https://gulpjs.com/"
+      },
+      "homepage" : "https://github.com/gulpjs/glob-parent#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gulpjs/glob-parent.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/gulpjs/glob-parent/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "coveralls" : "github:phated/node-coveralls#2.x",
+        "eslint" : "^2.13.1",
+        "eslint-config-gulp" : "^3.0.1",
+        "expect" : "^1.20.2",
+        "mocha" : "^6.0.2",
+        "nyc" : "^13.3.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "yo@contra.io",
+        "name" : "contra"
+      }, {
+        "email" : "brian.woodward@gmail.com",
+        "name" : "doowb"
+      }, {
+        "email" : "elan.shanker+npm@gmail.com",
+        "name" : "es128"
+      }, {
+        "email" : "github@sellside.com",
+        "name" : "jonschlinkert"
+      }, {
+        "email" : "blaine.bublitz@gmail.com",
+        "name" : "phated"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "test" : "nyc mocha --async-only",
+        "azure-pipelines" : "nyc mocha --async-only --reporter xunit -O output=test.xunit",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_id" : "glob-parent@5.1.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-5.1.0.tgz",
+        "shasum" : "5f4c1d1e748d30cd73ad2944b3577a81b081e8c2",
+        "integrity" : "sha512-qjtRgnIVmOfnKUE3NJAQEdk+lKrxfw8t5ke7SXtfMTHcjsBfOfWXCQfdb30zfDoZQ2IRSIiidmjtbHZPZ++Ihw==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEUCIQDL02WyaZwdIxjuyWvSw8QHLyX02/mEpLnzj0VF6lQBpAIgakJC8t9GbnQ9oPDOvbM/+8EinvbG4urZ24o9ygKodas="
+        } ]
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_hasShrinkwrap" : false,
+      "gitHead" : "2e5386e14f56f0957985fb2b607a45158c9c7a4d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/glob-parent_5.1.0_1569107824875_0.8129032170320736"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "5.1.1" : {
+      "name" : "glob-parent",
+      "description" : "Extract the non-magic parent path from a glob string.",
+      "version" : "5.1.1",
+      "author" : {
+        "name" : "Gulp Team",
+        "email" : "team@gulpjs.com",
+        "url" : "https://gulpjs.com/"
+      },
+      "homepage" : "https://github.com/gulpjs/glob-parent#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gulpjs/glob-parent.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/gulpjs/glob-parent/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.11",
+        "eslint" : "^2.13.1",
+        "eslint-config-gulp" : "^3.0.1",
+        "expect" : "^1.20.2",
+        "mocha" : "^6.0.2",
+        "nyc" : "^13.3.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "email" : "yo@contra.io",
+        "name" : "contra"
+      }, {
+        "email" : "brian.woodward@gmail.com",
+        "name" : "doowb"
+      }, {
+        "email" : "elan.shanker+npm@gmail.com",
+        "name" : "es128"
+      }, {
+        "email" : "github@sellside.com",
+        "name" : "jonschlinkert"
+      }, {
+        "email" : "blaine.bublitz@gmail.com",
+        "name" : "phated"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "test" : "nyc mocha --async-only",
+        "azure-pipelines" : "nyc mocha --async-only --reporter xunit -O output=test.xunit",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_id" : "glob-parent@5.1.1",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-5.1.1.tgz",
+        "shasum" : "b6c1ef417c4e5663ea498f1c45afac6916bbc229",
+        "integrity" : "sha512-FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEUCIQDtypzt2TTHqdncgcNzjAbxaUQwpIOnuNl3xEplLi524gIgMIq9Ygl23ZhzDFHENnOwHjCYnCaDdgmq2HwZ9/o7nZg="
+        } ]
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_hasShrinkwrap" : false,
+      "gitHead" : "6ce8d11f2f1ed8e80a9526b1dc8cf3aa71f43474",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/glob-parent_5.1.1_1584832608680_0.3786335780744279"
+      },
+      "_nodeVersion" : "10.15.1"
+    },
+    "3.0.1" : {
+      "name" : "glob-parent",
+      "description" : "Strips glob magic from a string to provide the parent directory path",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      },
+      "homepage" : "https://github.com/es128/glob-parent",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es128/glob-parent.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es128/glob-parent/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^3.1.0",
+        "path-dirname" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.3.5",
+        "mocha" : "^2.1.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "istanbul test node_modules/mocha/bin/_mocha",
+        "ci-test" : "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls"
+      },
+      "_id" : "glob-parent@3.0.1",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-3.0.1.tgz",
+        "shasum" : "60021327cc963ddc3b5f085764f500479ecd82ff",
+        "integrity" : "sha512-4THEFqMGtz6S1LjsZTCQqZvlgYS6j8eMaJ+XsWh3Tvjw8aYb6od4b+tPdXL1CRJXe41jvSI0Gj+jrWGu2Jp3JQ==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEUCIQDG2OlwHwoWgJIvSlYSwA1cfAoxtHyYy8gbjz8xUcr0vAIgGB0aiTncw46XMDnBBh+uH+Vi32FGAv5/rkhDG5zy5+c="
+        } ]
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.6",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "gitHead" : "a0eeab41a4e5f56d1bff7f2966260eb541816187",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/glob-parent-3.0.1.tgz_1476818425901_0.16260230354964733"
+      },
+      "_shasum" : "60021327cc963ddc3b5f085764f500479ecd82ff",
+      "_nodeVersion" : "5.12.0"
+    },
+    "3.1.0" : {
+      "name" : "glob-parent",
+      "description" : "Strips glob magic from a string to provide the parent directory path",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      },
+      "homepage" : "https://github.com/es128/glob-parent",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es128/glob-parent.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es128/glob-parent/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^3.1.0",
+        "path-dirname" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.3.5",
+        "mocha" : "^2.1.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+      "license" : "ISC",
+      "files" : [ "index.js" ],
+      "maintainers" : [ {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "istanbul test node_modules/mocha/bin/_mocha",
+        "ci-test" : "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls"
+      },
+      "_id" : "glob-parent@3.1.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-3.1.0.tgz",
+        "shasum" : "9e6af6299d8d3bd2bd40430832bd113df906c5ae",
+        "integrity" : "sha512-E8Ak/2+dZY6fnzlR7+ueWvhsH1SjHr4jjss4YS/h4py44jY9MhK/VFdaZJAWDz6BbL21KeteKxFSFpq8OS5gVA==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEUCIQCEmrW5CzOakLN4Q/EKP4R24UU28jeohNX1sUXqo0hr2AIgN6eKjXzvyo0h2o4V2h9Sn0M6wjRNs0Ov0rO6F0M66vI="
+        } ]
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.3",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "gitHead" : "880243f7758be2967318280ad3e599c95e832a76",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/glob-parent-3.1.0.tgz_1481730526821_0.4327609031461179"
+      },
+      "_shasum" : "9e6af6299d8d3bd2bd40430832bd113df906c5ae",
+      "_nodeVersion" : "6.7.0"
+    },
+    "5.1.2" : {
+      "name" : "glob-parent",
+      "description" : "Extract the non-magic parent path from a glob string.",
+      "version" : "5.1.2",
+      "author" : {
+        "name" : "Gulp Team",
+        "email" : "team@gulpjs.com",
+        "url" : "https://gulpjs.com/"
+      },
+      "homepage" : "https://github.com/gulpjs/glob-parent#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/gulpjs/glob-parent.git"
+      },
+      "contributors" : [ {
+        "name" : "Elan Shanker",
+        "url" : "https://github.com/es128"
+      }, {
+        "name" : "Blaine Bublitz",
+        "email" : "blaine.bublitz@gmail.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/gulpjs/glob-parent/issues"
+      },
+      "engines" : {
+        "node" : ">= 6"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.11",
+        "eslint" : "^2.13.1",
+        "eslint-config-gulp" : "^3.0.1",
+        "expect" : "^1.20.2",
+        "mocha" : "^6.0.2",
+        "nyc" : "^13.3.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      }, {
+        "name" : "contra",
+        "email" : "yo@contra.io"
+      }, {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      }, {
+        "name" : "jonschlinkert",
+        "email" : "github@sellside.com"
+      }, {
+        "name" : "doowb",
+        "email" : "brian.woodward@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "test" : "nyc mocha --async-only",
+        "azure-pipelines" : "nyc mocha --async-only --reporter xunit -O output=test.xunit",
+        "coveralls" : "nyc report --reporter=text-lcov | coveralls"
+      },
+      "_id" : "glob-parent@5.1.2",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-5.1.2.tgz",
+        "shasum" : "869832c58034fe68a4093c17dc15e8340d8401c4",
+        "integrity" : "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEYCIQCsl80XgU7vMQRpLYZCdgFz8BeP0oAOyD6UplLbAY7dCgIhAJeVFAUWvwtFj6Jornu2GyVycFXA9ayCxIm9rCmwIE7m"
+        } ]
+      },
+      "_npmVersion" : "6.14.10",
+      "_npmUser" : {
+        "name" : "phated",
+        "email" : "blaine.bublitz@gmail.com"
+      },
+      "_hasShrinkwrap" : false,
+      "gitHead" : "eb2c439de448c779b450472e591a2bc9e37e9668",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/glob-parent_5.1.2_1615065704336_0.23469589484108866"
+      },
+      "_nodeVersion" : "14.15.4"
+    },
+    "1.0.0" : {
+      "name" : "glob-parent",
+      "description" : "Strips glob magic from a string to provide the parent path",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Elan Shanker"
+      },
+      "homepage" : "https://github.com/es128/glob-parent",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/es128/glob-parent"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es128/glob-parent/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^0.3.0"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.3.5",
+        "mocha" : "^2.1.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "directory" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls"
+      },
+      "_id" : "glob-parent@1.0.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-1.0.0.tgz",
+        "shasum" : "3344e0e0534fbdd478a7c1f1480f2d8851650a21",
+        "integrity" : "sha512-ljSwpCJxCwgPGgaokKbRzDcHeyHevuBWXNRHEcP8m6bzzOnCXL3/sEPGynrOCkSvDq8ZdZgEvnQicJOyvf5Cfg==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEUCIGmYVt2unQzYbGadn2Bq9L+gkcBL8hZNYva3KfDfejspAiEA6ldBWlzTz5zrF6tQ1WBlwUkJyrvVX1KEYR6wHgtAZGw="
+        } ]
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "gitHead" : "b08cbec38731960b35446da9d819824ba35e0c49",
+      "_shasum" : "3344e0e0534fbdd478a7c1f1480f2d8851650a21"
+    },
+    "1.1.0" : {
+      "name" : "glob-parent",
+      "description" : "Strips glob magic from a string to provide the parent path",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Elan Shanker"
+      },
+      "homepage" : "https://github.com/es128/glob-parent",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/es128/glob-parent"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es128/glob-parent/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.3.5",
+        "mocha" : "^2.1.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "directory", "base" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls"
+      },
+      "_id" : "glob-parent@1.1.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-1.1.0.tgz",
+        "shasum" : "63e5780b13f84c7e7e1e8f4d5a3d96c7cce1f9fc",
+        "integrity" : "sha512-we0TEiMzEmt8RDSr69kBwTGUtYQOB/HR7tbn5zpH7g20sJsbnkHa7VNI+N1pZszhbMsVN0Q9onZd5qQ4WkD2SA==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEQCIGzm1XfH7P4LrahfqhR/h/RNzli5x1kVp+h/aWmZ2oHvAiBglx/Mf07Jf7/WfCbppbwB95v1p6sDC1pgKwRzoK+7bQ=="
+        } ]
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "gitHead" : "5e33355528b4a2855861e8269b8071f897baea82",
+      "_shasum" : "63e5780b13f84c7e7e1e8f4d5a3d96c7cce1f9fc"
+    },
+    "1.2.0" : {
+      "name" : "glob-parent",
+      "description" : "Strips glob magic from a string to provide the parent path",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Elan Shanker"
+      },
+      "homepage" : "https://github.com/es128/glob-parent",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/es128/glob-parent"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es128/glob-parent/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "is-glob" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.2",
+        "istanbul" : "^0.3.5",
+        "mocha" : "^2.1.0"
+      },
+      "keywords" : [ "glob", "parent", "strip", "path", "directory", "base" ],
+      "license" : "ISC",
+      "maintainers" : [ {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls"
+      },
+      "_id" : "glob-parent@1.2.0",
+      "dist" : {
+        "tarball" : "https://global.block-artifacts.com/artifactory/api/npm/square-npm/glob-parent/-/glob-parent-1.2.0.tgz",
+        "shasum" : "8deffabf6317db5b0f775f553fac731ecf41ded5",
+        "integrity" : "sha512-SY3bNMrDCLZrpF0KNjDaWfy8Gwr22Y4xhZN+KNz7y+CySV+FYUJ4SK78aW7F7Fzp01MQ9ot90b05CPe3xcCLPw==",
+        "signatures" : [ {
+          "keyid" : "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+          "sig" : "MEQCIDa4Q/Bhpmu5jLnkM2Fup1VZRwofmLuZVzwtx+BTNJwWAiBZ7ldRldfnY4zGrc+ukT7Ezgmr2FWbOfhp+i7t268zIw=="
+        } ]
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "es128",
+        "email" : "elan.shanker+npm@gmail.com"
+      },
+      "gitHead" : "9c31e43731d67f16ec0d858cb266319a843c546e",
+      "_shasum" : "8deffabf6317db5b0f775f553fac731ecf41ded5"
+    }
+  },
+  "readme" : "<p align=\"center\">\n  <a href=\"https://gulpjs.com\">\n    <img height=\"257\" width=\"114\" src=\"https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png\">\n  </a>\n</p>\n\n# glob-parent\n\n[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][ci-image]][ci-url] [![Coveralls Status][coveralls-image]][coveralls-url]\n\nExtract the non-magic parent path from a glob string.\n\n## Usage\n\n```js\nvar globParent = require('glob-parent');\n\nglobParent('path/to/*.js'); // 'path/to'\nglobParent('/root/path/to/*.js'); // '/root/path/to'\nglobParent('/*.js'); // '/'\nglobParent('*.js'); // '.'\nglobParent('**/*.js'); // '.'\nglobParent('path/{to,from}'); // 'path'\nglobParent('path/!(to|from)'); // 'path'\nglobParent('path/?(to|from)'); // 'path'\nglobParent('path/+(to|from)'); // 'path'\nglobParent('path/*(to|from)'); // 'path'\nglobParent('path/@(to|from)'); // 'path'\nglobParent('path/**/*'); // 'path'\n\n// if provided a non-glob path, returns the nearest dir\nglobParent('path/foo/bar.js'); // 'path/foo'\nglobParent('path/foo/'); // 'path/foo'\nglobParent('path/foo'); // 'path' (see issue #3 for details)\n```\n\n## API\n\n### `globParent(maybeGlobString, [options])`\n\nTakes a string and returns the part of the path before the glob begins. Be aware of Escaping rules and Limitations below.\n\n#### options\n\n```js\n{\n  // Disables the automatic conversion of slashes for Windows\n  flipBackslashes: true;\n}\n```\n\n## Escaping\n\nThe following characters have special significance in glob patterns and must be escaped if you want them to be treated as regular path characters:\n\n- `?` (question mark) unless used as a path segment alone\n- `*` (asterisk)\n- `|` (pipe)\n- `(` (opening parenthesis)\n- `)` (closing parenthesis)\n- `{` (opening curly brace)\n- `}` (closing curly brace)\n- `[` (opening bracket)\n- `]` (closing bracket)\n\n**Example**\n\n```js\nglobParent('foo/[bar]/'); // 'foo'\nglobParent('foo/\\\\[bar]/'); // 'foo/[bar]'\n```\n\n## Limitations\n\n### Braces & Brackets\n\nThis library attempts a quick and imperfect method of determining which path\nparts have glob magic without fully parsing/lexing the pattern. There are some\nadvanced use cases that can trip it up, such as nested braces where the outer\npair is escaped and the inner one contains a path separator. If you find\nyourself in the unlikely circumstance of being affected by this or need to\nensure higher-fidelity glob handling in your library, it is recommended that you\npre-process your input with [expand-braces] and/or [expand-brackets].\n\n### Windows\n\nBackslashes are not valid path separators for globs. If a path with backslashes\nis provided anyway, for simple cases, glob-parent will replace the path\nseparator for you and return the non-glob parent path (now with\nforward-slashes, which are still valid as Windows path separators).\n\nThis cannot be used in conjunction with escape characters.\n\n```js\n// BAD\nglobParent('C:\\\\Program Files \\\\(x86\\\\)\\\\*.ext'); // 'C:/Program Files /(x86/)'\n\n// GOOD\nglobParent('C:/Program Files\\\\(x86\\\\)/*.ext'); // 'C:/Program Files (x86)'\n```\n\nIf you are using escape characters for a pattern without path parts (i.e.\nrelative to `cwd`), prefix with `./` to avoid confusing glob-parent.\n\n```js\n// BAD\nglobParent('foo \\\\[bar]'); // 'foo '\nglobParent('foo \\\\[bar]*'); // 'foo '\n\n// GOOD\nglobParent('./foo \\\\[bar]'); // 'foo [bar]'\nglobParent('./foo \\\\[bar]*'); // '.'\n```\n\n## License\n\nISC\n\n<!-- prettier-ignore-start -->\n[downloads-image]: https://img.shields.io/npm/dm/glob-parent.svg?style=flat-square\n[npm-url]: https://www.npmjs.com/package/glob-parent\n[npm-image]: https://img.shields.io/npm/v/glob-parent.svg?style=flat-square\n\n[ci-url]: https://github.com/gulpjs/glob-parent/actions?query=workflow:dev\n[ci-image]: https://img.shields.io/github/workflow/status/gulpjs/glob-parent/dev?style=flat-square\n\n[coveralls-url]: https://coveralls.io/r/gulpjs/glob-parent\n[coveralls-image]: https://img.shields.io/coveralls/gulpjs/glob-parent/master.svg?style=flat-square\n<!-- prettier-ignore-end -->\n\n<!-- prettier-ignore-start -->\n[expand-braces]: https://github.com/jonschlinkert/expand-braces\n[expand-brackets]: https://github.com/jonschlinkert/expand-brackets\n<!-- prettier-ignore-end -->\n",
+  "maintainers" : [ {
+    "email" : "yo@contra.io",
+    "name" : "yocontra"
+  }, {
+    "email" : "blaine.bublitz@gmail.com",
+    "name" : "phated"
+  }, {
+    "email" : "elan.shanker+npm@gmail.com",
+    "name" : "es128"
+  }, {
+    "email" : "brian.woodward@gmail.com",
+    "name" : "doowb"
+  } ],
+  "author" : {
+    "name" : "Gulp Team",
+    "email" : "team@gulpjs.com",
+    "url" : "https://gulpjs.com/"
+  },
+  "time" : {
+    "2.0.0" : "2015-09-18T14:59:10.292Z",
+    "created" : "2015-01-12T20:32:54.422Z",
+    "4.0.0" : "2019-03-27T23:42:10.038Z",
+    "1.3.0" : "2015-09-18T14:49:40.290Z",
+    "6.0.2" : "2021-09-29T22:14:24.467Z",
+    "3.0.0" : "2016-09-06T19:13:54.031Z",
+    "6.0.0" : "2021-05-03T20:15:14.160Z",
+    "6.0.1" : "2021-07-20T05:49:06.969Z",
+    "modified" : "2023-06-22T16:32:08.502Z",
+    "5.0.0" : "2019-03-29T22:38:43.850Z",
+    "5.1.0" : "2019-09-21T23:17:05.017Z",
+    "5.1.1" : "2020-03-21T23:16:48.765Z",
+    "3.0.1" : "2016-10-18T19:20:27.458Z",
+    "3.1.0" : "2016-12-14T15:48:47.422Z",
+    "5.1.2" : "2021-03-06T21:21:44.487Z",
+    "1.0.0" : "2015-01-12T20:32:54.422Z",
+    "1.1.0" : "2015-03-04T15:11:54.539Z",
+    "1.2.0" : "2015-03-04T16:13:57.996Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/gulpjs/glob-parent.git"
+  },
+  "users" : {
+    "flumpus-dev" : true,
+    "youstrive" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/gulpjs/glob-parent#readme",
+  "keywords" : [ "glob", "parent", "strip", "path", "dirname", "directory", "base", "wildcard" ],
+  "contributors" : [ {
+    "name" : "Elan Shanker",
+    "url" : "https://github.com/es128"
+  }, {
+    "name" : "Blaine Bublitz",
+    "email" : "blaine.bublitz@gmail.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/gulpjs/glob-parent/issues"
+  },
+  "license" : "ISC"
+}
