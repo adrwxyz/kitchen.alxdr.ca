@@ -5,10 +5,12 @@
   
   // Initialize search
   async function initSearch() {
-    const searchInput = document.querySelector('#search-input');
-    const searchResults = document.querySelector('#search-results');
+    const searchInputDesktop = document.querySelector('#search-input');
+    const searchResultsDesktop = document.querySelector('#search-results');
+    const searchInputMobile = document.querySelector('#search-input-mobile');
+    const searchResultsMobile = document.querySelector('#search-results-mobile');
     
-    if (!searchInput) return;
+    if (!searchInputDesktop && !searchInputMobile) return;
     
     try {
       // Load search data
@@ -31,44 +33,56 @@
         });
       });
       
-      // Handle search input
-      let searchTimeout;
-      searchInput.addEventListener('input', (e) => {
-        clearTimeout(searchTimeout);
-        const query = e.target.value.trim();
-        
-        if (query.length < 2) {
-          hideResults();
-          return;
-        }
-        
-        searchTimeout = setTimeout(() => {
-          performSearch(query);
-        }, 300);
-      });
+      // Setup desktop search
+      if (searchInputDesktop && searchResultsDesktop) {
+        setupSearchInput(searchInputDesktop, searchResultsDesktop);
+      }
       
-      // Close results when clicking outside
-      document.addEventListener('click', (e) => {
-        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
-          hideResults();
-        }
-      });
-      
-      // Close results on escape
-      searchInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-          hideResults();
-          searchInput.blur();
-        }
-      });
+      // Setup mobile search
+      if (searchInputMobile && searchResultsMobile) {
+        setupSearchInput(searchInputMobile, searchResultsMobile);
+      }
       
     } catch (error) {
       console.error('Error initializing search:', error);
     }
   }
   
-  function performSearch(query) {
-    const searchResults = document.querySelector('#search-results');
+  function setupSearchInput(searchInput, searchResults) {
+    let searchTimeout;
+    
+    // Handle search input
+    searchInput.addEventListener('input', (e) => {
+      clearTimeout(searchTimeout);
+      const query = e.target.value.trim();
+      
+      if (query.length < 2) {
+        hideResults(searchResults);
+        return;
+      }
+      
+      searchTimeout = setTimeout(() => {
+        performSearch(query, searchResults);
+      }, 300);
+    });
+    
+    // Close results when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+        hideResults(searchResults);
+      }
+    });
+    
+    // Close results on escape
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        hideResults(searchResults);
+        searchInput.blur();
+      }
+    });
+  }
+  
+  function performSearch(query, searchResults) {
     if (!searchResults || !searchIndex) return;
     
     try {
@@ -76,18 +90,17 @@
       const results = searchIndex.search(`${query}* ${query}`);
       
       if (results.length === 0) {
-        showNoResults();
+        showNoResults(searchResults);
         return;
       }
       
-      displayResults(results.slice(0, 10)); // Show top 10 results
+      displayResults(results.slice(0, 10), searchResults); // Show top 10 results
     } catch (error) {
       console.error('Search error:', error);
     }
   }
   
-  function displayResults(results) {
-    const searchResults = document.querySelector('#search-results');
+  function displayResults(results, searchResults) {
     if (!searchResults) return;
     
     const html = results.map(result => {
@@ -107,8 +120,7 @@
     searchResults.classList.remove('hidden');
   }
   
-  function showNoResults() {
-    const searchResults = document.querySelector('#search-results');
+  function showNoResults(searchResults) {
     if (!searchResults) return;
     
     searchResults.innerHTML = `
@@ -120,8 +132,7 @@
     searchResults.classList.remove('hidden');
   }
   
-  function hideResults() {
-    const searchResults = document.querySelector('#search-results');
+  function hideResults(searchResults) {
     if (searchResults) {
       searchResults.classList.add('hidden');
     }
