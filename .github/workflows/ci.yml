@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'npm'
       
       - name: Setup Ruby
@@ -31,7 +31,7 @@ jobs:
         run: npm ci
       
       - name: Build Tailwind CSS
-        run: npm run build
+        run: npm run css:build
       
       - name: Verify CSS was generated
         run: |
@@ -58,7 +58,7 @@ jobs:
           fi
           echo "✅ Jekyll site built successfully"
       
-      - name: Check for broken links (basic)
+      - name: Check for critical files
         run: |
           # Check if critical files exist
           test -f "_site/index.html" || exit 1

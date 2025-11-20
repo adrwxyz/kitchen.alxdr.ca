@@ -15,7 +15,6 @@ Get your recipe site up and running in 10 minutes!
 You need:
 - [ ] A GitHub account (free at [github.com](https://github.com))
 - [ ] Git installed ([download here](https://git-scm.com/downloads))
-- [ ] Node.js and npm ([download here](https://nodejs.org/))
 - [ ] 10 minutes of time
 
 **Note**: For local development, you'll also need Ruby and Bundler. But for just deploying to GitHub Pages, the above is enough!
@@ -77,13 +76,9 @@ instructions:
 This has been our family favorite for years!
 ```
 
-### 4. Build CSS and Deploy to GitHub
+### 4. Deploy to GitHub
 
 ```bash
-# Install dependencies and build CSS
-npm install
-npm run build
-
 # Initialize git
 git init
 git add .
@@ -96,6 +91,8 @@ git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
 git branch -M main
 git push -u origin main
 ```
+
+**Note**: The CSS is already compiled - no build step needed!
 
 ### 5. Enable GitHub Pages
 
@@ -155,26 +152,7 @@ _recipes/
 
 ### Customize Colors
 
-Edit `tailwind.config.js`:
-
-```javascript
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        primary: {
-          600: '#e63946',  // Change main primary color
-        }
-      }
-    }
-  }
-}
-```
-
-Then rebuild CSS:
-```bash
-npm run build
-```
+See [NODE_REMOVAL.md](NODE_REMOVAL.md) for instructions on modifying Tailwind CSS if needed. The CSS is pre-compiled, so no build step is required for normal use.
 
 ### Update Content
 

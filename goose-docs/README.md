@@ -39,6 +39,7 @@ This folder contains all documentation generated during the Goose-assisted migra
 - **[QUICK_START.md](QUICK_START.md)** - Quick start guide for developers
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
 - **[DEPLOYMENT.md](DEPLOYMENT.md)** - Deployment instructions
+- **[NODE_REMOVAL.md](NODE_REMOVAL.md)** - ⭐ Ruby-only build (no Node.js required!)
 - **[CI_CD_SUMMARY.md](CI_CD_SUMMARY.md)** - CI/CD pipeline documentation
 - **[CLEANUP_SUMMARY.md](CLEANUP_SUMMARY.md)** - Cleanup and maintenance notes
 - **[COMPLETE_SUMMARY.md](COMPLETE_SUMMARY.md)** - Complete project summary
