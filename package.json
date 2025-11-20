@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Kitchen Alexander - Recipe website",
   "private": true,
+  "type": "module",
   "scripts": {
     "css:dev": "tailwindcss -i ./src/input.css -o ./assets/css/main.css --watch",
     "css:build": "tailwindcss -i ./src/input.css -o ./assets/css/main.css --minify",
     "build": "npm run css:build"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.18"
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
   }
 }
