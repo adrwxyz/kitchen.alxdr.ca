@@ -101,11 +101,15 @@
   }
   
   .prose pre {
-    @apply bg-gray-100 dark:bg-gray-800 p-4 rounded-lg overflow-x-auto mb-4;
+    @apply bg-gray-100 dark:bg-gray-800 p-4 rounded-lg overflow-x-auto mb-4 max-w-full;
+    word-wrap: break-word;
+    white-space: pre-wrap;
   }
   
   .prose pre code {
     @apply bg-transparent p-0;
+    word-wrap: break-word;
+    white-space: pre-wrap;
   }
   
   .prose blockquote {

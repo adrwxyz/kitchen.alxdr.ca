@@ -2,8 +2,8 @@
 layout: base
 ---
 
-<article class="recipe" itemscope itemtype="https://schema.org/Recipe">
-  <div class="container mx-auto px-4 py-8">
+<article class="recipe max-w-full overflow-x-hidden" itemscope itemtype="https://schema.org/Recipe">
+  <div class="container mx-auto px-4 py-8 max-w-full">
     <!-- Recipe Header -->
     <header class="mb-8">
       <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100" itemprop="name">{{ page.title }}</h1>
@@ -131,14 +131,14 @@ layout: base
                 <h3 class="text-lg font-semibold mt-4 mb-2 text-gray-800 dark:text-gray-200">{{ ingredient.section }}</h3>
                 {% for item in ingredient.items %}
                 <li class="flex items-start gap-2">
-                  <input type="checkbox" class="ingredient-checkbox mt-1" id="ingredient-{{ forloop.parentloop.index }}-{{ forloop.index }}" />
-                  <label for="ingredient-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="text-gray-700 dark:text-gray-300 cursor-pointer hover:text-gray-900 dark:hover:text-gray-100 transition-colors" itemprop="recipeIngredient">{{ item }}</label>
+                  <input type="checkbox" class="ingredient-checkbox mt-1 flex-shrink-0" id="ingredient-{{ forloop.parentloop.index }}-{{ forloop.index }}" />
+                  <label for="ingredient-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="text-gray-700 dark:text-gray-300 cursor-pointer hover:text-gray-900 dark:hover:text-gray-100 transition-colors flex-1 break-words" itemprop="recipeIngredient">{{ item }}</label>
                 </li>
                 {% endfor %}
               {% else %}
                 <li class="flex items-start gap-2">
-                  <input type="checkbox" class="ingredient-checkbox mt-1" id="ingredient-{{ forloop.index }}" />
-                  <label for="ingredient-{{ forloop.index }}" class="text-gray-700 dark:text-gray-300 cursor-pointer hover:text-gray-900 dark:hover:text-gray-100 transition-colors" itemprop="recipeIngredient">{{ ingredient }}</label>
+                  <input type="checkbox" class="ingredient-checkbox mt-1 flex-shrink-0" id="ingredient-{{ forloop.index }}" />
+                  <label for="ingredient-{{ forloop.index }}" class="text-gray-700 dark:text-gray-300 cursor-pointer hover:text-gray-900 dark:hover:text-gray-100 transition-colors flex-1 break-words" itemprop="recipeIngredient">{{ ingredient }}</label>
                 </li>
               {% endif %}
             {% endfor %}
@@ -172,7 +172,7 @@ layout: base
           {% for step in page.instructions %}
           <li class="flex gap-4">
             <span class="flex-shrink-0 w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold text-lg">{{ forloop.index }}</span>
-            <p class="text-gray-700 dark:text-gray-300 pt-2">{{ step }}</p>
+            <p class="text-gray-700 dark:text-gray-300 pt-2 flex-1 break-words">{{ step }}</p>
           </li>
           {% endfor %}
         </ol>
