@@ -1,0 +1,67 @@
+{% assign recipe = include.recipe %}
+
+<article class="recipe-card bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+  <a href="{{ recipe.url | relative_url }}" class="block">
+    {% if recipe.image %}
+    <img src="{{ recipe.image | relative_url }}" 
+         alt="{{ recipe.title }}" 
+         class="w-full h-48 object-cover"
+         loading="lazy">
+    {% else %}
+    <div class="w-full h-48 bg-gradient-to-br from-primary-500 to-secondary-500"></div>
+    {% endif %}
+  </a>
+  
+  <div class="p-6">
+    <h3 class="text-xl font-bold mb-3">
+      <a href="{{ recipe.url | relative_url }}" class="text-gray-900 dark:text-gray-100 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{{ recipe.title }}</a>
+    </h3>
+    
+    {% if recipe.description %}
+    <p class="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">{{ recipe.description | truncate: 120 }}</p>
+    {% endif %}
+    
+    {% assign has_card_metadata = false %}
+    {% if recipe.total_time and recipe.total_time != '' %}{% assign has_card_metadata = true %}{% endif %}
+    {% if recipe.servings and recipe.servings != '' %}{% assign has_card_metadata = true %}{% endif %}
+    {% if recipe.difficulty and recipe.difficulty != '' %}{% assign has_card_metadata = true %}{% endif %}
+    
+    {% if has_card_metadata %}
+    <div class="flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-400">
+      {% if recipe.total_time and recipe.total_time != '' %}
+      <div class="flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <span>{{ recipe.total_time }} min</span>
+      </div>
+      {% endif %}
+      
+      {% if recipe.servings and recipe.servings != '' %}
+      <div class="flex items-center gap-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+        </svg>
+        <span>{{ recipe.servings }} servings</span>
+      </div>
+      {% endif %}
+      
+      {% if recipe.difficulty and recipe.difficulty != '' %}
+      <div class="flex items-center">
+        <span class="px-2 py-1 rounded text-xs font-medium {% if recipe.difficulty == 'Easy' %}bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200{% elsif recipe.difficulty == 'Medium' %}bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200{% else %}bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200{% endif %}">{{ recipe.difficulty }}</span>
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+  
+  {% if recipe.categories.size > 0 %}
+  <div class="px-6 pb-6">
+    <div class="flex flex-wrap gap-2">
+      {% for category in recipe.categories limit:2 %}
+      <a href="{{ '/categories/' | relative_url }}#{{ category | slugify }}" class="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 rounded-full text-sm hover:bg-primary-200 dark:hover:bg-primary-800 transition-colors">{{ category }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</article>

@@ -1,0 +1,43 @@
+<footer class="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 transition-colors duration-300">
+  <div class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+      <!-- About Section -->
+      <div>
+        <h3 class="text-lg font-bold mb-4 text-gray-900 dark:text-gray-100">{{ site.title }}</h3>
+        <p class="text-gray-600 dark:text-gray-400">{{ site.description }}</p>
+      </div>
+      
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-lg font-bold mb-4 text-gray-900 dark:text-gray-100">Quick Links</h3>
+        <ul class="space-y-2">
+          <li><a href="{{ '/' | relative_url }}" class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">Home</a></li>
+          <li><a href="{{ '/recipes/' | relative_url }}" class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">All Recipes</a></li>
+          <li><a href="{{ '/categories/' | relative_url }}" class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">Categories</a></li>
+          <li><a href="{{ '/about/' | relative_url }}" class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">About</a></li>
+        </ul>
+      </div>
+      
+      <!-- Social Links -->
+      <div>
+        <h3 class="text-lg font-bold mb-4 text-gray-900 dark:text-gray-100">Connect</h3>
+        <ul class="space-y-2">
+          {% if site.theme_settings.social.github %}
+          <li><a href="https://github.com/{{ site.theme_settings.social.github }}" target="_blank" rel="noopener" class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">GitHub</a></li>
+          {% endif %}
+          {% if site.theme_settings.social.instagram %}
+          <li><a href="https://instagram.com/{{ site.theme_settings.social.instagram }}" target="_blank" rel="noopener" class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">Instagram</a></li>
+          {% endif %}
+          {% if site.theme_settings.social.pinterest %}
+          <li><a href="https://pinterest.com/{{ site.theme_settings.social.pinterest }}" target="_blank" rel="noopener" class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">Pinterest</a></li>
+          {% endif %}
+          <li><a href="{{ '/feed.xml' | relative_url }}" class="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">RSS Feed</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="pt-8 border-t border-gray-200 dark:border-gray-700 text-center">
+      <p class="text-gray-600 dark:text-gray-400">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Built with <a href="https://jekyllrb.com/" target="_blank" rel="noopener" class="text-primary-600 dark:text-primary-400 hover:underline">Jekyll</a>.</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom component layer for reusable patterns */
+@layer components {
+  /* Recipe-specific components that need custom styling */
+  .recipe-card {
+    @apply bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5;
+  }
+  
+  .ingredient-checkbox {
+    @apply appearance-none w-5 h-5 min-w-[20px] border-2 border-gray-300 dark:border-gray-600 rounded cursor-pointer transition-all mt-0.5;
+  }
+  
+  .ingredient-checkbox:checked {
+    @apply bg-success border-success;
+  }
+  
+  .ingredient-checkbox:checked + label {
+    @apply line-through opacity-60;
+  }
+  
+  /* Prose styling for Markdown content */
+  .prose {
+    @apply text-gray-700 dark:text-gray-300;
+  }
+  
+  .prose h2 {
+    @apply text-3xl font-bold mt-8 mb-4 text-gray-900 dark:text-gray-100;
+  }
+  
+  .prose h3 {
+    @apply text-2xl font-bold mt-6 mb-3 text-gray-900 dark:text-gray-100;
+  }
+  
+  .prose h4 {
+    @apply text-xl font-bold mt-4 mb-2 text-gray-900 dark:text-gray-100;
+  }
+  
+  .prose p {
+    @apply mb-4 leading-relaxed;
+  }
+  
+  .prose a {
+    @apply text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 underline transition-colors;
+  }
+  
+  .prose ul {
+    @apply list-disc list-inside mb-4 space-y-2;
+  }
+  
+  .prose ol {
+    @apply list-decimal list-inside mb-4 space-y-2;
+  }
+  
+  .prose li {
+    @apply leading-relaxed;
+  }
+  
+  .prose strong {
+    @apply font-bold text-gray-900 dark:text-gray-100;
+  }
+  
+  .prose em {
+    @apply italic;
+  }
+  
+  .prose code {
+    @apply bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono text-gray-900 dark:text-gray-100;
+  }
+  
+  .prose pre {
+    @apply bg-gray-100 dark:bg-gray-800 p-4 rounded-lg overflow-x-auto mb-4;
+  }
+  
+  .prose pre code {
+    @apply bg-transparent p-0;
+  }
+  
+  .prose blockquote {
+    @apply border-l-4 border-primary-600 dark:border-primary-400 pl-4 italic my-4 text-gray-600 dark:text-gray-400;
+  }
+  
+  .prose hr {
+    @apply border-gray-300 dark:border-gray-600 my-8;
+  }
+  
+  .prose table {
+    @apply w-full border-collapse mb-4;
+  }
+  
+  .prose th {
+    @apply bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 px-4 py-2 text-left font-bold text-gray-900 dark:text-gray-100;
+  }
+  
+  .prose td {
+    @apply border border-gray-300 dark:border-gray-600 px-4 py-2;
+  }
+  
+  .prose img {
+    @apply rounded-lg shadow-md my-4;
+  }
+}
+
+/* Print styles - using regular CSS since @apply doesn't work in @media */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    color: black !important;
+    background: white !important;
+  }
+  
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}

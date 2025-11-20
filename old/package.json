@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "optimize": "node scripts/optimize.js",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "@marinda/gatsby-theme-recipes": "^2.0.0",
+    "gatsby": "^2.15.28",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.4",
+    "prettier": "^2.1.2"
+  },
+  "prettier": {}
+}

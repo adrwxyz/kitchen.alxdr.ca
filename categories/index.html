@@ -1,0 +1,39 @@
+---
+layout: page
+title: Recipe Categories
+description: Browse recipes by category
+permalink: /categories/
+---
+
+<!-- Category Navigation -->
+<div class="flex flex-wrap gap-3 mb-8">
+  {% assign all_categories = site.recipes | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+  {% for category in all_categories %}
+    {% if category != "" %}
+    <a href="#{{ category | slugify }}" class="px-4 py-2 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 rounded-full hover:bg-primary-200 dark:hover:bg-primary-800 transition-colors">{{ category }}</a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Category Sections -->
+{% for category in all_categories %}
+  {% if category != "" %}
+  <section id="{{ category | slugify }}" class="mb-12 scroll-mt-24">
+    <h2 class="text-3xl font-bold mb-2 text-gray-900 dark:text-gray-100">{{ category }}</h2>
+    {% assign category_recipes = site.recipes | where_exp: "recipe", "recipe.categories contains category" | sort: 'title' %}
+    <p class="text-gray-600 dark:text-gray-400 mb-6">{{ category_recipes.size }} recipe{% if category_recipes.size != 1 %}s{% endif %}</p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for recipe in category_recipes %}
+        {% include recipe-card.html recipe=recipe %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}
+
+{% if all_categories.size == 0 %}
+<div class="text-center py-12">
+  <p class="text-gray-600 dark:text-gray-400">No categories yet. Add categories to your recipes to organize them!</p>
+</div>
+{% endif %}

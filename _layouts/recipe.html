@@ -1,0 +1,284 @@
+---
+layout: base
+---
+
+<article class="recipe max-w-full overflow-x-hidden" itemscope itemtype="https://schema.org/Recipe">
+  <div class="container mx-auto px-4 py-8 max-w-full">
+    <!-- Recipe Header -->
+    <header class="mb-8">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100" itemprop="name">{{ page.title }}</h1>
+      
+      {% if page.description %}
+      <p class="text-xl text-gray-600 dark:text-gray-400 mb-6" itemprop="description">{{ page.description }}</p>
+      {% endif %}
+      
+      <!-- Recipe Meta Info -->
+      <div class="flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-400 mb-6">
+        {% if page.author %}
+        <div class="flex items-center gap-2" itemprop="author">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+          </svg>
+          <span>{{ page.author }}</span>
+        </div>
+        {% endif %}
+        
+        {% if page.date %}
+        <div class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ page.date | date: "%B %d, %Y" }}
+          </time>
+        </div>
+        {% endif %}
+        
+        {% if page.difficulty %}
+        <div class="flex items-center">
+          <span class="px-3 py-1 rounded-full text-xs font-medium {% if page.difficulty == 'Easy' %}bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200{% elsif page.difficulty == 'Medium' %}bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200{% else %}bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200{% endif %}">{{ page.difficulty }}</span>
+        </div>
+        {% endif %}
+      </div>
+      
+      <!-- Categories and Tags -->
+      {% if page.categories.size > 0 or page.tags.size > 0 %}
+      <div class="flex flex-wrap gap-4 mb-6">
+        {% if page.categories.size > 0 %}
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="text-sm font-medium text-gray-700 dark:text-gray-300">Categories:</span>
+          {% for category in page.categories %}
+          <a href="{{ '/categories/' | relative_url }}#{{ category | slugify }}" class="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 rounded-full text-sm hover:bg-primary-200 dark:hover:bg-primary-800 transition-colors">{{ category }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+        
+        {% if page.tags.size > 0 %}
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="text-sm font-medium text-gray-700 dark:text-gray-300">Tags:</span>
+          {% for tag in page.tags %}
+          <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}" class="px-3 py-1 bg-secondary-100 dark:bg-secondary-900 text-secondary-800 dark:text-secondary-200 rounded-full text-sm hover:bg-secondary-200 dark:hover:bg-secondary-800 transition-colors">{{ tag }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </header>
+    
+    <!-- Hero Image -->
+    {% if page.image %}
+    <img src="{{ page.image | relative_url }}" 
+         alt="{{ page.title }}" 
+         class="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg mb-8"
+         itemprop="image"
+         loading="eager">
+    {% endif %}
+    
+    <!-- Recipe Info Grid - Only show if at least one field has data -->
+    {% assign has_metadata = false %}
+    {% if page.prep_time and page.prep_time != '' %}{% assign has_metadata = true %}{% endif %}
+    {% if page.cook_time and page.cook_time != '' %}{% assign has_metadata = true %}{% endif %}
+    {% if page.total_time and page.total_time != '' %}{% assign has_metadata = true %}{% endif %}
+    {% if page.servings and page.servings != '' %}{% assign has_metadata = true %}{% endif %}
+    
+    {% if has_metadata %}
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+      {% if page.prep_time and page.prep_time != '' %}
+      <div class="text-center">
+        <span class="block text-sm text-gray-600 dark:text-gray-400 mb-1">Prep Time</span>
+        <span class="block text-2xl font-bold text-gray-900 dark:text-gray-100" itemprop="prepTime" content="PT{{ page.prep_time }}M">{{ page.prep_time }} min</span>
+      </div>
+      {% endif %}
+      
+      {% if page.cook_time and page.cook_time != '' %}
+      <div class="text-center">
+        <span class="block text-sm text-gray-600 dark:text-gray-400 mb-1">Cook Time</span>
+        <span class="block text-2xl font-bold text-gray-900 dark:text-gray-100" itemprop="cookTime" content="PT{{ page.cook_time }}M">{{ page.cook_time }} min</span>
+      </div>
+      {% endif %}
+      
+      {% if page.total_time and page.total_time != '' %}
+      <div class="text-center">
+        <span class="block text-sm text-gray-600 dark:text-gray-400 mb-1">Total Time</span>
+        <span class="block text-2xl font-bold text-gray-900 dark:text-gray-100" itemprop="totalTime" content="PT{{ page.total_time }}M">{{ page.total_time }} min</span>
+      </div>
+      {% endif %}
+      
+      {% if page.servings and page.servings != '' %}
+      <div class="text-center">
+        <span class="block text-sm text-gray-600 dark:text-gray-400 mb-1">Servings</span>
+        <div class="flex items-center justify-center gap-2" itemprop="recipeYield">
+          <button class="decrease-servings w-8 h-8 flex items-center justify-center bg-primary-600 hover:bg-primary-700 text-white rounded-full transition-colors" aria-label="Decrease servings">−</button>
+          <span class="servings-value text-2xl font-bold text-gray-900 dark:text-gray-100 min-w-[3ch] text-center">{{ page.servings }}</span>
+          <button class="increase-servings w-8 h-8 flex items-center justify-center bg-primary-600 hover:bg-primary-700 text-white rounded-full transition-colors" aria-label="Increase servings">+</button>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+    
+    <!-- Recipe Content -->
+    <div class="grid md:grid-cols-3 gap-8" data-recipe-id="{{ page.slug }}">
+      <!-- Ingredients Sidebar -->
+      <aside class="md:col-span-1">
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 sticky top-24">
+          <h2 class="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Ingredients</h2>
+          
+          {% if page.ingredients %}
+          <ul class="space-y-3">
+            {% for ingredient in page.ingredients %}
+              {% if ingredient.section %}
+                <h3 class="text-lg font-semibold mt-4 mb-2 text-gray-800 dark:text-gray-200">{{ ingredient.section }}</h3>
+                {% for item in ingredient.items %}
+                <li class="flex items-start gap-2">
+                  <input type="checkbox" class="ingredient-checkbox mt-1 flex-shrink-0" id="ingredient-{{ forloop.parentloop.index }}-{{ forloop.index }}" />
+                  <label for="ingredient-{{ forloop.parentloop.index }}-{{ forloop.index }}" class="text-gray-700 dark:text-gray-300 cursor-pointer hover:text-gray-900 dark:hover:text-gray-100 transition-colors flex-1 break-words" itemprop="recipeIngredient">{{ item }}</label>
+                </li>
+                {% endfor %}
+              {% else %}
+                <li class="flex items-start gap-2">
+                  <input type="checkbox" class="ingredient-checkbox mt-1 flex-shrink-0" id="ingredient-{{ forloop.index }}" />
+                  <label for="ingredient-{{ forloop.index }}" class="text-gray-700 dark:text-gray-300 cursor-pointer hover:text-gray-900 dark:hover:text-gray-100 transition-colors flex-1 break-words" itemprop="recipeIngredient">{{ ingredient }}</label>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          {% endif %}
+          
+          <!-- Recipe Actions -->
+          <div class="flex flex-col gap-3 mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+            <button class="print-recipe flex items-center justify-center gap-2 px-4 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+              </svg>
+              Print Recipe
+            </button>
+            <button class="share-recipe flex items-center justify-center gap-2 px-4 py-3 border-2 border-primary-600 text-primary-600 dark:text-primary-400 dark:border-primary-400 hover:bg-primary-600 hover:text-white dark:hover:bg-primary-600 dark:hover:text-white rounded-lg font-medium transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+              </svg>
+              Share
+            </button>
+          </div>
+        </div>
+      </aside>
+      
+      <!-- Instructions Main Content -->
+      <div class="md:col-span-2">
+        <h2 class="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">Instructions</h2>
+        
+        {% if page.instructions %}
+        <ol class="space-y-6" itemprop="recipeInstructions">
+          {% for step in page.instructions %}
+          <li class="flex gap-4">
+            <span class="flex-shrink-0 w-10 h-10 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold text-lg">{{ forloop.index }}</span>
+            <p class="text-gray-700 dark:text-gray-300 pt-2 flex-1 break-words">{{ step }}</p>
+          </li>
+          {% endfor %}
+        </ol>
+        {% endif %}
+        
+        <!-- Additional Content -->
+        {% if content %}
+        <div class="mt-8 prose dark:prose-invert max-w-none">
+          {{ content }}
+        </div>
+        {% endif %}
+        
+        <!-- Notes -->
+        {% if page.notes %}
+        <div class="mt-8 bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-400 dark:border-yellow-600 p-6 rounded-r-lg">
+          <h3 class="text-lg font-bold mb-3 text-gray-900 dark:text-gray-100">Notes</h3>
+          {% if page.notes.size > 0 %}
+            <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+              {% for note in page.notes %}
+              <li>{{ note }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p class="text-gray-700 dark:text-gray-300">{{ page.notes }}</p>
+          {% endif %}
+        </div>
+        {% endif %}
+        
+        <!-- Nutrition Info -->
+        {% if page.nutrition %}
+        <div class="mt-8 bg-white dark:bg-gray-800 rounded-lg shadow-md p-6" itemprop="nutrition" itemscope itemtype="https://schema.org/NutritionInformation">
+          <h3 class="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">Nutrition Information</h3>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {% if page.nutrition.calories %}
+            <div class="text-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <span class="block text-sm text-gray-600 dark:text-gray-400 mb-1">Calories</span>
+              <span class="block text-2xl font-bold text-gray-900 dark:text-gray-100" itemprop="calories">{{ page.nutrition.calories }}</span>
+            </div>
+            {% endif %}
+            {% if page.nutrition.protein %}
+            <div class="text-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <span class="block text-sm text-gray-600 dark:text-gray-400 mb-1">Protein</span>
+              <span class="block text-2xl font-bold text-gray-900 dark:text-gray-100" itemprop="proteinContent">{{ page.nutrition.protein }}</span>
+            </div>
+            {% endif %}
+            {% if page.nutrition.carbs %}
+            <div class="text-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <span class="block text-sm text-gray-600 dark:text-gray-400 mb-1">Carbs</span>
+              <span class="block text-2xl font-bold text-gray-900 dark:text-gray-100" itemprop="carbohydrateContent">{{ page.nutrition.carbs }}</span>
+            </div>
+            {% endif %}
+            {% if page.nutrition.fat %}
+            <div class="text-center p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+              <span class="block text-sm text-gray-600 dark:text-gray-400 mb-1">Fat</span>
+              <span class="block text-2xl font-bold text-gray-900 dark:text-gray-100" itemprop="fatContent">{{ page.nutrition.fat }}</span>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+        
+        <!-- Image Gallery -->
+        {% if page.gallery %}
+        <div class="mt-8">
+          <h3 class="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">Step-by-Step Photos</h3>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {% for item in page.gallery %}
+            <div class="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow">
+              <img src="{{ item.image | relative_url }}" 
+                   alt="{{ item.caption }}" 
+                   class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                   loading="lazy">
+              {% if item.caption %}
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                <p class="text-white text-sm font-medium">{{ item.caption }}</p>
+              </div>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    
+    <!-- Missing Metadata Banner - Show if all metadata fields are empty -->
+    {% unless has_metadata %}
+    <div class="container mx-auto px-4 mt-8 mb-8">
+      <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 dark:border-blue-400 p-6 rounded-r-lg shadow-md">
+        <div>
+          <h3 class="text-lg font-bold text-gray-900 dark:text-gray-100 mb-2">Help Improve This Recipe</h3>
+          <p class="text-gray-700 dark:text-gray-300 mb-3">
+            This recipe is missing timing and serving information. If you've made this dish, please consider contributing the following details:
+          </p>
+          <ul class="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1 mb-4">
+            <li><strong>Prep Time:</strong> How long does it take to prepare the ingredients?</li>
+            <li><strong>Cook Time:</strong> How long does it take to cook?</li>
+            <li><strong>Total Time:</strong> What's the total time from start to finish?</li>
+            <li><strong>Servings:</strong> How many people does this recipe serve?</li>
+          </ul>
+          <p class="text-sm text-gray-600 dark:text-gray-400 italic">
+            💡 Your contributions help others plan their cooking better!
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endunless %}
+  </div>
+</article>
