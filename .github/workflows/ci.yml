@@ -15,6 +15,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
+      - name: Configure Git for Hermit
+        run: |
+          git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "ssh://git@github.com/"
+      
       - name: Activate Hermit
         uses: cashapp/activate-hermit@v1
         with:
@@ -40,7 +45,9 @@ jobs:
         run: npm ci
       
       - name: Install Ruby dependencies
-        run: bundle install --path vendor/bundle
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle install
       
       - name: Build Tailwind CSS
         run: npm run css:build
