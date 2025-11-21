@@ -24,8 +24,10 @@ jobs:
       
       - name: Configure Git for Hermit
         run: |
-          git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "https://github.com/"
-          git config --global url."https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/".insteadOf "ssh://git@github.com/"
+          rm -rf ~/.cache/hermit
+          git config --global url."https://${{ github.token }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://${{ github.token }}@github.com/".insteadOf "ssh://git@github.com/"
+          git config --global url."https://${{ github.token }}@github.com/".insteadOf "git@github.com:"
       
       - name: Activate Hermit
         uses: cashapp/activate-hermit@v1
