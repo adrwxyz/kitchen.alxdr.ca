@@ -22,20 +22,41 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Configure Git for Hermit
+        run: |
+          rm -rf ~/.cache/hermit
+          git config --global url."https://${{ github.token }}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://${{ github.token }}@github.com/".insteadOf "ssh://git@github.com/"
+          git config --global url."https://${{ github.token }}@github.com/".insteadOf "git@github.com:"
+      
+      - name: Activate Hermit
+        uses: cashapp/activate-hermit@v1
         with:
-          node-version: '20'
-          cache: 'npm'
-        
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+          cache: "true"
+      
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
         with:
-          ruby-version: '3.1'
-          bundler-cache: true
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      
+      - name: Cache bundler dependencies
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
       
       - name: Install Node dependencies
         run: npm ci
+      
+      - name: Install Ruby dependencies
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle install
       
       - name: Build Tailwind CSS
         run: npm run css:build
