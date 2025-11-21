@@ -22,20 +22,32 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Activate Hermit
+        uses: cashapp/activate-hermit@v1
         with:
-          node-version: '20'
-          cache: 'npm'
-        
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+          cache: "true"
+      
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
         with:
-          ruby-version: '3.1'
-          bundler-cache: true
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      
+      - name: Cache bundler dependencies
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
       
       - name: Install Node dependencies
         run: npm ci
+      
+      - name: Install Ruby dependencies
+        run: bundle install --path vendor/bundle
       
       - name: Build Tailwind CSS
         run: npm run css:build
