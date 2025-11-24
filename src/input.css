@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Enable class-based dark mode selector for manual toggle */
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* Tailwind 4 Theme Configuration */
 @theme {
   /* Custom color palette */
