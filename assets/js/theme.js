@@ -22,11 +22,12 @@
       document.documentElement.classList.remove('dark');
     }
     
-    // Update both desktop and mobile toggle buttons
-    const toggleButtons = document.querySelectorAll('#theme-toggle, #theme-toggle-mobile');
+    // Update all theme toggle buttons using shared class
+    const toggleButtons = document.querySelectorAll('.theme-toggle');
     toggleButtons.forEach(toggleBtn => {
       if (toggleBtn) {
-        toggleBtn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        const newLabel = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+        toggleBtn.setAttribute('aria-label', newLabel);
         
         // Update icon
         const sunIcon = toggleBtn.querySelector('.sun-icon');
@@ -39,6 +40,12 @@
             sunIcon.style.display = 'none';
             moonIcon.style.display = 'block';
           }
+        }
+        
+        // Update theme text if present (mobile button)
+        const themeText = toggleBtn.querySelector('.theme-text');
+        if (themeText) {
+          themeText.textContent = newLabel;
         }
       }
     });
@@ -63,8 +70,8 @@
   
   // Listen for toggle button clicks
   window.addEventListener('DOMContentLoaded', () => {
-    // Add click listener to both desktop and mobile toggle buttons
-    const toggleButtons = document.querySelectorAll('#theme-toggle, #theme-toggle-mobile');
+    // Add click listener to all theme toggle buttons using shared class
+    const toggleButtons = document.querySelectorAll('.theme-toggle');
     toggleButtons.forEach(toggleBtn => {
       if (toggleBtn) {
         toggleBtn.addEventListener('click', onClick);
