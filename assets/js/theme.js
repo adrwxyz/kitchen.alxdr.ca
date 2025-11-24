@@ -22,23 +22,26 @@
       document.documentElement.classList.remove('dark');
     }
     
-    const toggleBtn = document.querySelector('#theme-toggle');
-    if (toggleBtn) {
-      toggleBtn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-      
-      // Update icon
-      const sunIcon = toggleBtn.querySelector('.sun-icon');
-      const moonIcon = toggleBtn.querySelector('.moon-icon');
-      if (sunIcon && moonIcon) {
-        if (theme === 'dark') {
-          sunIcon.style.display = 'block';
-          moonIcon.style.display = 'none';
-        } else {
-          sunIcon.style.display = 'none';
-          moonIcon.style.display = 'block';
+    // Update both desktop and mobile toggle buttons
+    const toggleButtons = document.querySelectorAll('#theme-toggle, #theme-toggle-mobile');
+    toggleButtons.forEach(toggleBtn => {
+      if (toggleBtn) {
+        toggleBtn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        
+        // Update icon
+        const sunIcon = toggleBtn.querySelector('.sun-icon');
+        const moonIcon = toggleBtn.querySelector('.moon-icon');
+        if (sunIcon && moonIcon) {
+          if (theme === 'dark') {
+            sunIcon.style.display = 'block';
+            moonIcon.style.display = 'none';
+          } else {
+            sunIcon.style.display = 'none';
+            moonIcon.style.display = 'block';
+          }
         }
       }
-    }
+    });
   };
   
   const onClick = () => {
@@ -60,10 +63,13 @@
   
   // Listen for toggle button clicks
   window.addEventListener('DOMContentLoaded', () => {
-    const toggleBtn = document.querySelector('#theme-toggle');
-    if (toggleBtn) {
-      toggleBtn.addEventListener('click', onClick);
-    }
+    // Add click listener to both desktop and mobile toggle buttons
+    const toggleButtons = document.querySelectorAll('#theme-toggle, #theme-toggle-mobile');
+    toggleButtons.forEach(toggleBtn => {
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', onClick);
+      }
+    });
     
     // Sync with system preference changes
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ({matches}) => {
