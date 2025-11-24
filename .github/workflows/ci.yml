@@ -15,20 +15,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Activate Hermit
+        uses: cashapp/activate-hermit@v1
         with:
-          node-version: '20'
-          cache: 'npm'
-      
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-          bundler-cache: true
+          cache: true
       
       - name: Install Node dependencies
         run: npm ci
+      
+      - name: Install Ruby dependencies
+        run: bundle install
       
       - name: Build Tailwind CSS
         run: npm run css:build
