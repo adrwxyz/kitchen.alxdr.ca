@@ -1,7 +1,7 @@
 {
   "name": "Kitchen Alexander",
   "short_name": "Kitchen",
-  "description": "Recipes from the Alexander's kitchen",
+  "description": "Recipes from Kitchen Alexander",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
