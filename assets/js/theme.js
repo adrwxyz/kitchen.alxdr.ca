@@ -47,8 +47,9 @@
     setPreference(newTheme);
   };
   
-  // Set initial theme
-  reflectPreference(getColorPreference());
+  // Set initial theme and save to localStorage
+  const initialTheme = getColorPreference();
+  setPreference(initialTheme);
   
   // Remove preload class after a brief delay
   window.addEventListener('load', () => {
