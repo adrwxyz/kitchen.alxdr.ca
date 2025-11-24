@@ -4,6 +4,7 @@ const OFFLINE_URL = '/offline.html';
 // Files to cache on install
 const PRECACHE_URLS = [
   '/',
+  '/offline.html',
   '/assets/css/main.css',
   '/assets/js/theme.js',
   '/assets/js/main.js',
