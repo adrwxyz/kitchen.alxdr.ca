@@ -53,6 +53,7 @@ exclude:
   - package-lock.json
   - tailwind.config.js
   - src/
+  - old/
 
 # Theme customization
 theme_settings:
