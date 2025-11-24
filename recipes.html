@@ -1,0 +1,19 @@
+---
+layout: page
+title: All Recipes
+description: Browse all the recipes from the Alexander's kitchen
+permalink: /recipes/
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+  {% assign all_recipes = site.recipes | sort: 'title' %}
+  {% for recipe in all_recipes %}
+    {% include recipe-card.html recipe=recipe %}
+  {% endfor %}
+</div>
+
+{% if site.recipes.size == 0 %}
+<div class="text-center py-12">
+  <p class="text-gray-600 dark:text-gray-400">No recipes yet. Add your first recipe to get started!</p>
+</div>
+{% endif %}
