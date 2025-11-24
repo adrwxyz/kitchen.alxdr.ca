@@ -163,15 +163,15 @@ If a URL is provided as the recipe source:
    title: Recipe Title
    description: 'Brief description of the recipe'
    image: /assets/images/recipes/recipe-slug/hero.jpg
-   date: "YYYY-MM-DDTHH:MM:SS.SSSZ"
+   date: "2024-11-20T10:30:00.000Z"  # ISO 8601 format with current date/time
    categories:
      - "Category Name"
    tags: []
    difficulty: Easy|Medium|Hard
-   prep_time: '15'  # in minutes (numeric string)
-   cook_time: '30'  # in minutes (numeric string)
-   total_time: '45'  # in minutes (numeric string)
-   servings: '4'    # numeric string
+   prep_time: '15'  # in minutes (use string format for template compatibility)
+   cook_time: '30'  # in minutes (use string format for template compatibility)
+   total_time: '45'  # in minutes (use string format for template compatibility)
+   servings: '4'    # use string format for template compatibility
    ingredients:
      - "ingredient 1"
      - "ingredient 2"
