@@ -13,12 +13,13 @@ This is a recipe website built with Jekyll and Tailwind CSS. It displays recipes
 
 ## Project Structure
 
-- `_recipes/`: Recipe collection files (Markdown)
+- `_recipes/`: Recipe collection files (Markdown) - **ALL new recipes go here**
 - `_layouts/`: Jekyll layout templates
 - `_includes/`: Reusable Jekyll components (header, footer, recipe cards, etc.)
 - `assets/`: Static assets (CSS, JavaScript, images)
 - `src/`: Source files for Tailwind CSS
 - `_config.yml`: Jekyll configuration
+- `old/`: **Archived content - DO NOT modify or add files here**
 
 ## Building the Project
 
@@ -125,19 +126,90 @@ Brief description of what changed.
 
 ### Recipe Files
 
-- Recipe files are in `_recipes/` directory
+- **Recipe files are ONLY in `_recipes/` directory**
+- **NEVER add or modify files in the `./old` directory** - this contains archived content from previous site versions
 - Use Markdown format with YAML front matter
-- Required front matter fields typically include: title, description, servings, prep time, cook time, ingredients, instructions
+- Required front matter fields: title, description, servings, prep_time, cook_time, total_time, ingredients, instructions
+- Optional fields: image (hero image path), gallery (array of images with captions), notes, nutrition, difficulty, tags, categories
+- Image paths should be `/assets/images/recipes/[recipe-slug]/[image-name].jpg`
 
 ## Common Tasks
 
 ### Adding a New Recipe
 
-1. Create a new Markdown file in `_recipes/`
-2. Add required front matter
+**IMPORTANT**: Recipes should ONLY be added to the `_recipes/` directory. DO NOT add or modify anything in the `./old` directory, which contains archived content from previous versions of the site.
+
+#### When Adding a Recipe from a URL
+
+If a URL is provided as the recipe source:
+
+1. **Fetch the recipe content** from the provided URL:
+   - Extract ingredients list (with quantities and units)
+   - Extract step-by-step instructions
+   - Extract serving size information
+   - Extract prep time, cook time, and total time if available
+   - Note: Recipe information is typically found at the bottom of the page
+
+2. **Download images** from the source URL:
+   - Download the main/hero image and save it to `/assets/images/recipes/[recipe-slug]/hero.jpg`
+   - Download additional images for the gallery (2-5 images showing different steps or the final dish)
+   - Save gallery images to `/assets/images/recipes/[recipe-slug]/` with descriptive names
+   - Ensure image filenames are lowercase and use hyphens (e.g., `step-1.jpg`, `final-dish.jpg`)
+
+3. **Create the recipe file** in `_recipes/[recipe-name].md` with proper front matter:
+   ```yaml
+   ---
+   layout: recipe
+   title: Recipe Title
+   description: 'Brief description of the recipe'
+   image: /assets/images/recipes/recipe-slug/hero.jpg
+   date: "YYYY-MM-DDTHH:MM:SS.SSSZ"
+   categories:
+     - "Category Name"
+   tags: []
+   difficulty: Easy|Medium|Hard
+   prep_time: '15'  # in minutes (numeric string)
+   cook_time: '30'  # in minutes (numeric string)
+   total_time: '45'  # in minutes (numeric string)
+   servings: '4'    # numeric string
+   ingredients:
+     - "ingredient 1"
+     - "ingredient 2"
+   instructions:
+     - "Step 1 instructions"
+     - "Step 2 instructions"
+   gallery:
+     - image: /assets/images/recipes/recipe-slug/image1.jpg
+       caption: "Image description"
+     - image: /assets/images/recipes/recipe-slug/image2.jpg
+       caption: "Image description"
+   ---
+   
+   Additional notes or information about the recipe.
+   
+   Source: [Source Name](source-url)
+   ```
+
+4. **Include source attribution**:
+   - Add a "Source:" line at the bottom of the recipe content linking to the original recipe
+   - Format: `Source: [Website Name](https://url-to-recipe)`
+
+5. **Create the PR**:
+   - Build the site locally with `bundle exec jekyll serve`
+   - Navigate to the new recipe page in your browser
+   - Take a screenshot showing the rendered recipe (include the title, image, ingredients, and at least some instructions)
+   - Include the screenshot in the PR description to confirm everything is set up correctly
+   - Add a section in the PR description titled "Recipe Preview" with the screenshot
+
+#### When Adding a Recipe Manually (No URL)
+
+1. Create a new Markdown file in `_recipes/[recipe-name].md`
+2. Add required front matter (see template above)
 3. Write recipe content in Markdown
-4. Build and test locally
-5. Create PR with screenshots of how the recipe appears on the site
+4. If images are available, place them in `/assets/images/recipes/[recipe-slug]/`
+5. Build and test locally with `bundle exec jekyll serve`
+6. Take a screenshot of the rendered recipe
+7. Create PR with screenshot showing how the recipe appears on the site
 
 ### Modifying Styles
 
