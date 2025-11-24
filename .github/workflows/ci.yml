@@ -63,6 +63,7 @@ jobs:
           # Check if critical files exist
           test -f "_site/index.html" || exit 1
           test -f "_site/assets/css/main.css" || exit 1
+          test -f "_site/assets/js/main.js" || exit 1
           test -f "_site/assets/js/search.js" || exit 1
           test -f "_site/assets/js/theme.js" || exit 1
           echo "✅ Critical files present"
