@@ -1,6 +1,6 @@
 {
   "name": "Kitchen Alexander",
-  "short_name": "Kitchen Alexander",
+  "short_name": "Kitchen",
   "description": "Recipes from the Alexander's kitchen",
   "start_url": "/",
   "display": "standalone",
