@@ -99,7 +99,7 @@
           console.log('Service Worker registered:', registration);
         })
         .catch((error) => {
-          console.log('Service Worker registration failed:', error);
+          console.error('Service Worker registration failed:', error);
         });
     }
   }
