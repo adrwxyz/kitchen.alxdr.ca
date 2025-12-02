@@ -50,12 +50,12 @@ instructions:
   - "In the same pan, toast pine nuts until golden brown"
   - "Serve shakriyeh hot over fluffy white rice or rice pilaf"
   - "Garnish with toasted pine nuts and dried mint"
-notes: |
-  - Use full-fat yogurt for best results. Low-fat or Greek yogurt may not work as well.
-  - The egg and cornstarch help stabilize the yogurt so it doesn't separate when heated.
-  - You can substitute beef or veal for lamb if preferred, though lamb is most traditional.
-  - This dish is perfect for gatherings and special occasions.
-  - Traditionally served with Syrian-style rice (short-grain rice with vermicelli).
+notes:
+  - "Use full-fat yogurt for best results. Low-fat or Greek yogurt may not work as well."
+  - "The egg and cornstarch help stabilize the yogurt so it doesn't separate when heated."
+  - "You can substitute beef or veal for lamb if preferred, though lamb is most traditional."
+  - "This dish is perfect for gatherings and special occasions."
+  - "Traditionally served with Syrian-style rice (short-grain rice with vermicelli)."
 ---
 
 Syrian Shakriyeh is one of the most iconic yogurt-based stews in Syrian cuisine. The velvety, tangy yogurt sauce beautifully balances the richness of slow-cooked lamb, creating a comforting and elegant dish that's perfect for family gatherings and special occasions.
