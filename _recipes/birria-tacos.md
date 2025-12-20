@@ -53,9 +53,9 @@ instructions:
   - "Add a non-stick skillet over medium heat. Dip the tortilla into the top of the broth (this should be fat) and add it to the skillet. Pan fry on one side for about 30 seconds and then flip over. Add a some of the shredded meat and the shredded cheese. Fold over and cook until pan fried on both sides, about 1 minute. Transfer to a plate and serve alongside the broth."
 notes: |
   Tips and Tricks:
-  - Cuts of meat - You can substitute in goat, lamb or if you can choose oxtail instead of short ribs.
+  - Cuts of meat - You can substitute with goat, lamb, or oxtail instead of short ribs.
   - To make this ahead: I actually think this is a great make-ahead meal. You can make the birria first, shred the meat and store the sauce in the fridge. The fat will solidify on the top. You can use that to the pan with the tortillas if you like. Or you can warm it back up when you're ready to serve.
-  - Most of these ingredients like Mexican cinnamon, dried chiles and Mexican oregano at a Latin supermarket.
+  - Most of these ingredients like Mexican cinnamon, dried chiles and Mexican oregano can be found at a Latin supermarket.
   - If you're not using Mexican cinnamon, remove it and discard it when you're done boiling all of the chiles. Mexican cinnamon is very brittle and will easily blend up. But if it's from say Saigon or somewhere else, it tends to be very hard. I wouldn't put your blender through that!
   - To Make it in the Slow-Cooker - You can make this recipe in the slow-cooker by adding the meat and sauce to a slow cooker. Add the broth and set it to high and let it braise for 6-7 hours.
   - To Make it in the Instant Pot - Sear the meat in the IP. Pour the sauce in, along with the broth. Close the seal, set the setting to "high pressure" and press the "Stew Meat" option. This should be about 50 minutes. Do a natural release. And it should be perfect!
