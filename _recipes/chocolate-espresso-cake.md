@@ -37,16 +37,9 @@ notes:
   - "Adding espresso powder or instant coffee does not make the cake taste like coffee but enriches the chocolate flavor."
   - "You can substitute types of milk based on dietary preferences."
   - "The batter will be thin - this is normal and results in a moist cake."
-gallery:
-  - image: /assets/images/recipes/chocolate-espresso-cake/step-1.jpg
-    caption: "Mixing dry ingredients"
-  - image: /assets/images/recipes/chocolate-espresso-cake/step-2.jpg
-    caption: "Adding wet ingredients"
-  - image: /assets/images/recipes/chocolate-espresso-cake/baked-cake.jpg
-    caption: "Finished baked layers"
 ---
 
-This recipe is celebrated online for its rich chocolate flavor, light texture, and simplicity—making it a perfect choice for both beginner bakers and seasoned pros! The secret ingredient is espresso powder, which enhances the chocolate flavor without adding a coffee taste.
+This recipe features a rich chocolate flavor and light texture, making it a perfect choice for both beginner bakers and seasoned pros. The secret ingredient is espresso powder, which enhances the chocolate flavor without adding a coffee taste.
 
 ## Optional Chocolate Buttercream Frosting
 
