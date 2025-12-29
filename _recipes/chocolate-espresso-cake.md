@@ -1,20 +1,17 @@
 ---
 layout: recipe
 title: Chocolate Espresso Cake
-description: 'A rich and moist chocolate cake with a hint of espresso that enhances the chocolate flavor without tasting like coffee. This recipe is celebrated for its light texture and deep chocolate taste.'
+description: 'A rich and moist chocolate cake with a hint of espresso that enhances the chocolate flavor without tasting like coffee. This recipe is celebrated for its light texture and deep chocolate taste. Makes 24 servings. Prep time: 15 minutes, Cook time: 35 minutes, Total time: 1 hour.'
 image: /assets/images/recipes/chocolate-espresso-cake/hero.jpg
 date: "2025-12-29T02:54:00.000Z"
 categories:
-  - "Desserts"
-tags:
-  - "cake"
-  - "chocolate"
-  - "baking"
+  - "Other"
+tags: []
 difficulty: Easy
-prep_time: '15'
-cook_time: '35'
-total_time: '60'
-servings: '24'
+prep_time: ''
+cook_time: ''
+total_time: ''
+servings: ''
 ingredients:
   - "2 cups all-purpose flour"
   - "2 cups sugar"
