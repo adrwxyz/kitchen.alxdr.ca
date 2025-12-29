@@ -40,7 +40,6 @@ notes:
   - "Adding espresso powder or instant coffee does not make the cake taste like coffee but enriches the chocolate flavor."
   - "You can substitute types of milk based on dietary preferences."
   - "The batter will be thin - this is normal and results in a moist cake."
-  - "The frosting recipe makes more than needed, so feel free to halve it if desired."
 gallery:
   - image: /assets/images/recipes/chocolate-espresso-cake/hero.jpg
     caption: "Finished chocolate espresso cake"
@@ -50,13 +49,23 @@ This recipe is celebrated online for its rich chocolate flavor, light texture, a
 
 ## Optional Chocolate Buttercream Frosting
 
-- Softened butter
-- Cocoa powder
-- Confectioner's sugar
-- Milk
-- Vanilla extract
-- Espresso powder (optional)
+- 1 cup (2 sticks) butter, softened
+- 2/3 cup unsweetened cocoa powder
+- 3 cups confectioners' sugar
+- 1/3 cup milk (or heavy cream)
+- 1 teaspoon vanilla extract
+- 1 teaspoon espresso powder (optional, to deepen chocolate flavor)
+- Pinch of salt (optional)
 
-Mix all ingredients together until smooth and creamy. Adjust consistency with additional milk or powdered sugar as needed.
+### Instructions
+
+1. In a large bowl, beat the softened butter until creamy.
+2. Sift the cocoa powder and confectioners' sugar to remove lumps.
+3. Add cocoa powder to butter and beat until well combined.
+4. Alternately add confectioners' sugar and milk, mixing on high speed for a minute after each addition, until fluffy.
+5. Beat in vanilla extract, optional espresso powder, and a pinch of salt if desired.
+6. Add a bit more milk if needed for desired consistency.
+
+This quantity will frost a two-layer 9-inch cake or about 24 cupcakes.
 
 Source: [Add a Pinch](https://addapinch.com/the-best-chocolate-cake-recipe-ever/)
