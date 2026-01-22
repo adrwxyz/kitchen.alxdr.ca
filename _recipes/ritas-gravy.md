@@ -30,3 +30,14 @@ instructions:
 A versatile gravy that pairs perfectly with mashed potatoes and roasted meats.
 
 Source: Rita's Recipe Book
+
+```
+# Gravy  {#gravy}
+
+- add a bit of butter to a pan  
+- sautee dehydrated onion \+ vegeta OR real onion and real chicken boullion  
+- 3 tbsp of flour  
+- get the flour to a deep brown, adding a tiny bit of drippings as you go if it gets too dry   
+- salt to taste  
+- stop simmering when it is the desired thickness
+```

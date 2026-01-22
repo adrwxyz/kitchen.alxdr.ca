@@ -36,3 +36,15 @@ notes:
 Crispy, flavorful green beans that are anything but saggy.
 
 Source: Rita's Recipe Book
+
+```
+# Green beans {#green-beans}
+
+- make your water super salty, like think sea water, be generous, and let it boil rigorously   
+- add in green beans until they turn bright green, then immediately remove into ice bath or under cold running water  
+- combine 4 parts soy sauce, 2 parts brown sugar, 2 parts rice or malt vinegar in a bowl  
+- add oil to a pan and get it super hot, like you will almost fry those beans  
+- add the beans in so they get seared, then toss in the sauce, mix and reduce a bit  
+- shouldnt cook long otherwise it will be saggy \- lame  
+- enJOY
+```

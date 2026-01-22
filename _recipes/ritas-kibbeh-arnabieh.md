@@ -45,3 +45,19 @@ notes:
 A delicious vegan take on traditional kibbeh, packed with flavor.
 
 Source: Rita's Recipe Book
+
+```
+# Kibbeh Arnabieh \[vegan kibbeh\] {#kibbeh-arnabieh-[vegan-kibbeh]}
+
+- soak 2 cups of fine burgol in hot water \- do not over water bc you will add liquid from below  
+- quarter an onion  
+- juice a lemon  
+- rough chop a parsley head, not including stems (you can freeze stems for soup base\!)  
+- add onion, parsley, 2 generous tbsp of tomato paste, 3 tbsp of pomegranate molasses, one tbsp of pepper paste, 1 tsp of cumin, 1 tbsp of dried mint, cracked pepper, juice of 1 lemon, cracked pepper and a bit of salt (key word, a bit, there are a lot of salty pastes, you can add salt later) all together   
+- blend in blender  
+- mix this into your hydrated burgol, let it sit for 10 min and soak up the juices, taste and adjust flavour as needed  
+- OPTIONAL: send it through a food processor to make into a paste, otherwise leave it if you like some texture   
+- wet your hands, and using a spoon shape it into mini-football shapes   
+- refrigerate immediately, and let it sit in the fridge for 20 minutes before serving   
+- serve with pomegranate molasses to dip \- enjoy 
+```

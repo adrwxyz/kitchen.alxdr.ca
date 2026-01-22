@@ -25,3 +25,10 @@ instructions:
 A sweet syrup used for many Middle Eastern desserts.
 
 Source: Rita's Recipe Book
+
+```
+# Attar \- simple syrup {#attar---simple-syrup}
+
+- Take 2 cups of sugar and 1 cup of water, bring to a boil for 5 min  
+- add a squeeze of lemon and orange blossom water splash and reduce to a simmer for two min then remove
+```

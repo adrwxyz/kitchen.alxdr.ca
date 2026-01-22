@@ -36,3 +36,18 @@ instructions:
 Bob's your uncle, enjoy this classic Middle Eastern rice dish.
 
 Source: Rita's Recipe Book
+
+```
+# Roz bi sharieh (Rice with vermicelli) {#roz-bi-sharieh-(rice-with-vermicelli)}
+
+- wash rice until water runs clear  
+- let it soak in water for 10 min  
+- toast sharieh with butter or neutral oil until brown  
+- add rice, turn heat up to high  
+- add salt and optionally: chicken bullion such as maggi   
+- allow rice to come to a boil (should be a "thick" boil, as in, the water is just above the rice)  
+- turn to the lowest heat setting and cover as soon as it comes to the abovementioned boil  
+- keep covered until the rice has absorbed the water, taste with a spoon  
+- add a bit of butter, fluff rice  
+- bobs ur uncle, enjoy
+```

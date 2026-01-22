@@ -27,3 +27,12 @@ instructions:
 Perfectly crispy on the outside and tender on the inside baby potatoes.
 
 Source: Rita's Recipe Book
+
+```
+# Roasted herb baby potatoes  {#roasted-herb-baby-potatoes}
+
+- boil baby potatoes for 8 min or until tender with fork, strain water from colander   
+- preheat oven to 425  
+- toss in olive oil, garlic, and thyme \- optional: smash them   
+- place in oven till golden 
+```

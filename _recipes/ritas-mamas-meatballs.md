@@ -43,3 +43,18 @@ instructions:
 A hearty, comforting dish with tender meatballs and roasted vegetables in a rich tomato sauce.
 
 Source: Rita's Recipe Book
+
+```
+# Mama's Meatballs  {#mama's-meatballs}
+
+- mix ground beef, garlic powder, pepper paste, black pepper, salt and coriander well with your hands  
+- form small meatballs, slightly larger than marbles   
+- caramelize in a pan with olive oil, only adding one layer  
+- transfer to a glass tray for serving   
+- cook cubed potatoes and sliced carrots with preferred seasoning mix, red pepper paste and corn oil in oven, covering with parchment for the first 20 minutes  
+- uncover potato mix in oven until cooked through   
+- add potato mix to meatballs in serving dish  
+- take 1 can of tomato paste, and caramelize in the pot that had the meatballs  
+- add a spoon of butter to the tomato paste, and as much water as desired   
+- add tomato mix to the serving plate as topping and enjoy \<3 
+```

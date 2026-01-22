@@ -36,3 +36,15 @@ instructions:
 Delicious crispy phyllo pastries filled with sweet cream.
 
 Source: Rita's Recipe Book
+
+```
+# Shaabiyat & Ashta {#shaabiyat-&-ashta}
+
+- make attar (see recipe)  
+- take 3 cups of whipping cream (35%) and one cup of milk or 10% cream, and mix with a ½ cup of sugar, drops of vanilla, a few drops of orange blossom water, and ½ cup of corn starch on cold  
+- turn the heat on medium and keep mixing until it thickens then transfer to glass tray, and into the fridge to cool  
+- take 10-14 sheets of phyllo dough, butter every second sheet, cut into squares, fold into triangles and put into the oven at 375 degrees  
+- wait until triangles are golden brown, remove from oven while hot  
+- fill the pastry  
+- cover with cold attar and pistachio sprinkle after (attar makes it sticky so pistachio stays on)
+```

@@ -47,3 +47,20 @@ notes:
 A traditional Middle Eastern soup with tender chicken and flavorful mloukiyeh leaves.
 
 Source: Rita's Recipe Book
+
+```
+# Mloukiyeh {#mloukiyeh}
+
+- sift through your leaves, ensuring there is no stray chicken hair or sunflower seeds lol  
+- wash the mloukiyeh in cold water, set aside to drain   
+- Heat up oil in a pot, get it very hot, drop in chicken thighs (no bones), and get a crust on both sides  
+- toss into pressure cooker for 20 minutes  
+- in the pot you cooked the chicken, sautee a whole onion (diced), half a garlic head (smashed) with a tsp of coriander and a touch of salt, until they brown and crisp a bit, remove and set aside  
+- bloom chicken bouillon (optional), coriander, black pepper in the residual oil  
+- add in mloukiyeh, 6 cloves of garlic, salt and sautee for a while   
+- once mloukiyeh softens up, add in a tsp of sweet pepper paste, and 3 tbsp of pomegranate molasses   
+- add in as much or as little water as desired  
+- once chicken is done cooking, chop it up, if it falls apart into shredded pieces, that's fine, it'll still be yummy :) add into the soup  
+- add half a lemon, but taste as you go, everyone likes the sourness level differently   
+- when serving, add a spoon of your onion and garlic mix as a topping 
+```

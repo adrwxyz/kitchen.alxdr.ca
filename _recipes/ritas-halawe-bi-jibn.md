@@ -42,3 +42,21 @@ notes:
 A traditional Middle Eastern sweet cheese dessert that's worth the effort.
 
 Source: Rita's Recipe Book
+
+```
+# Halawe bi jibn {#halawe-bi-jibn}
+
+- prep your attar and ashta (see recipes before)  
+- prep your cutting board by covering in parchment paper, then covering in attar, also rub your rolling pin in attar  
+- have some boiled water on standby  
+- shred 2 **fresh** mozzarella balls (the ones in water, Costco sells them) very well  
+- add 1 cup of water to a big pot and 2 tbsp of sugar  
+- add in the cheese, let it combine into a ball  
+- add in 1.5 cups of fine semolina in gradually and mix into the cheese, if you pour the semolina in just one go, it will clump and you will probably cry  
+- mix like your life depends on it, use a strong spoon. if mixing fails, fold it in  
+- if it starts to dry out before you have incorporated all the semolina, add a tbsp of water in at a time   
+- make sure it all is stuck together, then add a tbsp or two of attar to form a ball  
+- transfer to a cutting board or table that is covered in parchment paper (or aluminum worst case)  
+- quickly flatten using a rolling pin, aiming to get a square (which never works but alas, try)  
+- add ashta (see recipe), roll like sushi and slice
+```

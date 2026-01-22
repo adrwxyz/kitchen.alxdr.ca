@@ -38,3 +38,15 @@ instructions:
 A delightful citrus cake with the aromatic touch of orange blossom water.
 
 Source: Rita's Recipe Book
+
+```
+# Mama's orange cake  {#mama's-orange-cake}
+
+- mix 3 eggs with ¾ cup sugar, (optional: a couple vanilla packets), ¾ cup yoghurt in a whisker  
+- add in zest of one lemon, zest of one orange, ½ teaspoon orange blossom water, 3 tablespoon orange juice  
+- Mix in another bowl 2 cups plain flour and ½ teaspoon baking powder  
+- fold dry into wet ingredients   
+- add ½ cup vegetable oil to everything, make sure it is smooth  
+- bake at 350 until toothpick comes out clean   
+- Icing sugar for dusting
+```

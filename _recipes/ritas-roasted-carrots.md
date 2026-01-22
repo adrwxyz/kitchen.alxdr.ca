@@ -33,3 +33,12 @@ notes:
 Simple and delicious roasted carrots with a honey glaze.
 
 Source: Rita's Recipe Book
+
+```
+# Roasted Carrots {#roasted-carrots}
+
+- Butter or high burn oil  and black pepper, seasoned  
+- roast at 425C for 20 min  
+- brush with olive oil, honey (THIS IS KEY), cayenne, garlic powder \- 2 min then take out  
+- chow time
+```

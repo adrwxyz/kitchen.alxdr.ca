@@ -27,3 +27,13 @@ instructions:
 Simple, classic mashed potatoes that are always a crowd pleaser.
 
 Source: Rita's Recipe Book
+
+```
+# Mashed Potatoes {#mashed-potatoes}
+
+- peel potatoes or not… personal preference  
+- boil potatoes until very soft  
+- add 3 tbsp of butter  
+- add ½ a cup of heavy cream  
+- mix with a masher until fluffy, adding heavy cream until it is the consistency you prefer 
+```

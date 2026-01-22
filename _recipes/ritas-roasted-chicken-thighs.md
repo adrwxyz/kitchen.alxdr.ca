@@ -32,3 +32,18 @@ instructions:
 Juicy, flavorful chicken thighs with a bright lemon herb marinade.
 
 Source: Rita's Recipe Book
+
+```
+# Roasted Chicken Thighs  {#roasted-chicken-thighs}
+
+- wash chicken thighs with lemon and salt to reduce "stinkiness"   
+- make your chicken marinade  
+  - lemon zest from 3 lemons  
+  - ⅓ cup of a juiced lemon   
+  - 2 tbsp olive oil \- or whatever your heart is content with   
+  - 2 garlic cloves crushed   
+  - thyme, rosemary or oregano (or all\!)  
+- Marinate for however long (recc 2 hrs)  
+- In the oven (dutch pan no lid) at 425 until golden, flipping halfway through  
+- Finish with a sprinkle of salt
+```

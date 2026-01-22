@@ -29,3 +29,11 @@ instructions:
 Quick and easy chicken with a sweet and savory glaze. Yeehaw!
 
 Source: Rita's Recipe Book
+
+```
+# Soy Sauce Chicken {#soy-sauce-chicken}
+
+- mix soy sauce, honey, chili flakes, black pepper, garlic powder, and salt into a bowl  
+- season chicken  
+- pop in the air fryer, oven or on the grill and yeehaw
+```
