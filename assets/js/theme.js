@@ -23,23 +23,22 @@
     }
     
     // Update both desktop and mobile toggle buttons
-    const toggleButtons = ['#theme-toggle', '#theme-toggle-mobile'];
-    toggleButtons.forEach(selector => {
-      const toggleBtn = document.querySelector(selector);
-      if (toggleBtn) {
-        toggleBtn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-        
-        // Update icon
-        const sunIcon = toggleBtn.querySelector('.sun-icon');
-        const moonIcon = toggleBtn.querySelector('.moon-icon');
-        if (sunIcon && moonIcon) {
-          if (theme === 'dark') {
-            sunIcon.style.display = 'block';
-            moonIcon.style.display = 'none';
-          } else {
-            sunIcon.style.display = 'none';
-            moonIcon.style.display = 'block';
-          }
+    const toggleButtons = document.querySelectorAll('#theme-toggle, #theme-toggle-mobile');
+    toggleButtons.forEach(toggleBtn => {
+      if (!toggleBtn) return;
+
+      toggleBtn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      
+      // Update icon
+      const sunIcon = toggleBtn.querySelector('.sun-icon');
+      const moonIcon = toggleBtn.querySelector('.moon-icon');
+      if (sunIcon && moonIcon) {
+        if (theme === 'dark') {
+          sunIcon.style.display = 'block';
+          moonIcon.style.display = 'none';
+        } else {
+          sunIcon.style.display = 'none';
+          moonIcon.style.display = 'block';
         }
       }
     });
