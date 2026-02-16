@@ -67,9 +67,7 @@
     // Attach click handler to both desktop and mobile toggle buttons
     const toggleButtons = document.querySelectorAll('#theme-toggle, #theme-toggle-mobile');
     toggleButtons.forEach(toggleBtn => {
-      if (toggleBtn) {
-        toggleBtn.addEventListener('click', onClick);
-      }
+      toggleBtn.addEventListener('click', onClick);
     });
     
     // Sync with system preference changes
