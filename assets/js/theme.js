@@ -22,8 +22,11 @@
       document.documentElement.classList.remove('dark');
     }
     
-    const toggleBtn = document.querySelector('#theme-toggle');
-    if (toggleBtn) {
+    // Update both desktop and mobile toggle buttons
+    const toggleButtons = document.querySelectorAll('#theme-toggle, #theme-toggle-mobile');
+    toggleButtons.forEach(toggleBtn => {
+      if (!toggleBtn) return;
+
       toggleBtn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
       
       // Update icon
@@ -38,7 +41,7 @@
           moonIcon.style.display = 'block';
         }
       }
-    }
+    });
   };
   
   const onClick = () => {
@@ -60,10 +63,11 @@
   
   // Listen for toggle button clicks
   window.addEventListener('DOMContentLoaded', () => {
-    const toggleBtn = document.querySelector('#theme-toggle');
-    if (toggleBtn) {
+    // Attach click handler to both desktop and mobile toggle buttons
+    const toggleButtons = document.querySelectorAll('#theme-toggle, #theme-toggle-mobile');
+    toggleButtons.forEach(toggleBtn => {
       toggleBtn.addEventListener('click', onClick);
-    }
+    });
     
     // Sync with system preference changes
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ({matches}) => {
