@@ -371,6 +371,12 @@
     text-decoration: underline !important;
   }
 
+  /* Hide raw code/pre blocks in notes (raw recipe source data) */
+  article.recipe .print-notes-section pre,
+  article.recipe .print-notes-section code {
+    display: none !important;
+  }
+
   /* ── Notes ───────────────────────────────────────────────── */
   article.recipe .border-l-4 {
     border-left: 2pt solid #888 !important;
