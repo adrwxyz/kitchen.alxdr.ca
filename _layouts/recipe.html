@@ -2,6 +2,12 @@
 layout: base
 ---
 
+<!-- Print-only header: shows site name and URL -->
+<div class="print-only print-header">
+  <span>Kitchen Alexander</span>
+  <span class="print-url">kitchen.alxdr.ca</span>
+</div>
+
 <article class="recipe max-w-full overflow-x-hidden" itemscope itemtype="https://schema.org/Recipe">
   <div class="container mx-auto px-4 py-8 max-w-full">
     <!-- Recipe Header -->
@@ -43,7 +49,7 @@ layout: base
       
       <!-- Categories and Tags -->
       {% if page.categories.size > 0 or page.tags.size > 0 %}
-      <div class="flex flex-wrap gap-4 mb-6">
+      <div class="no-print flex flex-wrap gap-4 mb-6">
         {% if page.categories.size > 0 %}
         <div class="flex flex-wrap items-center gap-2">
           <span class="text-sm font-medium text-gray-700 dark:text-gray-300">Categories:</span>
@@ -69,7 +75,7 @@ layout: base
     {% if page.image %}
     <img src="{{ page.image | relative_url }}" 
          alt="{{ page.title }}" 
-         class="w-full h-64 md:h-96 object-cover rounded-lg shadow-lg mb-8"
+         class="no-print w-full h-64 md:h-96 object-cover rounded-lg shadow-lg mb-8"
          itemprop="image"
          loading="eager">
     {% endif %}
@@ -108,9 +114,9 @@ layout: base
       <div class="text-center">
         <span class="block text-sm text-gray-600 dark:text-gray-400 mb-1">Servings</span>
         <div class="flex items-center justify-center gap-2" itemprop="recipeYield">
-          <button class="decrease-servings w-8 h-8 flex items-center justify-center bg-primary-600 hover:bg-primary-700 text-white rounded-full transition-colors" aria-label="Decrease servings">−</button>
+          <button class="no-print decrease-servings w-8 h-8 flex items-center justify-center bg-primary-600 hover:bg-primary-700 text-white rounded-full transition-colors" aria-label="Decrease servings">−</button>
           <span class="servings-value text-2xl font-bold text-gray-900 dark:text-gray-100 min-w-[3ch] text-center">{{ page.servings }}</span>
-          <button class="increase-servings w-8 h-8 flex items-center justify-center bg-primary-600 hover:bg-primary-700 text-white rounded-full transition-colors" aria-label="Increase servings">+</button>
+          <button class="no-print increase-servings w-8 h-8 flex items-center justify-center bg-primary-600 hover:bg-primary-700 text-white rounded-full transition-colors" aria-label="Increase servings">+</button>
         </div>
       </div>
       {% endif %}
@@ -146,7 +152,7 @@ layout: base
           {% endif %}
           
           <!-- Recipe Actions -->
-          <div class="flex flex-col gap-3 mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+          <div class="no-print flex flex-col gap-3 mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
             <button class="print-recipe flex items-center justify-center gap-2 px-4 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
@@ -236,7 +242,7 @@ layout: base
         
         <!-- Image Gallery -->
         {% if page.gallery %}
-        <div class="mt-8">
+        <div class="no-print mt-8">
           <h3 class="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">Step-by-Step Photos</h3>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             {% for item in page.gallery %}
@@ -260,7 +266,7 @@ layout: base
     
     <!-- Missing Metadata Banner - Show if all metadata fields are empty -->
     {% unless has_metadata %}
-    <div class="container mx-auto px-4 mt-8 mb-8">
+    <div class="no-print container mx-auto px-4 mt-8 mb-8">
       <div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 dark:border-blue-400 p-6 rounded-r-lg shadow-md">
         <div>
           <h3 class="text-lg font-bold text-gray-900 dark:text-gray-100 mb-2">Help Improve This Recipe</h3>

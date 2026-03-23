@@ -141,18 +141,297 @@
 }
 
 /* Print styles - using regular CSS since @apply doesn't work in @media */
+
+/* Elements hidden in print by default (non-recipe pages) */
+.print-only {
+  display: none;
+}
+
 @media print {
+  /* ── Reset & base ──────────────────────────────────────── */
+  *,
+  *::before,
+  *::after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  html,
+  body {
+    color: #111 !important;
+    background: #fff !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* ── Hide everything non-essential ────────────────────── */
   .no-print {
     display: none !important;
   }
-  
-  body {
-    color: black !important;
-    background: white !important;
+
+  /* ── Show print-only elements ──────────────────────────── */
+  .print-only {
+    display: block !important;
   }
-  
-  * {
-    box-shadow: none !important;
-    text-shadow: none !important;
+
+  /* ── Print header (site name + URL) ───────────────────── */
+  .print-header {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6pt;
+    margin-bottom: 12pt;
+    border-bottom: 1pt solid #ccc;
+    font-size: 9pt;
+    color: #555;
+  }
+
+  /* ── Page layout ───────────────────────────────────────── */
+  @page {
+    margin: 1.5cm 2cm;
+    size: letter portrait;
+  }
+
+  /* ── Container: remove max-width/padding constraints ───── */
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* ── Recipe article ─────────────────────────────────────── */
+  article.recipe {
+    max-width: 100% !important;
+  }
+
+  article.recipe > .container {
+    padding: 0 !important;
+  }
+
+  /* ── Recipe title ────────────────────────────────────────── */
+  article.recipe h1 {
+    font-size: 20pt !important;
+    margin-bottom: 4pt !important;
+    color: #111 !important;
+  }
+
+  article.recipe header > p {
+    font-size: 11pt !important;
+    color: #444 !important;
+    margin-bottom: 8pt !important;
+  }
+
+  /* ── Meta info grid (prep/cook/total/servings) ───────────── */
+  article.recipe .grid.grid-cols-2.md\:grid-cols-4 {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 4pt !important;
+    background: #f5f5f5 !important;
+    border: 1pt solid #ddd !important;
+    border-radius: 4pt !important;
+    padding: 8pt !important;
+    margin-bottom: 12pt !important;
+  }
+
+  article.recipe .grid.grid-cols-2.md\:grid-cols-4 .text-center {
+    text-align: center;
+  }
+
+  article.recipe .grid.grid-cols-2.md\:grid-cols-4 .text-2xl {
+    font-size: 14pt !important;
+    color: #111 !important;
+  }
+
+  article.recipe .grid.grid-cols-2.md\:grid-cols-4 .text-sm {
+    font-size: 8pt !important;
+    color: #555 !important;
+  }
+
+  /* ── Two-column recipe grid → single column ──────────────── */
+  article.recipe .grid.md\:grid-cols-3 {
+    display: block !important;
+  }
+
+  /* ── Ingredients sidebar → full width ────────────────────── */
+  article.recipe aside {
+    width: 100% !important;
+    position: static !important;
+    margin-bottom: 16pt !important;
+    break-inside: avoid;
+  }
+
+  article.recipe aside > div {
+    background: #f9f9f9 !important;
+    border: 1pt solid #ddd !important;
+    border-radius: 4pt !important;
+    padding: 10pt !important;
+    position: static !important; /* remove sticky */
+  }
+
+  article.recipe aside h2 {
+    font-size: 14pt !important;
+    color: #111 !important;
+    margin-bottom: 8pt !important;
+  }
+
+  /* ── Ingredient checkboxes ───────────────────────────────── */
+  .ingredient-checkbox {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    width: 10pt !important;
+    min-width: 10pt !important;
+    height: 10pt !important;
+    border: 1pt solid #555 !important;
+    border-radius: 2pt !important;
+    background: white !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-top: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  article.recipe aside ul li label {
+    color: #111 !important;
+    font-size: 10pt !important;
+  }
+
+  /* ── Instructions ────────────────────────────────────────── */
+  article.recipe .md\:col-span-2 {
+    width: 100% !important;
+  }
+
+  article.recipe .md\:col-span-2 h2 {
+    font-size: 14pt !important;
+    color: #111 !important;
+    margin-bottom: 8pt !important;
+  }
+
+  article.recipe ol li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 8pt !important;
+  }
+
+  article.recipe ol li span.bg-primary-600 {
+    background: #111 !important;
+    color: white !important;
+    width: 20pt !important;
+    height: 20pt !important;
+    font-size: 11pt !important;
+    flex-shrink: 0 !important;
+  }
+
+  article.recipe ol li p {
+    color: #111 !important;
+    font-size: 10.5pt !important;
+  }
+
+  /* ── Notes ───────────────────────────────────────────────── */
+  article.recipe .border-l-4.border-yellow-400 {
+    border-left: 3pt solid #999 !important;
+    background: #fafafa !important;
+    padding: 8pt !important;
+    break-inside: avoid;
+  }
+
+  article.recipe .border-l-4 h3 {
+    font-size: 12pt !important;
+    color: #111 !important;
+  }
+
+  article.recipe .border-l-4 li,
+  article.recipe .border-l-4 p {
+    color: #333 !important;
+    font-size: 10pt !important;
+  }
+
+  /* ── Nutrition ───────────────────────────────────────────── */
+  article.recipe [itemprop="nutrition"] {
+    break-inside: avoid;
+    margin-top: 12pt !important;
+  }
+
+  article.recipe [itemprop="nutrition"] h3 {
+    font-size: 12pt !important;
+    color: #111 !important;
+  }
+
+  article.recipe [itemprop="nutrition"] .grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 4pt !important;
+  }
+
+  article.recipe [itemprop="nutrition"] .text-center {
+    background: #f5f5f5 !important;
+    border: 1pt solid #ddd !important;
+    padding: 4pt !important;
+    border-radius: 2pt !important;
+  }
+
+  article.recipe [itemprop="nutrition"] .text-2xl {
+    font-size: 13pt !important;
+    color: #111 !important;
+  }
+
+  /* ── Prose/markdown content ──────────────────────────────── */
+  .prose {
+    color: #111 !important;
+  }
+
+  .prose h2,
+  .prose h3,
+  .prose h4 {
+    color: #111 !important;
+  }
+
+  .prose a {
+    color: #111 !important;
+    text-decoration: underline !important;
+  }
+
+  .prose code {
+    background: #f0f0f0 !important;
+    border: 1pt solid #ccc !important;
+    font-size: 9pt !important;
+  }
+
+  .prose pre {
+    background: #f0f0f0 !important;
+    border: 1pt solid #ccc !important;
+    font-size: 9pt !important;
+    break-inside: avoid;
+  }
+
+  /* ── Links ───────────────────────────────────────────────── */
+  a {
+    color: #111 !important;
+    text-decoration: none !important;
+  }
+
+  /* ── Difficulty badge ────────────────────────────────────── */
+  article.recipe .px-3.py-1.rounded-full {
+    background: #eee !important;
+    color: #333 !important;
+    border: 1pt solid #ccc !important;
+    font-size: 8pt !important;
+  }
+
+  /* ── Date / author meta ──────────────────────────────────── */
+  article.recipe header .text-sm {
+    color: #444 !important;
+  }
+
+  /* ── Remove sticky from sidebar ──────────────────────────── */
+  .sticky {
+    position: static !important;
+  }
+
+  /* ── Avoid orphaned headings ─────────────────────────────── */
+  h1, h2, h3 {
+    break-after: avoid;
+    page-break-after: avoid;
   }
 }
