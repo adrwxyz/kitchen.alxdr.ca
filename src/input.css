@@ -258,26 +258,40 @@
     padding-bottom: 4pt;
   }
 
-  /* ── Ingredient list: simple bullets, hide checkboxes ────── */
+  /* ── Ingredient list: checkbox squares ───────────────────── */
   article.recipe aside ul {
-    list-style: disc !important;
-    padding-left: 16pt !important;
+    list-style: none !important;
+    padding-left: 0 !important;
     margin: 0 !important;
   }
 
   article.recipe aside ul li {
-    display: list-item !important;
-    margin-bottom: 3pt !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 6pt !important;
+    margin-bottom: 4pt !important;
   }
 
   article.recipe aside ul li .ingredient-checkbox {
-    display: none !important;
+    display: inline-block !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    width: 9pt !important;
+    min-width: 9pt !important;
+    height: 9pt !important;
+    border: 1pt solid #333 !important;
+    border-radius: 1pt !important;
+    background: white !important;
+    margin-top: 2pt !important;
+    flex-shrink: 0 !important;
   }
 
   article.recipe aside ul li label {
     color: #111 !important;
     font-size: 10.5pt !important;
     cursor: default !important;
+    text-decoration: none !important;
+    opacity: 1 !important;
   }
 
   /* ── Ingredient section headings ─────────────────────────── */
@@ -330,9 +344,31 @@
     padding: 0 !important;
   }
 
-  /* ── Hide the prose/markdown "Additional Content" section ── */
-  article.recipe .prose {
-    display: none !important;
+  /* ── Prose/Notes section at bottom ──────────────────────── */
+  article.recipe .print-notes-section {
+    display: block !important;
+    margin-top: 16pt !important;
+    padding-top: 10pt !important;
+    border-top: 1pt solid #ccc !important;
+    break-before: avoid;
+  }
+
+  article.recipe .print-notes-section::before {
+    content: "Notes";
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 6pt;
+  }
+
+  article.recipe .print-notes-section * {
+    color: #111 !important;
+    font-size: 10.5pt !important;
+  }
+
+  article.recipe .print-notes-section a {
+    text-decoration: underline !important;
   }
 
   /* ── Notes ───────────────────────────────────────────────── */
