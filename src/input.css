@@ -141,18 +141,278 @@
 }
 
 /* Print styles - using regular CSS since @apply doesn't work in @media */
+
+/* Elements hidden in screen view (print-only elements) */
+.print-only {
+  display: none;
+}
+
 @media print {
+  /* ── Page setup ────────────────────────────────────────── */
+  @page {
+    margin: 1.5cm 2cm;
+    size: letter portrait;
+  }
+
+  /* ── Reset & base ──────────────────────────────────────── */
+  *,
+  *::before,
+  *::after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  html,
+  body {
+    color: #111 !important;
+    background: #fff !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* ── Hide non-print elements ───────────────────────────── */
   .no-print {
     display: none !important;
   }
-  
-  body {
-    color: black !important;
-    background: white !important;
+
+  /* ── Hide all images in print ──────────────────────────── */
+  img {
+    display: none !important;
   }
-  
-  * {
-    box-shadow: none !important;
-    text-shadow: none !important;
+
+  /* ── Show print-only elements ──────────────────────────── */
+  .print-only {
+    display: block !important;
+  }
+
+  /* ── Print title (H1 above the article) ───────────────── */
+  .print-title {
+    font-size: 22pt !important;
+    font-weight: bold !important;
+    color: #111 !important;
+    margin: 0 0 16pt 0 !important;
+    padding: 0 !important;
+    border-bottom: 1pt solid #ccc;
+    padding-bottom: 8pt !important;
+  }
+
+  /* ── Container: remove max-width/padding constraints ───── */
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* ── Recipe article ─────────────────────────────────────── */
+  article.recipe {
+    max-width: 100% !important;
+  }
+
+  article.recipe > .container {
+    padding: 0 !important;
+  }
+
+  /* ── Hide the screen H1 (we use .print-title instead) ─── */
+  article.recipe header h1 {
+    display: none !important;
+  }
+
+  /* ── Description ─────────────────────────────────────────── */
+  article.recipe header > p,
+  article.recipe header [itemprop="description"] {
+    font-size: 11pt !important;
+    color: #444 !important;
+    margin-bottom: 10pt !important;
+  }
+
+  /* ── Hide author/date/difficulty meta row ─────────────── */
+  article.recipe header .flex.flex-wrap.gap-4.text-sm {
+    display: none !important;
+  }
+
+  /* ── Two-column recipe grid → single column ──────────────── */
+  article.recipe .grid.md\:grid-cols-3 {
+    display: block !important;
+  }
+
+  /* ── Ingredients sidebar → full width ────────────────────── */
+  article.recipe aside {
+    width: 100% !important;
+    position: static !important;
+    margin-bottom: 16pt !important;
+  }
+
+  article.recipe aside > div {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    position: static !important;
+  }
+
+  article.recipe aside h2 {
+    font-size: 14pt !important;
+    font-weight: bold !important;
+    color: #111 !important;
+    margin-bottom: 6pt !important;
+    border-bottom: 0.5pt solid #ccc;
+    padding-bottom: 4pt;
+  }
+
+  /* ── Ingredient list: checkbox squares ───────────────────── */
+  article.recipe aside ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin: 0 !important;
+  }
+
+  article.recipe aside ul li {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 6pt !important;
+    margin-bottom: 4pt !important;
+  }
+
+  article.recipe aside ul li .ingredient-checkbox {
+    display: inline-block !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    width: 9pt !important;
+    min-width: 9pt !important;
+    height: 9pt !important;
+    border: 1pt solid #333 !important;
+    border-radius: 1pt !important;
+    background: white !important;
+    margin-top: 2pt !important;
+    flex-shrink: 0 !important;
+  }
+
+  article.recipe aside ul li label {
+    color: #111 !important;
+    font-size: 10.5pt !important;
+    cursor: default !important;
+    text-decoration: none !important;
+    opacity: 1 !important;
+  }
+
+  /* ── Ingredient section headings ─────────────────────────── */
+  article.recipe aside h3 {
+    font-size: 11pt !important;
+    font-weight: bold !important;
+    color: #111 !important;
+    margin-top: 8pt !important;
+    list-style: none !important;
+  }
+
+  /* ── Instructions column → full width ────────────────────── */
+  article.recipe .md\:col-span-2 {
+    width: 100% !important;
+  }
+
+  article.recipe .md\:col-span-2 h2 {
+    font-size: 14pt !important;
+    font-weight: bold !important;
+    color: #111 !important;
+    margin-bottom: 6pt !important;
+    border-bottom: 0.5pt solid #ccc;
+    padding-bottom: 4pt;
+  }
+
+  /* ── Instructions: plain numbered list, hide circle spans ── */
+  article.recipe ol {
+    list-style: decimal !important;
+    padding-left: 18pt !important;
+    margin: 0 !important;
+  }
+
+  article.recipe ol li {
+    display: list-item !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 6pt !important;
+  }
+
+  /* Hide the decorative circle number span */
+  article.recipe ol li > span.bg-primary-600,
+  article.recipe ol li > span.rounded-full {
+    display: none !important;
+  }
+
+  article.recipe ol li p {
+    display: inline !important;
+    color: #111 !important;
+    font-size: 10.5pt !important;
+    padding: 0 !important;
+  }
+
+  /* ── Prose/Notes section at bottom ──────────────────────── */
+  article.recipe .print-notes-section {
+    display: block !important;
+    margin-top: 16pt !important;
+    padding-top: 10pt !important;
+    border-top: 1pt solid #ccc !important;
+    break-before: avoid;
+  }
+
+  article.recipe .print-notes-section::before {
+    content: "Notes";
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 6pt;
+  }
+
+  article.recipe .print-notes-section * {
+    color: #111 !important;
+    font-size: 10.5pt !important;
+  }
+
+  article.recipe .print-notes-section a {
+    text-decoration: underline !important;
+  }
+
+  /* Hide raw code/pre blocks in notes (raw recipe source data) */
+  article.recipe .print-notes-section pre,
+  article.recipe .print-notes-section code {
+    display: none !important;
+  }
+
+  /* ── Notes ───────────────────────────────────────────────── */
+  article.recipe .border-l-4 {
+    border-left: 2pt solid #888 !important;
+    background: transparent !important;
+    padding: 4pt 8pt !important;
+    break-inside: avoid;
+    margin-top: 12pt !important;
+  }
+
+  article.recipe .border-l-4 h3 {
+    font-size: 12pt !important;
+    font-weight: bold !important;
+    color: #111 !important;
+    margin-bottom: 4pt !important;
+  }
+
+  article.recipe .border-l-4 li,
+  article.recipe .border-l-4 p {
+    color: #333 !important;
+    font-size: 10pt !important;
+  }
+
+  /* ── Links ───────────────────────────────────────────────── */
+  a {
+    color: #111 !important;
+    text-decoration: none !important;
+  }
+
+  /* ── Remove sticky positioning ───────────────────────────── */
+  .sticky {
+    position: static !important;
+  }
+
+  /* ── Avoid orphaned headings ─────────────────────────────── */
+  h1, h2, h3 {
+    break-after: avoid;
+    page-break-after: avoid;
   }
 }
