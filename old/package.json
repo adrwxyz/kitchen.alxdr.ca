@@ -20,8 +20,8 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "fs-extra": "^9.0.1",
-    "glob": "^7.1.4",
+    "fs-extra": "^11.3.4",
+    "glob": "^7.2.3",
     "prettier": "^2.1.2"
   },
   "prettier": {}
