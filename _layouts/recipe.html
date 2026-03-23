@@ -2,11 +2,8 @@
 layout: base
 ---
 
-<!-- Print-only header: shows site name and URL -->
-<div class="print-only print-header">
-  <span>Kitchen Alexander</span>
-  <span class="print-url">kitchen.alxdr.ca</span>
-</div>
+<!-- Print-only recipe title -->
+<h1 class="print-only print-title">{{ page.title }}</h1>
 
 <article class="recipe max-w-full overflow-x-hidden" itemscope itemtype="https://schema.org/Recipe">
   <div class="container mx-auto px-4 py-8 max-w-full">
@@ -88,7 +85,7 @@ layout: base
     {% if page.servings and page.servings != '' %}{% assign has_metadata = true %}{% endif %}
     
     {% if has_metadata %}
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+    <div class="no-print grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
       {% if page.prep_time and page.prep_time != '' %}
       <div class="text-center">
         <span class="block text-sm text-gray-600 dark:text-gray-400 mb-1">Prep Time</span>
@@ -186,7 +183,7 @@ layout: base
         
         <!-- Additional Content -->
         {% if content %}
-        <div class="mt-8 prose dark:prose-invert max-w-none">
+        <div class="no-print mt-8 prose dark:prose-invert max-w-none">
           {{ content }}
         </div>
         {% endif %}
