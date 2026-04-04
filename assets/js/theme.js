@@ -6,7 +6,8 @@
     if (localStorage.getItem(STORAGE_KEY)) {
       return localStorage.getItem(STORAGE_KEY);
     }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    // Default to dark mode; respect OS preference only if explicitly set to light
+    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
   };
   
   const setPreference = (theme) => {
@@ -45,7 +46,7 @@
   };
   
   const onClick = () => {
-    const currentTheme = localStorage.getItem(STORAGE_KEY) || 'light';
+    const currentTheme = localStorage.getItem(STORAGE_KEY) || 'dark';
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
     setPreference(newTheme);
   };
