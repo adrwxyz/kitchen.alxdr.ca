@@ -127,6 +127,27 @@ gallery:
     caption: Filled and ready to simmer
 ```
 
+### `image` — omit when no hero photo exists
+
+**Do NOT set `image: ''`.** Empty strings are truthy in Liquid — the layout will render a broken `<img src="">` instead of the gradient placeholder.
+
+```yaml
+# ✅ Correct — omit the key entirely when there is no image
+layout: recipe
+title: My Recipe
+
+# ❌ Wrong — empty string is truthy, breaks the card
+image: ''
+```
+
+When a real image is available, use the full path:
+
+```yaml
+image: /assets/images/recipes/<slug>/hero.jpeg
+```
+
+The `recipe-card.html` include falls through to a `bg-gradient-to-br from-primary-500 to-secondary-500` placeholder only when `page.image` is `nil` (key absent). The same applies to the hero image block in `_layouts/recipe.html`.
+
 ### When to use prose markdown vs. structured front matter
 
 | Situation | Use |
