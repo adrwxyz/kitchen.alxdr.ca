@@ -2,7 +2,6 @@
 layout: recipe
 title: Chicken Fajitas
 description: 'Classic chicken fajitas with two seasoning variations — a simpler Downshiftology blend and a bolder Allrecipes blend with cornstarch for better cling.'
-image: ''
 date: "2026-04-09T00:00:00.000Z"
 categories:
   - "Chicken"
