@@ -13,12 +13,13 @@ total_time: ''
 servings: ''
 ingredients:
   - "1 whole chicken, giblets removed and patted dry"
-  - "Butter mix"
-  - "1/2 cup tablespoons butter, melted"
-  - "Drizzle olive oil"
-  - "1 head of garlic, peeled and grated"
-  - "2 sprigs fresh or crushed dry thyme"
-  - "Zest of lemon"
+  - section: Butter Herb Mix
+    items:
+      - "½ cup butter, melted"
+      - "Drizzle olive oil"
+      - "1 head of garlic, peeled and grated"
+      - "2 sprigs fresh or crushed dry thyme"
+      - "Zest of lemon"
   - "6-8 potatoes, quartered"
   - "3 tbsp olive oil"
   - "Salt & Pepper"

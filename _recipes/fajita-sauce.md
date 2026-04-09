@@ -12,18 +12,21 @@ cook_time: ''
 total_time: ''
 servings: ''
 ingredients:
-  - "250g or 1/2 tub sour cream"
-  - "1 tbsp mayo"
-  - "1-2 juiced lemons*"
-  - "1 jalapeño, finely diced"
-  - "1 shallot, finely diced"
-  - "2-3 full stems cilantro, finely chopped"
-  - "Fajita Spices"
-  - "3 tsp oregano"
-  - "1 tsp paprika"
-  - "1/2 tsp ground cumin"
-  - "Pinch of cayenne"
-  - "Salt and pepper, to taste"
+  - section: Sauce Base
+    items:
+      - "250g or 1/2 tub sour cream"
+      - "1 tbsp mayo"
+      - "1-2 juiced lemons*"
+      - "1 jalapeño, finely diced"
+      - "1 shallot, finely diced"
+      - "2-3 full stems cilantro, finely chopped"
+  - section: Fajita Spice Blend
+    items:
+      - "3 tsp oregano"
+      - "1 tsp paprika"
+      - "1/2 tsp ground cumin"
+      - "Pinch of cayenne"
+      - "Salt and pepper, to taste"
 ---
 
 This creamy, flavour-packed sauce is so versatile; use it as a marinate for your chicken fajitas or as a sauce to top off the perfect fajita wrap.

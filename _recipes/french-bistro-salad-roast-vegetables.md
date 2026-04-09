@@ -13,18 +13,22 @@ cook_time: ''
 total_time: ''
 servings: ''
 ingredients:
-  - "2 very large carrots, cut into 1” chunks"
-  - "3 large parsnips, cut into 1” chunks"
-  - "1/2 large celery root (celeriac), peeled, cut into 1” chunks"
-  - "1/4 cup olive oil"
-  - "Kosher salt and freshly ground pepper"
-  - "1 garlic clove, grated"
-  - "Small pinch of smoked paprika"
+  - section: Roasted Vegetables
+    items:
+      - "2 very large carrots, cut into 1" chunks"
+      - "3 large parsnips, cut into 1" chunks"
+      - "1/2 large celery root (celeriac), peeled, cut into 1" chunks"
+      - "1/4 cup olive oil"
+      - "Kosher salt and freshly ground pepper"
+      - "1 garlic clove, grated"
+      - "Small pinch of smoked paprika"
   - "4 large eggs"
-  - "1 1/2 pounds frisée and/or arugula, cut or torn into bite-size pieces, washed"
-  - "4 tbsp Whole Grain Mustard Walnut Vinaigrette (click here for recipe)"
-  - "1/2 cup toasted almonds, coarsely chopped"
-  - "Flaky sea salt (for serving)"
+  - section: Salad
+    items:
+      - "1 1/2 pounds frisée and/or arugula, cut or torn into bite-size pieces, washed"
+      - "4 tbsp Whole Grain Mustard Walnut Vinaigrette (click here for recipe)"
+      - "1/2 cup toasted almonds, coarsely chopped"
+      - "Flaky sea salt (for serving)"
 ---
 
 This salad was inspired by the classic French bistro salad, in which sturdy winter greens are laced with crisp lardons of bacon and a silky poached egg. We’ll never begrudge you a bit of bacon, but here vegetables are roasted to give the salad a leaner form of texture, flavor, and color.

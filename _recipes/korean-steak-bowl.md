@@ -12,26 +12,30 @@ cook_time: ''
 total_time: ''
 servings: ''
 ingredients:
-  - "Steak"
-  - "1 1/2 pounds flank steak, cut into 1-inch cubes"
-  - "fine sea salt and freshly-cracked black pepper"
-  - "1 tablespoon avocado oil (or any high-heat oil)"
-  - "1–2 tablespoons low-sodium soy sauce"
-  - "Sesame Cucumber Slaw:"
-  - "1 (14-ounce) bag coleslaw (cabbag, carrot)"
-  - "1 English cucumber, sliced into half moons"
-  - "1 cup chopped fresh cilantro"
-  - "2/3 cup thinly-sliced green onions"
-  - "2 tablespoons rice vinegar"
-  - "1 tablespoon low-sodium soy sauce"
-  - "1 tablespoon maple syrup"
-  - "1 tablespoon toasted sesame oil"
-  - "optional: 2 teaspoons toasted sesame seeds"
-  - "Spicy Sauce"
-  - "1/3 cup plain Greek yogurt (or mayo)"
-  - "2 tablespoons gochujang paste"
-  - "Rice"
-  - "1 1/2 cups white or brown rice"
+  - section: Steak
+    items:
+      - "1½ pounds flank steak, cut into 1-inch cubes"
+      - "Fine sea salt and freshly-cracked black pepper"
+      - "1 tablespoon avocado oil (or any high-heat oil)"
+      - "1–2 tablespoons low-sodium soy sauce"
+  - section: Sesame Cucumber Slaw
+    items:
+      - "1 (14-ounce) bag coleslaw mix (cabbage, carrot)"
+      - "1 English cucumber, sliced into half moons"
+      - "1 cup chopped fresh cilantro"
+      - "⅔ cup thinly-sliced green onions"
+      - "2 tablespoons rice vinegar"
+      - "1 tablespoon low-sodium soy sauce"
+      - "1 tablespoon maple syrup"
+      - "1 tablespoon toasted sesame oil"
+      - "2 teaspoons toasted sesame seeds (optional)"
+  - section: Spicy Sauce
+    items:
+      - "⅓ cup plain Greek yogurt (or mayo)"
+      - "2 tablespoons gochujang paste"
+  - section: Rice
+    items:
+      - "1½ cups white or brown rice"
 instructions:
   - "Cook the rice.  Cook the rice according to package instructions."
   - "Make the sauce: Whisk together the Greek yogurt and gochujang until combined.  If you would like to turn the sauce into more of a drizzly dressing, whisk in a few extra tablespoons of water until the mix reaches your desired consistency.  (And if it tastes a bit too spicy for your liking, stir in some extra Greek yogurt.)"

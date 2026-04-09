@@ -12,20 +12,23 @@ cook_time: ''
 total_time: ''
 servings: ''
 ingredients:
-  - "Sauce"
-  - "1/2 cup honey"
-  - "1/4 cup soy sauce"
-  - "1 tsp fresh grated ginger"
-  - "2 tbsp minced garlic (or ~6 cloves)"
-  - "1/4 tsp red pepper flakes (or sub 2 dried spicey red peppers)"
-  - "1/2 tsp cornstarch (mixed with a bit of water first, then added to sauce)"
-  - "Sprig of Thai basil"
+  - section: Sauce
+    items:
+      - "½ cup honey"
+      - "¼ cup soy sauce"
+      - "1 tsp fresh grated ginger"
+      - "2 tbsp minced garlic (or ~6 cloves)"
+      - "¼ tsp red pepper flakes (or sub 2 dried spicey red peppers)"
+      - "½ tsp cornstarch (mixed with a bit of water first, then added to sauce)"
+      - "Sprig of Thai basil"
   - "1lb large shrimp, peeled, deveined"
-  - "Broccoli"
-  - "Butter"
-  - "Cooking oil"
-  - "Salt"
-  - "Pepper"
+  - section: Stir-fry
+    items:
+      - "Broccoli"
+      - "Butter"
+      - "Cooking oil"
+      - "Salt"
+      - "Pepper"
 instructions:
   - "On high heat, sauté broccoli with salt, pepper in batches. Set aside."
   - "Add shallot with oil, set aside."
