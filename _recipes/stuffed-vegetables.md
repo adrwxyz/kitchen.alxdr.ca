@@ -2,7 +2,6 @@
 layout: recipe
 title: Mahshi — Stuffed Vegetables (محشي)
 description: 'Lebanese stuffed zucchini, potatoes, tomatoes, and peppers filled with spiced rice and ground beef, simmered in a rich tomato broth.'
-image: ''
 date: "2026-04-09T00:00:00.000Z"
 categories:
   - "Beef"
