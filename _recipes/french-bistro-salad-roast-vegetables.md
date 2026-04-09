@@ -6,92 +6,38 @@ image: /assets/images/recipes/french-bistro-salad-roast-vegetables/hero.jpg
 date: "2023-02-28T04:38:57.416Z"
 categories:
   - "Other"
-tags: []
+tags:
+  - salad
+  - french
 difficulty: Hard
 prep_time: ''
 cook_time: ''
 total_time: ''
-servings: ''
+servings: '4'
 ingredients:
-  - "2 very large carrots, cut into 1” chunks"
-  - "3 large parsnips, cut into 1” chunks"
-  - "1/2 large celery root (celeriac), peeled, cut into 1” chunks"
-  - "1/4 cup olive oil"
-  - "Kosher salt and freshly ground pepper"
-  - "1 garlic clove, grated"
-  - "Small pinch of smoked paprika"
-  - "4 large eggs"
-  - "1 1/2 pounds frisée and/or arugula, cut or torn into bite-size pieces, washed"
-  - "4 tbsp Whole Grain Mustard Walnut Vinaigrette (click here for recipe)"
-  - "1/2 cup toasted almonds, coarsely chopped"
-  - "Flaky sea salt (for serving)"
+  - section: Roasted Vegetables
+    items:
+      - "2 very large carrots, cut into 1-inch chunks"
+      - "3 large parsnips, cut into 1-inch chunks"
+      - "½ large celery root (celeriac), peeled, cut into 1-inch chunks"
+      - "¼ cup olive oil"
+      - "Kosher salt and freshly ground pepper"
+      - "1 garlic clove, grated"
+      - "Small pinch of smoked paprika"
+  - section: Salad
+    items:
+      - "4 large eggs"
+      - "1½ pounds frisée and/or arugula, torn into bite-size pieces"
+      - "4 tbsp Whole Grain Mustard Walnut Vinaigrette"
+      - "½ cup toasted almonds, coarsely chopped"
+      - "Flaky sea salt, for serving"
+instructions:
+  - "Preheat oven to 450°F. Toss carrots, parsnips, and celery root with oil and season with salt and pepper. Spread in a single layer on a rimmed baking sheet. Roast, rotating halfway through, until golden and tender, 25–30 minutes."
+  - "Place grated garlic and smoked paprika in a large bowl. Add roasted vegetables and toss to combine. Reserve ½ cup for tomorrow's lunch if desired."
+  - "Bring 2 inches of water to a gentle simmer in a large saucepan. Poach eggs one at a time (about 30 seconds apart) until whites are set but yolks remain runny, about 3 minutes each. Transfer to paper towels."
+  - "Toss frisée/arugula and roasted vegetables with vinaigrette. Season with salt and pepper. Divide among plates, top each with a poached egg, sprinkle with almonds, and finish with flaky sea salt and black pepper."
 ---
 
-This salad was inspired by the classic French bistro salad, in which sturdy winter greens are laced with crisp lardons of bacon and a silky poached egg. We’ll never begrudge you a bit of bacon, but here vegetables are roasted to give the salad a leaner form of texture, flavor, and color.
+This salad is inspired by the classic French bistro salad — sturdy winter greens with crisp lardons and a silky poached egg. Here roasted root vegetables stand in for the bacon, giving the salad texture and colour without the meat.
 
-Serves 4, plus leftover vegetables for lunch Servings.
-
-## Preparation
-## Nutrition Per Serving
-Calories (kcal) 680 Fat (g) 48 Saturated Fat (g) 7 Cholesterol (mg) 215 Carbohydrates (g) 52 Dietary Fiber (g) 14 Total Sugars (g) 19 Protein (g) 17 Sodium (mg) 930
-
-Source: [bon appetit](https://www.bonappetit.com/recipe/bistro-salad-roasted-vegetables)
-
----
-
-## Original Source
-
-**Original file:** `posts/2023-02-28-french-bistro-salad-roast-vegetables.md`
-
-```markdown
----
-templateKey: project
-title: Bistro Salad with Roasted Vegetables
-date: 2023-02-28T04:38:57.416Z
-slug: 2023-02-28-french-bistro-salad-roast-vegetables
-image: bistro-salad-roasted-vegetables.jpg
-order: 1
-description:
-tags:
-- salad
-- french
----
-
-This salad was inspired by the classic French bistro salad, in which sturdy winter greens are laced with crisp lardons of bacon and a silky poached egg. We’ll never begrudge you a bit of bacon, but here vegetables are roasted to give the salad a leaner form of texture, flavor, and color.
-
-Serves 4, plus leftover vegetables for lunch Servings.
-
-# Ingredients
-
-- 2 very large carrots, cut into 1” chunks
-- 3 large parsnips, cut into 1” chunks
-- 1/2 large celery root (celeriac), peeled, cut into 1” chunks
-- 1/4 cup olive oil
-- Kosher salt and freshly ground pepper
-- 1 garlic clove, grated
-- Small pinch of smoked paprika
-- 4 large eggs
-- 1 1/2 pounds frisée and/or arugula, cut or torn into bite-size pieces, washed
-- 4 tbsp Whole Grain Mustard Walnut Vinaigrette (click here for recipe)
-- 1/2 cup toasted almonds, coarsely chopped
-- Flaky sea salt (for serving)
-
-## Preparation
-### Step 1
-Preheat oven to 450°. Toss carrots, parsnips, and celery root with oil and season with salt and pepper. Arrange in a single layer on a rimmed baking sheet. Roast, rotating pans halfway through, until vegetables are golden and tender, 25–30 minutes.
-
-### Step 2
-Place grated garlic and smoked paprika in a large bowl. Add roasted vegetables and toss to combine. Reserve ½ cup roasted vegetables for tomorrow’s lunch.
-
-### Step 3
-Meanwhile, bring 2” water to a boil in a large saucepan; reduce heat so water is at a gentle simmer. Crack an egg into a small bowl, then gently slide egg into water. Repeat with remaining eggs, waiting until white of egg in water is opaque before adding the next egg (about 30 seconds apart). Poach until whites are set but yolks are still runny, about 3 minutes. Using a slotted spoon, transfer eggs to paper towels as they are done.
-
-### Step 4
-Toss frisée and/or arugula and roasted vegetables with dressing and season with sea salt and pepper. Divide salad among plates and top each with a poached egg. Sprinkle with chopped almonds and garnish egg with a pinch of flaky sea salt and a turn of black pepper.
-
-## Nutrition Per Serving
-Calories (kcal) 680 Fat (g) 48 Saturated Fat (g) 7 Cholesterol (mg) 215 Carbohydrates (g) 52 Dietary Fiber (g) 14 Total Sugars (g) 19 Protein (g) 17 Sodium (mg) 930
-
-Source: [bon appetit](https://www.bonappetit.com/recipe/bistro-salad-roasted-vegetables)
-
-```
+Source: [Bon Appétit](https://www.bonappetit.com/recipe/bistro-salad-roasted-vegetables)
