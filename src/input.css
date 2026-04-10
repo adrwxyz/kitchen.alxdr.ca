@@ -101,6 +101,7 @@
   
   .prose code {
     @apply bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono text-gray-900 dark:text-gray-100;
+    overflow-wrap: anywhere;
   }
   
   .prose pre {
