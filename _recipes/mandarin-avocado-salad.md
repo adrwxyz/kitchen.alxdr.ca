@@ -6,7 +6,8 @@ image: /assets/images/recipes/mandarin-avocado-salad/hero.png
 date: "2020-10-11T04:38:57.416Z"
 categories:
   - "Other"
-tags: []
+tags:
+  - salad
 difficulty: Easy
 prep_time: ''
 cook_time: ''
@@ -15,21 +16,21 @@ servings: '4'
 ingredients:
   - section: Salad
     items:
-      - "3 c. baby spinach"
-      - "3 c. arugula"
-      - "1 (11-oz.) can mandarin oranges, drained"
-      - "1 c. toasted walnuts"
-      - "3/4 c. dried cranberries"
-      - "1/2 c. shaved Parmesan"
+      - "3 c baby spinach"
+      - "3 c arugula"
+      - "1 (11-oz) can mandarin oranges, drained"
+      - "1 c toasted walnuts"
+      - "¾ c dried cranberries"
+      - "½ c shaved Parmesan"
       - "Pinch of flaky sea salt"
   - section: Dressing
     items:
-      - "2 tbsp. red wine vinegar"
-      - "1 tbsp. orange juice"
-      - "1 tbsp. honey"
-      - "2 tsp. poppy seeds"
-      - "1 tsp. Dijon mustard"
-      - "1/4 c. extra-virgin olive oil"
+      - "2 tbsp red wine vinegar"
+      - "1 tbsp orange juice"
+      - "1 tbsp honey"
+      - "2 tsp poppy seeds"
+      - "1 tsp Dijon mustard"
+      - "¼ c extra-virgin olive oil"
       - "Kosher salt"
       - "Freshly ground black pepper"
 instructions:
