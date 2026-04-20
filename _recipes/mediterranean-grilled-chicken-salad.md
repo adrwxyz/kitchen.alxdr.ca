@@ -6,31 +6,40 @@ image: /assets/images/recipes/mediterranean-grilled-chicken-salad/hero.jpg
 date: "2023-02-28T04:38:57.416Z"
 categories:
   - "Other"
-tags: []
+tags:
+  - salad
+  - meal-plan
 difficulty: Hard
 prep_time: ''
 cook_time: ''
 total_time: ''
-servings: ''
+servings: '4'
 ingredients:
-  - "2 boneless skinless chicken breasts (about 1 1/4 pounds)"
-  - "1 tsp. ground coriander"
-  - "1 tsp. dried oregano"
-  - "Kosher salt"
-  - "Freshly ground black pepper"
-  - "5 tbsp. extra-virgin olive oil"
-  - "4 tbsp. red wine vinegar"
-  - "1 tbsp. freshly chopped parsley"
-  - "4 romaine hearts, chopped"
-  - "3 Persian cucumbers, thinly sliced"
-  - "1 c. grape or cherry tomatoes, halved"
-  - "2 avocados, sliced"
-  - "4 oz. feta, crumbled"
-  - "1/2 c. pitted kalamata olives, halved"
+  - section: Chicken
+    items:
+      - "2 boneless skinless chicken breasts (about 1¼ pounds)"
+      - "1 tsp ground coriander"
+      - "1 tsp dried oregano"
+      - "Kosher salt"
+      - "Freshly ground black pepper"
+  - section: Dressing
+    items:
+      - "5 tbsp extra-virgin olive oil"
+      - "4 tbsp red wine vinegar"
+      - "1 tbsp freshly chopped parsley"
+      - "Salt and pepper"
+  - section: Salad
+    items:
+      - "4 romaine hearts, chopped"
+      - "3 Persian cucumbers, thinly sliced"
+      - "1 c grape or cherry tomatoes, halved"
+      - "2 avocados, sliced"
+      - "4 oz feta, crumbled"
+      - "½ c pitted kalamata olives, halved"
 instructions:
-  - "Heat grill to medium-high. Season chicken with coriander, oregano, salt, and pepper. Grill, covered, turning halfway through, until slightly charred and the thickest part of the breast registers 165ºF when probed with a thermometer, 18 to 22 minutes. Let rest for another 5 minutes, then slice."
-  - "Meanwhile, make dressing. Whisk olive oil, red wine vinegar, and parsley in a small bowl and season with salt and pepper."
-  - "Divide lettuce, cucumbers, tomatoes, avocado, feta, and olives among four serving bowls. Top with sliced chicken, then drizzle with dressing."
+  - "Heat grill to medium-high. Season chicken with coriander, oregano, salt, and pepper. Grill covered, turning halfway, until the thickest part reads 165°F, 18–22 minutes. Rest 5 minutes, then slice."
+  - "Make the dressing — whisk olive oil, red wine vinegar, and parsley together. Season with salt and pepper."
+  - "Divide lettuce, cucumbers, tomatoes, avocado, feta, and olives among four bowls. Top with sliced chicken and drizzle with dressing."
 ---
 
 Serves 4.
